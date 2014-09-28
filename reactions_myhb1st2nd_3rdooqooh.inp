@@ -174,7 +174,7 @@ nc5d1ket53      nc5d1ket54      cy3c5h8o
 !
 !
 !
-ic5ketdb ic6keteb    
+ic5ketdb ic6keteb
 !
 !   n-alkane and alkyl radical species
 !
@@ -8044,7 +8044,7 @@ c9ooh_2_26_e 	= 	c9h18o_2_5_26 	+ 	oh 	10674971537	0.355672436	8961.075108
 c9ooh_3_26_f 	= 	c9h18o_2_5_26 	+ 	oh 	17254276836	0.458950055	9385.947688
  rev     /       0.00    0.00    0.00    /
 !
-c9ooh_4_26_a 	= 	c9h18o_1_4_26 	+ 	oh 	56713755094	0.324687382	18470.02053
+c9ooh_4_26_a 	= 	c9h18o_1_4_26 	+ 	oh 	1.88837E+11 0.315934172 14298.65717
  rev     /       0.00    0.00    0.00    /
 !
 !	6 member rings
@@ -9284,9 +9284,9 @@ c9ooh_2_oo_4_26 	= 	ic5ketdb 	+ 	ic4h8 	+ 	oh 	1.25e+10    0.00    1.870e+04 !6t
 rev/ 0.000E+00 0.000 0.000E+00 /
 c9ooh_2_oo_5_26 	= 	ic6keteb 	+ 	c3h6 	+ 	oh 	7.50e+10    0.00    2.400e+04 !6p x2
 rev/ 0.000E+00 0.000 0.000E+00 /
-c9ooh_2_oo_6_26 	= 	ch3coch3 	+ 	ic6h11 	+ ho2 	+ 	oh 	1.560e+09   0.00    1.665e+04 		
+c9ooh_2_oo_6_26 	= 	ch3coch3 	+ 	ic6h11 	+ ho2 	+ 	oh 	2.50e+10    0.00    2.045e+04 !	6s	
 rev/ 0.000E+00 0.000 0.000E+00 /
-c9ooh_2_oo_7_26 	= 	ch3coch3 	+ 	ic6h11 	+ ho2 	+ 	oh  1.560e+09   0.00    1.665e+04
+c9ooh_2_oo_7_26 	= 	ch3coch3 	+ 	ic6h11 	+ ho2 	+ 	oh  3.125e+09   0.00    1.865e+04 ! 7s
 rev/ 0.000E+00 0.000 0.000E+00 /
 !
 ic6keteb<=>ch3coch3+ch2ch2cho+oh 1.000E+16 0.000 3.900E+04
