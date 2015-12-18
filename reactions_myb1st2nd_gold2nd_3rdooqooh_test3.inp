@@ -9312,7 +9312,7 @@ c9ooh_2_oo_4_26 	= 	ic5ketdb 	+ 	ic4h8 	+ 	oh 	1.25e+10    0.00    1.870e+04 !6t
 rev/ 0.000E+00 0.000 0.000E+00 /
 c9ooh_2_oo_5_26 	= 	ic6keteb 	+ 	c3h6 	+ 	oh 	7.50e+10    0.00    2.400e+04 !6p x2
 rev/ 0.000E+00 0.000 0.000E+00 /
-c9ooh_2_oo_6_26 	= 	ch3coch3 	+ 	ic6h11 	+ ho2 	+ 	oh 	1.560e+09   0.00    1.665e+04 	! not important		
+c9ooh_2_oo_6_26 	= 	ch3coch3 	+ 	ic6h11 	+ ho2 	+ 	oh 	1.560e+09   0.00    1.665e+04 	! not important, estimated as the same as Sarathy's 25-DMH work		
 rev/ 0.000E+00 0.000 0.000E+00 /
 !c9ooh_2_oo_6_26 	= 	ch3coch3 	+ 	ic6h11 	+ ho2 	+ 	oh 	2.50e+10    0.00    2.045e+04		
 !rev/ 0.000E+00 0.000 0.000E+00 /
