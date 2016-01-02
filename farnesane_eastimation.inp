@@ -741,6 +741,7 @@ c13h27cho_2610
 c13h27co_2610 
 c11h23coc2h4s_37 c10h21coc3h6s_26 
 !
+ic5ketab c6ketac_3 c7ketad_4 c8ket6-2-2 c8ket6-7-2 c9ketbf_6 c9ketab_26 c10ketab_26 c10ketac_37 c11ketac_37 c11ketad_48 c12ketad_48 c13ketbf_610   
 !
 !
 end
@@ -14220,35 +14221,90 @@ c9h17_1_1_4   =   c7h14-1-3   +   c2h3  2.50E+13  0.00  3.000E+04
 !
 !!!!  class 27 Additional reactions for ooh group on tertiary site !!!
 !  removed, in agreement in LLNL iso-octane mech
-!c8ooh2-oo1-25 =  c3ket21 + oh + cc5h10                   3.125e+09   0.00    1.865e+04 !7s
-!rev/ 0.000E+00 0.000 0.000E+00 /
-!c8ooh2-oo3-25 =  ic4h8 + oh + ic4ketit                   1.25e+10    0.00    1.870e+04  !6t
-!rev/ 0.000E+00 0.000 0.000E+00 /
-!c8ooh2-oo4-25 =  c3h6 + oh +  ic5ketdb                   7.50e+10   0.00    2.400e+04 !6p
-!rev/ 0.000E+00 0.000 0.000E+00 /
-!c8ooh2-oo5-25 = ic5h9 + ho2 + oh +  ch3coch3                   1.560e+09   0.00    1.665e+04 !7t
-!rev/ 0.000E+00 0.000 0.000E+00 /
+c8ooh2-oo1-25 =  c3ket21 + oh + cc5h10                   3.125e+09   0.00    1.865e+04 !7s
+rev/ 0.000E+00 0.000 0.000E+00 /
+c8ooh2-oo3-25 =  ic4h8 + oh + ic4ketit                   1.25e+10    0.00    1.870e+04  !6t
+rev/ 0.000E+00 0.000 0.000E+00 /
+c8ooh2-oo4-25 =  c3h6 + oh +  ic5ketdb                   7.50e+10   0.00    2.400e+04 !6p
+rev/ 0.000E+00 0.000 0.000E+00 /
+c8ooh2-oo5-25 = ic5h9 + ho2 + oh +  ch3coch3                   1.560e+09   0.00    1.665e+04 !7t
+rev/ 0.000E+00 0.000 0.000E+00 /
 !
 !
 ic5ketdb=ch3coch3+ch2cho+oh        1.000E+16 0.000 3.900E+04
 rev/ 0.000E+00 0.000 0.000E+00 /
 !
 !	2,6-dimethylheptane
-!c9ooh_2_oo_1_26 	= 	c3ket21 	+ 	dc6h12 	+ 	oh 	3.125e+09   0.00    1.865e+04 !7s
-!rev/ 0.000E+00 0.000 0.000E+00 /	
-!c9ooh_2_oo_3_26 	= 	ic4ketit 	+ 	cc5h10 	+ 	oh 	2.50e+10    0.00    2.045e+04 !6s
-!rev/ 0.000E+00 0.000 0.000E+00 /	
-!c9ooh_2_oo_4_26 	= 	ic5ketdb 	+ 	ic4h8 	+ 	oh 	1.25e+10    0.00    1.870e+04 !6t
-!rev/ 0.000E+00 0.000 0.000E+00 /
-!c9ooh_2_oo_5_26 	= 	ic6keteb 	+ 	c3h6 	+ 	oh 	7.50e+10    0.00    2.400e+04 !6p x2
-!rev/ 0.000E+00 0.000 0.000E+00 /
-!c9ooh_2_oo_6_26 	= 	ch3coch3 	+ 	ic6h11 	+ ho2 	+ 	oh 	1.560e+09   0.00    1.665e+04 		
-!rev/ 0.000E+00 0.000 0.000E+00 /
-!c9ooh_2_oo_7_26 	= 	ch3coch3 	+ 	ic6h11 	+ ho2 	+ 	oh  1.560e+09   0.00    1.665e+04
-!rev/ 0.000E+00 0.000 0.000E+00 /
+c9ooh_2_oo_1_26 	= 	c3ket21 	+ 	dc6h12 	+ 	oh 	3.125e+09   0.00    1.865e+04 !7s
+rev/ 0.000E+00 0.000 0.000E+00 /	
+c9ooh_2_oo_3_26 	= 	ic4ketit 	+ 	cc5h10 	+ 	oh 	2.50e+10    0.00    2.045e+04 !6s
+rev/ 0.000E+00 0.000 0.000E+00 /	
+c9ooh_2_oo_4_26 	= 	ic5ketdb 	+ 	ic4h8 	+ 	oh 	1.25e+10    0.00    1.870e+04 !6t
+rev/ 0.000E+00 0.000 0.000E+00 /
+c9ooh_2_oo_5_26 	= 	ic6keteb 	+ 	c3h6 	+ 	oh 	7.50e+10    0.00    2.400e+04 !6p x2
+rev/ 0.000E+00 0.000 0.000E+00 /
+c9ooh_2_oo_6_26 	= 	ch3coch3 	+ 	ic6h11 	+ ho2 	+ 	oh 	1.560e+09   0.00    1.665e+04 	! not important, estimated from Sarathy's 25-DMH work		
+rev/ 0.000E+00 0.000 0.000E+00 /
+
+c9ooh_2_oo_7_26 	= 	ch3coch3 	+ 	ic6h11 	+ ho2 	+ 	oh  1.560e+09   0.00    1.665e+04 	! approximation, for c9ooh_2_oo_7_26 is not important
+rev/ 0.000E+00 0.000 0.000E+00 /
 !
 ic6keteb<=>ch3coch3+ch2ch2cho+oh 1.000E+16 0.000 3.900E+04
 rev/ 0.000E+00 0.000 0.000E+00 /
+!
+!	farnesane
+!
+c15_2_oo1_2610 		= 	c3ket21 	+	c12h24_1_48		+	oh 	3.125e+09   0.00    1.865e+04 !7s
+c15_2_oo3_2610		=   ic4ketit 	+ 	c11h22_1_37 	+	oh 	2.50e+10    0.00    2.045e+04 !6s						 	
+c15_2_oo4_2610		= 	ic5ketdb 	+ 	c10h20_1_26 	+ 	oh 	1.25e+10    0.00    1.870e+04 !6t		
+c15_2_oo5_2610 		= 	ic6keteb 	+ 	c9h18_2_6 		+ 	oh  2.50e+10    0.00    2.045e+04 !6s
+c15_2_oo6_2610 		= 	c8ket6-2-2	+   c7h14-5-3  		+   oh 	2.50e+10    0.00    2.045e+04 !6s	
+!
+c15_6_oo2_2610  	=   c7h15coch3_3	+ 	ic6h11 		+ 	ho2 + 	oh 	1.560e+09   0.00    1.665e+04
+c15_6_oo3_2610  	= 	c12ketad_48 	+ 	c3h6 		+ 	oh  7.50e+10    0.00    2.400e+04 !6p x2
+c15_6_oo4_2610  	= 	c11ketac_37 	+   ic4h8 		+   oh  1.25e+10    0.00    1.870e+04 !6t
+c15_6_oo5_2610 		= 	c10ketab_26 	+ 	cc5h10 		+ 	oh 	2.50e+10    0.00    2.045e+04 !6s
+c15_6_oo7_2610  	= 	c8ket6-7-2 		+   c7h14-5-3   +   oh  3.125e+09   0.00    1.865e+04 !7s
+c15_6_oo8_2610  	=   c9ketab_26      +   lc6h12      +   oh  2.50e+10    0.00    2.045e+04 !6s
+c15_6_oo9_2610  	= 	c10ketac_37 	+ 	ac5h10 		+ 	oh  1.25e+10    0.00    1.870e+04 !6t
+c15_6_oo10_2610 	= 	c11ketad_48 	+ 	c4h8-2 		+   oh 	2.50e+10    0.00    2.045e+04 !6s
+c15_6_oo11_2610 	= 	c13ketbf_610 	+ 	c2h4 		+ 	oh  3.75e+10    0.00    2.400e+04 !6p
+!
+c15_11_oo6_2610 	=	c9ketbf_6 		+ 	dc6h12 		+ 	oh	2.50e+10    0.00    2.045e+04 !6s	
+c15_11_oo8_2610 	=	c7ketad_4 		+	c8h16-5-2 	+ 	oh 	2.50e+10    0.00    2.045e+04 !6s
+c15_11_oo9_2610 	=	c6ketac_3		+ 	c9h18_1_26 	+ 	oh 	1.25e+10    0.00    1.870e+04 !6t
+c15_11_oo10_2610	= 	ic5ketab 		+ 	c10h20_1_37 + 	oh 	2.50e+10    0.00    2.045e+04 !6s	
+c15_11_oo12_2610 	= 	nc4ket21 		+ 	c11h22_1_48 + 	oh 	3.125e+09   0.00    1.865e+04 !7s
+c15_11_oo13_2610	=	nc4ket23		+ 	c11h22_1_48 + 	oh 	3.125e+09   0.00    1.865e+04 !7s
+c15_11_oo14_2610 	= 	nc4ket24  		+ 	c11h22_1_48 + 	oh	3.906e+08   0.00    2.165e+04 !8s
+!
+c8ket6-2-2<=>ch3coch3+c3h6coch3-1+oh 	1.000E+16 0.000 3.900E+04
+rev/ 0.000E+00 0.000 0.000E+00 /
+c12ketad_48<=>c7h15coch3_3+ch2ch2cho+oh 	1.000E+16 0.000 3.900E+04
+rev/ 0.000E+00 0.000 0.000E+00 /
+c11ketac_37<=>c7h15coch3_3+ch2cho+oh 	1.000E+16 0.000 3.900E+04
+rev/ 0.000E+00 0.000 0.000E+00 /
+c10ketab_26<=>c7h15coch3_3+hco+oh 	1.000E+16 0.000 3.900E+04
+rev/ 0.000E+00 0.000 0.000E+00 /
+c8ket6-7-2<=>ch2o+ic6h13co+oh 	1.000E+16 0.000 3.900E+04
+rev/ 0.000E+00 0.000 0.000E+00 /
+c9ketab_26<=>c6h13coch3_2+hco+oh 	1.000E+16 0.000 3.900E+04
+rev/ 0.000E+00 0.000 0.000E+00 /
+c10ketac_37<=>c6h13coch3_2+ch2cho+oh 	1.000E+16 0.000 3.900E+04
+rev/ 0.000E+00 0.000 0.000E+00 /
+c11ketad_48<=>c6h13coch3_2+ch2ch2cho+oh 	1.000E+16 0.000 3.900E+04
+rev/ 0.000E+00 0.000 0.000E+00 /
+c13ketbf_610<=>c6h13coch3_2+c3h6coch3-1+oh 	1.000E+16 0.000 3.900E+04
+rev/ 0.000E+00 0.000 0.000E+00 /
+c9ketbf_6<=>c2h5coch3+c3h6coch3-1+oh 	1.000E+16 0.000 3.900E+04
+rev/ 0.000E+00 0.000 0.000E+00 /
+c7ketad_4<=>c2h5coch3+ch2ch2cho+oh 	1.000E+16 0.000 3.900E+04
+rev/ 0.000E+00 0.000 0.000E+00 /
+c6ketac_3<=>c2h5coch3+ch2cho+oh 	1.000E+16 0.000 3.900E+04
+rev/ 0.000E+00 0.000 0.000E+00 /
+ic5ketab<=>c2h5coch3+hco+oh 	1.000E+16 0.000 3.900E+04
+rev/ 0.000E+00 0.000 0.000E+00 /
+!
 !
 end
  
