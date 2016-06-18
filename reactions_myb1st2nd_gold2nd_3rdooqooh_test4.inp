@@ -8426,7 +8426,8 @@ c9h18o_3_5_26 	+ 	oh 	= 	ic3h7co 	+ 	cc5h10 	+ 	h2o 	5.00e+12  0.0  0.0 	! x2 fo
 !  qo  +  oh  =  h2o  +  products    
 !  qo  +  ho2  =  h2o2  +  products           
 !
-!
+! correct the rate for qo + ho2
+! 
 c8h16o1-1-25  +  ho2  =  c7h14-5-2  +  hco  +  h2o2  5.00e+12  0  17700
   rev  /  0.00e+00  0  0  /      
 c8h16o1-1-25  +  ho2  =  c7h13-1-2   +  ch2o  +  h2o2  5.00e+12  0  17700
