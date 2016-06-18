@@ -1,0 +1,135 @@
+ SPECIES                                                              
+ BC4H9COC                                                             
+Thermo estimation for molecule                                        
+ BC4H9COC                                                     C6H12O  
+ UNITS:KCAL                                                           
+ GROUPS   6                                                           
+   Gr # -  GROUP ID  - Quantity  Gr # -  GROUP ID  - Quantity         
+      1 - C/C/H3         -  2 |     4 - C/CO/H3        -  1           
+      2 - C/C2/H2        -  1 |     5 - CO/C2          -  1           
+      3 - C/C2/CO/H      -  1 |     6 - GAUCHE         -  2           
+  Hf    S   Cp 300    400    500    600    800   1000   1500          
+ -67.96  98.08  35.08  42.86  50.35  56.69  66.86  74.39    .00       
+           CPINF =  104.32                                            
+  NROTORS: 5                                                          
+ SYMMETRY          27                                                 
+  CREATION DATE:  5/21/16                                             
+  ENDSPECIES                                                          
+                                                                      
+                                                                      
+ SPECIES                                                              
+ BC4H9COC                                                             
+Thermo estimation for radical                                         
+ BC4H9COC                                                     C6H11O  
+ RADICAL BASED UPON PARENT  BC4H9COC                                  
+ PARENT FORMULA                         C6H12O                        
+PARENT SYMMETRY              27                                       
+ UNITS:KCAL                                                           
+ GROUPS   7                                                           
+   Gr # -  GROUP ID  - Quantity  Gr # -  GROUP ID  - Quantity         
+      1 - C/C/H3         -  2 |     5 - CO/C2          -  1           
+      2 - C/C2/H2        -  1 |     6 - GAUCHE         -  2           
+      3 - C/C2/CO/H      -  1 |     7 - P              -  1           
+      4 - C/CO/H3        -  1                                         
+  Hf    S   Cp 300    400    500    600    800   1000   1500          
+ -18.91 102.77  33.94  41.22  48.21  54.09  63.54  70.50    .00       
+           CPINF =   98.36                                            
+  NROTORS: 5                                                          
+ SYMMETRY           9                                                 
+R ln(2) has been added to S to account                                
+       for unpaired electron                                          
+ BOND  101.15                                                         
+  CREATION DATE:  5/21/16                                             
+  ENDSPECIES                                                          
+                                                                      
+                                                                      
+ SPECIES                                                              
+ BC4H9COC                                                             
+Thermo estimation for molecule                                        
+ BC4H9COC                                                     C6H12O  
+ UNITS:KCAL                                                           
+ GROUPS   6                                                           
+   Gr # -  GROUP ID  - Quantity  Gr # -  GROUP ID  - Quantity         
+      1 - C/C/H3         -  2 |     4 - C/CO/H3        -  1           
+      2 - C/C2/H2        -  1 |     5 - CO/C2          -  1           
+      3 - C/C2/CO/H      -  1 |     6 - GAUCHE         -  2           
+  Hf    S   Cp 300    400    500    600    800   1000   1500          
+ -67.96  98.08  35.08  42.86  50.35  56.69  66.86  74.39    .00       
+           CPINF =  104.32                                            
+  NROTORS: 5                                                          
+ SYMMETRY          27                                                 
+  CREATION DATE:  5/21/16                                             
+  ENDSPECIES                                                          
+                                                                      
+                                                                      
+ SPECIES                                                              
+ BC4H8COC                                                             
+Thermo estimation for radical                                         
+ BC4H8COC                                                     C6H11O  
+ RADICAL BASED UPON PARENT  BC4H9COC                                  
+ PARENT FORMULA                         C6H12O                        
+PARENT SYMMETRY              27                                       
+ UNITS:KCAL                                                           
+ GROUPS   7                                                           
+   Gr # -  GROUP ID  - Quantity  Gr # -  GROUP ID  - Quantity         
+      1 - C/C/H3         -  2 |     5 - CO/C2          -  1           
+      2 - C/C2/H2        -  1 |     6 - GAUCHE         -  2           
+      3 - C/C2/CO/H      -  1 |     7 - P              -  1           
+      4 - C/CO/H3        -  1                                         
+  Hf    S   Cp 300    400    500    600    800   1000   1500          
+ -18.91 102.77  33.94  41.22  48.21  54.09  63.54  70.50    .00       
+           CPINF =   98.36                                            
+  NROTORS: 5                                                          
+ SYMMETRY           9                                                 
+R ln(2) has been added to S to account                                
+       for unpaired electron                                          
+ BOND  101.15                                                         
+  CREATION DATE:  5/21/16                                             
+  ENDSPECIES                                                          
+                                                                      
+                                                                      
+ SPECIES                                                              
+ C6H13CHO                                                             
+Thermo estimation for molecule                                        
+ C6H13CHO                                                     C7H14O  
+ UNITS:KCAL                                                           
+ GROUPS   6                                                           
+   Gr # -  GROUP ID  - Quantity  Gr # -  GROUP ID  - Quantity         
+      1 - C/C/H3         -  2 |     4 - C/C/CO/H2      -  1           
+      2 - C/C2/H2        -  2 |     5 - CO/C/H         -  1           
+      3 - C/C3/H         -  1 |     6 - GAUCHE         -  2           
+  Hf    S   Cp 300    400    500    600    800   1000   1500          
+ -65.31 107.55  40.86  50.97  60.13  68.36  80.45  89.39    .00       
+           CPINF =  121.21                                            
+  NROTORS: 6                                                          
+ SYMMETRY           9                                                 
+  CREATION DATE:  5/21/16                                             
+  ENDSPECIES                                                          
+                                                                      
+                                                                      
+ SPECIES                                                              
+ C6H13CO                                                              
+Thermo estimation for radical                                         
+ C6H13CO                                                      C7H13O  
+ RADICAL BASED UPON PARENT  C6H13CHO                                  
+ PARENT FORMULA                         C7H14O                        
+PARENT SYMMETRY               9                                       
+ UNITS:KCAL                                                           
+ GROUPS   7                                                           
+   Gr # -  GROUP ID  - Quantity  Gr # -  GROUP ID  - Quantity         
+      1 - C/C/H3         -  2 |     5 - CO/C/H         -  1           
+      2 - C/C2/H2        -  2 |     6 - GAUCHE         -  2           
+      3 - C/C3/H         -  1 |     7 - CCJ*O          -  1           
+      4 - C/C/CO/H2      -  1                                         
+  Hf    S   Cp 300    400    500    600    800   1000   1500          
+ -28.41 108.67  40.03  49.54  58.17  65.94  77.29  85.66    .00       
+           CPINF =  115.25                                            
+  NROTORS: 6                                                          
+ SYMMETRY           9                                                 
+R ln(2) has been added to S to account                                
+       for unpaired electron                                          
+ BOND   89.00                                                         
+  CREATION DATE:  5/21/16                                             
+  ENDSPECIES                                                          
+                                                                      
+                                                                      

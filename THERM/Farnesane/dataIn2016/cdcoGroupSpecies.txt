@@ -1,0 +1,8 @@
+bc4h8co				line		894
+c5h10co_3						905
+ic4h9chco						906
+c6h12co_3						913
+c8h16co_26						943
+c9h18co_37						986
+c9h18co_26						987
+c10h20co_37						1006

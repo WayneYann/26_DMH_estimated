@@ -1,0 +1,3977 @@
+151
+32
+None
+input:	\n
+output:
+------------------------Start Line--------------------------------------
+Invalid keyboard code specified---
+---
+                                   THERM---
+ ---
+*****************0
+---
+                  THermo Estimation for Radicals & Molecules---
+ ---
+*****************1
+---
+                              Edward R. Ritter ---
+                       Dept. of Chemical Engineering---
+                    Villanova University,  Villanova, PA---
+---
+                                     and---
+---
+                             Joseph W. Bozzelli ---
+               Department of Chemical Engineering and Chemistry---
+                     New Jersey Institute of Technology---
+                                  Newark, NJ---
+---
+                          486 version 4.5 : 7/8/94---
+---
+                     **** Loading Configuration File ****---
+                      ***** LOADING GROUP DATAFILES *****     ---
+                           697  Groups in the dataBase.          ---
+ ---
+*****************2
+                           { hit return to continue }---
+                              THERM MAIN MENU---
+ ---
+*****************3
+        Units:  Kcal/mol  ( cal/mol K )                    8/29/15---
+     ___________________________________________________________________________---
+ ---
+*****************4
+     1 - ENTER/ESTIMATE SPECIES     5 - REVIEW (LST FORMAT FILE)---
+     2 - VIEW GROUPS                6 - GET SPECIES FROM FILE {*.DOC}---
+     3 - SELECT SHORT MENU          7 - ReWrite THERMO FILES {*.DOC, *.LST}---
+     4 - SELECT LIST FILE {*.LST}   8 - RUN THERMFIT create NASA {*.DAT}---
+                9 - RUN THERMRXN (calculate dU, dH, dS, dG for reaction)---
+               10 - Sort & ReWrite THERMO FILES { *.DOC, *.LST }---
+               11 - Sort/Write "LST" file {or Write w/ new Units }---
+                             { no "DOC" format file is needed }---
+               12 - RUN THERMLST (LIST NASA FORMAT FILE) /create *.LST---
+               13 - DOS utilities---
+                U - CHANGE CURRENT UNITS TO : KJ/mol  (J/mol K)---
+                         *  -  CLOSE ALL OPENED FILES---
+                         X  -  EXIT PROGRAM ---
+                         ?  -  HELP---
+ ---
+*****************5
+-------------------------End Line---------------------------------------
+
+1	0:	1.0
+
+1	1:	c9h20_26
+
+1	2:	c9h20_26
+
+1	3:	m
+
+1	4:	
+
+1	5:	c9h20
+
+1	6:	8.0
+
+1	7:	162.0
+
+1	8:	11.0
+
+1	9:	4.0
+
+1	10:	c/c/h3
+
+1	11:	4.0
+
+1	12:	c/c3/h
+
+1	13:	2.0
+
+1	14:	c/c2/h2
+
+1	15:	3.0
+
+1	16:	gauche
+
+1	17:	2.0
+
+1	18:	
+
+1	19:	
+
+1	20:	
+
+1	21:	
+
+1	22:	
+
+1	23:	
+
+1	24:	
+
+1	25:	
+
+1	26:	
+
+1	27:	
+
+1	28:	
+
+1	29:	
+
+1	30:	
+
+1	31:	
+
+input:	['\n', u'c9h20_26\n', u'c9h20\n', '\n', '11\n', '4\n', '8\n', u'c/c/h3 4\n', u'c/c3/h 2\n', u'c/c2/h2 3\n', u'gauche 2\n', '162\n', '\n', 'f\n', 'autoOut\n', '\n', '\n', 'autoOut\n']
+output:
+------------------------Start Line--------------------------------------
+                           enter option : { 1 }---
+    Enter species name (ID)---
+      9 characters maximum---
+{ "Q" return to opening menu }---
+ ---
+*****************0
+enter the elemental formula for this species ---
+{ example: for PHENOL enter " C6H5OH " }---
+{          for TOLUENE enter " C6H5CH3 " }---
+{          for CHLOROPHENOL enter " C6H4CLOH " }---
+ ---
+*****************1
+ ---
+*****************2
+        4 ELEMENTS MAXIMUM : 70 CHARACTERS MAX---
+ ---
+*****************3
+  THE FOLLOWING ELEMENTS ARE DEFINED:---
+  C   H   O   CL  S   N   F   P   I   BR---
+  B   SI  LI---
+ ---
+*****************4
+ ALL OTHER ELEMENTS OR NON-NUMERIC CHARACTERS---
+            WILL BE IGNORED !---
+ ---
+*****************5
+ enter formula here: {Q=QUIT}---
+FORMULA ENTERED :---
+C9H20                                                                 ---
+ ---
+*****************6
+ ---
+*****************7
+  ELEMENTAL COMPOSITION:---
+ ---
+*****************8
+C             9---
+H            20---
+              0---
+              0---
+ ---
+*****************9
+ ---
+*****************10
+ number of Atoms for This Species =         29---
+ ---
+*****************11
+    IF THIS IS INCORRECT ENTER " Q "---
+           TO BEGIN AGAIN---
+  OTHERWISE HIT RETURN TO CONTINUE---
+   Radicals are estimated either by entering a---
+   radical {CDOT} group such as " CB/. " on this---
+   screen; or by first estimating the properties---
+   for the stable molecule here { ex: benzene } and---
+   then applying a bond increment {BD} group to ---
+   account for loss of H atom from the molecule.---
+ ---
+*****************12
+   Bond increments cannot be entered here.  They---
+   are entered at the RADICAL menu { available---
+   after the molecule's properties are estimated }.---
+ ---
+*****************13
+   You must be sure that groups you enter adequately---
+   define a molecule (no unbonded electrons).---
+   THERM makes no attempt to check the context---
+   of the groups entered (only whether they are defined).---
+ ---
+*****************14
+ ---
+*****************15
+       Enter the Number of Groups in this species---
+ (each Central Atom or Ring Correction counts as 1 group)---
+ ---
+*****************16
+How many different groups are to be entered?---
+ how many rotors in this species { 0 }---
+        697 groups in the database---
+ ---
+*****************17
+You must enter a total of   4 different groups---
+  {enter " D " to re-enter the last group}---
+  {enter " Q " to start a new species}---
+  {enter " L " to list group database}---
+ ---
+*****************18
+ ---
+*****************19
+  ENTER: "GROUP ID,QUANTITY"---
+ENTER GROUP #   1---
+ENTER GROUP #   2---
+ENTER GROUP #   3---
+ENTER GROUP #   4---
+     Enter symmetry # for molecule---
+Thermo estimation for molecule---
+C9H20_26                                                      C9H20---
+ ---
+*****************20
+  Gr # -  GROUP ID  - Quantity---
+     1 - C/C/H3         -  4---
+     2 - C/C3/H         -  2---
+     3 - C/C2/H2        -  3---
+     4 - GAUCHE         -  2---
+ ---
+*****************21
+UNITS:  Hf{Kcal/mol}   S & Cp {cal/mol K}---
+   Hf      S    Cp 300   400      500     600      800    1000    1500---
+ -57.72  117.14   51.45   65.66   78.27   88.69  104.79  116.66  135.14---
+     CPINF   160.95---
+Symmetry number used to correct S value is        162---
+  EDIT THESE RESULTS?     "Y" OR {"N"}---
+                    SPECIES ESTIMATION OPTIONS MENU---
+            Units:  Kcal/mol  ( cal/mol K )---
+            _______________________________________________________---
+ ---
+*****************22
+            R      -  CALCULATE RADICAL BASED UPON PREVIOUS SPECIES---
+            F      -  ADD CURRENT SPECIES TO OUTPUT FILE---
+            H      -  TOGGLE (SHORT/LONG) MENU---
+            P      -  RETURN TO PREVIOUS SPECIES SCREEN---
+            RETURN -  ENTER A NEW SPECIES---
+            L      -  LIST GROUPS---
+            Q      -  RETURN TO MAIN MENU {choose "F" ---
+                      first; current species is discarded---
+                      when you return to MAIN menu}---
+            X      -  EXIT PROGRAM---
+            S      -  GET SPECIES FROM { *.DOC } FILE---
+            ?      -  HELP  ---
+            U      -  CHANGE CURRENT UNITS TO : KJ/mol  (J/mol K)---
+ ---
+*****************23
+          enter option : { ENTER NEW SPECIES }---
+Enter output filename:---
+{ no file extension is needed }: ---
+ ---
+*****************24
+   CREATE DOCUMENT FILE [ Y or N ]---
+ ---
+*****************25
+   enter choice: { Y }---
+ choose output units for LST file---
+ 1- Kcal/mol (cal/mol K)   2- KJ/mol (J/mol K         )---
+     enter option { 1 }---
+ ---
+*****************26
+ ---
+*****************27
+    enter title  for *.LST file output { blank or Q= no title }---
+                    SPECIES ESTIMATION OPTIONS MENU---
+            Units:  Kcal/mol  ( cal/mol K )---
+            _______________________________________________________---
+ ---
+*****************28
+            R      -  CALCULATE RADICAL BASED UPON PREVIOUS SPECIES---
+            F      -  ADD CURRENT SPECIES TO OUTPUT FILE---
+            H      -  TOGGLE (SHORT/LONG) MENU---
+            P      -  RETURN TO PREVIOUS SPECIES SCREEN---
+            RETURN -  ENTER A NEW SPECIES---
+            L      -  LIST GROUPS---
+            Q      -  RETURN TO MAIN MENU {choose "F" ---
+                      first; current species is discarded---
+                      when you return to MAIN menu}---
+            X      -  EXIT PROGRAM---
+            S      -  GET SPECIES FROM { *.DOC } FILE---
+            ?      -  HELP  ---
+            U      -  CHANGE CURRENT UNITS TO : KJ/mol  (J/mol K)---
+ ---
+*****************29
+ ---
+*****************30
+ LAST SPECIES FILED:  C9H20_26     ---
+ ---
+*****************31
+-------------------------End Line---------------------------------------
+
+2	0:	1.0
+
+2	1:	c9h19_26_a
+
+2	2:	c9h19_26_a
+
+2	3:	r
+
+2	4:	p
+
+2	5:	c9h19
+
+2	6:	8.0
+
+2	7:	27.0
+
+2	8:	
+
+2	9:	
+
+2	10:	
+
+2	11:	
+
+2	12:	
+
+2	13:	
+
+2	14:	
+
+2	15:	
+
+2	16:	
+
+2	17:	
+
+2	18:	
+
+2	19:	
+
+2	20:	
+
+2	21:	
+
+2	22:	
+
+2	23:	
+
+2	24:	
+
+2	25:	
+
+2	26:	
+
+2	27:	
+
+2	28:	
+
+2	29:	
+
+2	30:	
+
+2	31:	
+
+input:	['r\n', u'p\n', '27\n', u'c9h19_26_a\n', u'c9h19\n', '\n', '8\n', '\n', 'f\n']
+output:
+------------------------Start Line--------------------------------------
+          enter option : { ENTER NEW SPECIES }---
+                       RADICAL CALCULATION MENU ---
+                  {radical by loss of H from parent}---
+           _________________________________________________---
+ ---
+*****************0
+              Q        -   RETURN TO PREVIOUS MENU---
+              ?        -   HELP---
+ ---
+*****************1
+ THE FOLLOWING BOND INCREMENT GROUPS ARE DEFINED:---
+ ---
+*****************2
+GR#     GROUP ID          GR#     GROUP ID          GR#     GROUP ID     ---
+____________________________________________________________________________---
+ ---
+*****************3
+177  -  P                 178  -  IC4H9             179  -  C2H5          ---
+180  -  NEO-C5            181  -  S                 182  -  CC.C          ---
+183  -  RCCJC             184  -  RCCJCC            185  -  T             ---
+186  -  VIN               187  -  VINS              188  -  ALLYLP        ---
+189  -  ALLYLS            190  -  ALLYLT            191  -  C#CJ          ---
+192  -  C#CCJ             193  -  C#CCJC            194  -  C#CCJC2       ---
+195  -  C*C*CJ            196  -  C*C*CJC           197  -  C*CJC*C       ---
+198  -  LC*CJC*C          199  -  L2C*CJC*C         200  -  C*CCJC*C      ---
+201  -  C*CC*CCJ          202  -  CJC*CC#C          203  -  CYC3          ---
+204  -  CYC4              205  -  CYC4E             206  -  CYPD          ---
+207  -  CYPDVIN           208  -  CYPENE            209  -  CYC5H9        ---
+210  -  CYCJCH3           211  -  CHD               212  -  CHDOH         ---
+213  -  CHD14             214  -  CHENE             215  -  CHENEA        ---
+216  -  CYC7H7            217  -  PH1               218  -  NAPH1         ---
+219  -  NAPH2             220  -  BENZYLP           221  -  BENZYLS       ---
+222  -  BENZYLT           223  -  CH3O              224  -  ALKOXY        ---
+225  -  VINOXY            226  -  ROCOJ             227  -  C*CHOJ        ---
+228  -  OJC*OC            229  -  PHENOXY           230  -  CPDOXY        ---
+231  -  C*CC*COJ          232  -  C*CCOJ*C          233  -  O*CC*COJ      ---
+ ---
+*****************4
+   ENTER BOND INCREMENT NAME ONLY---
+         enter option : { Q }---
+PARENT =  C9H20_26      ---
+          C9H20---
+ ---
+*****************5
+enter the symmetry number for the radical---
+ ---
+*****************6
+Enter radical name(ID)---
+ ---
+*****************7
+enter the elemental formula for this radical---
+{ example: for PHENYL enter " C6H5 " }---
+{          for BENZYL enter " C6H5CH2 " }---
+{          FOR VINYL  enter " C2H3 " }---
+ ---
+*****************8
+ ---
+*****************9
+              4 ELEMENTS MAXIMUM---
+ ---
+*****************10
+ ---
+*****************11
+FORMULA ENTERED :---
+C9H19                                                                 ---
+ ---
+*****************12
+ ---
+*****************13
+  ELEMENTAL COMPOSITION:---
+ ---
+*****************14
+C             9---
+H            19---
+              0---
+              0---
+ ---
+*****************15
+ ---
+*****************16
+ number of Atoms for This Species =         28---
+ ---
+*****************17
+    IF THIS IS INCORRECT ENTER " Q "---
+           TO BEGIN AGAIN---
+  OTHERWISE HIT RETURN TO CONTINUE---
+ how many rotors in this species { 0 }---
+Thermo estimation for radical---
+C9H19_26_A                                                    C9H19---
+RADICAL BASED UPON PARENT  C9H20_26                                                                          C9H20---
+PARENT SYMMETRY        162---
+ ---
+*****************18
+  Gr # -  GROUP ID  - Quantity---
+     1 - C/C/H3         -  4---
+     2 - C/C3/H         -  2---
+     3 - C/C2/H2        -  3---
+     4 - GAUCHE         -  2---
+     5 - P              -  1---
+ ---
+*****************19
+UNITS:  Hf{Kcal/mol}   S & Cp {cal/mol K}---
+   Hf      S    Cp 300   400      500     600      800    1000    1500---
+  -8.67  123.21   50.31   64.02   76.13   86.09  101.47  112.77  130.45---
+     CPINF   154.99---
+Symmetry number used to correct S value is          27---
+R ln(2) has been added to S to account for unpaired electron---
+    bond dissociation energy used =     101.15---
+  EDIT THESE RESULTS?     "Y" OR {"N"}---
+                    SPECIES ESTIMATION OPTIONS MENU---
+            Units:  Kcal/mol  ( cal/mol K )---
+            _______________________________________________________---
+ ---
+*****************20
+            R      -  CALCULATE RADICAL BASED UPON PREVIOUS SPECIES---
+            F      -  ADD CURRENT SPECIES TO OUTPUT FILE---
+            H      -  TOGGLE (SHORT/LONG) MENU---
+            P      -  RETURN TO PREVIOUS SPECIES SCREEN---
+            M      -  RETURN TO PREVIOUS PARENT MOLECULE---
+            RETURN -  ENTER A NEW SPECIES---
+            L      -  LIST GROUPS---
+            Q      -  RETURN TO MAIN MENU {choose "F" ---
+                      first; current species is discarded---
+                      when you return to MAIN menu}---
+            X      -  EXIT PROGRAM---
+            S      -  GET SPECIES FROM { *.DOC } FILE---
+            ?      -  HELP  ---
+            U      -  CHANGE CURRENT UNITS TO : KJ/mol  (J/mol K)---
+ ---
+*****************21
+ ---
+*****************22
+ LAST SPECIES FILED:  C9H20_26     ---
+ ---
+*****************23
+          enter option : { ENTER NEW SPECIES }---
+                    SPECIES ESTIMATION OPTIONS MENU---
+            Units:  Kcal/mol  ( cal/mol K )---
+            _______________________________________________________---
+ ---
+*****************24
+            R      -  CALCULATE RADICAL BASED UPON PREVIOUS SPECIES---
+            F      -  ADD CURRENT SPECIES TO OUTPUT FILE---
+            H      -  TOGGLE (SHORT/LONG) MENU---
+            P      -  RETURN TO PREVIOUS SPECIES SCREEN---
+            M      -  RETURN TO PREVIOUS PARENT MOLECULE---
+            RETURN -  ENTER A NEW SPECIES---
+            L      -  LIST GROUPS---
+            Q      -  RETURN TO MAIN MENU {choose "F" ---
+                      first; current species is discarded---
+                      when you return to MAIN menu}---
+            X      -  EXIT PROGRAM---
+            S      -  GET SPECIES FROM { *.DOC } FILE---
+            ?      -  HELP  ---
+            U      -  CHANGE CURRENT UNITS TO : KJ/mol  (J/mol K)---
+ ---
+*****************25
+ ---
+*****************26
+ LAST SPECIES FILED:  C9H19_26_    ---
+ ---
+*****************27
+-------------------------End Line---------------------------------------
+
+3	0:	0.0
+
+3	1:	c9h20_26
+
+3	2:	c9h20_26
+
+3	3:	m
+
+3	4:	
+
+3	5:	c9h20
+
+3	6:	8.0
+
+3	7:	162.0
+
+3	8:	11.0
+
+3	9:	4.0
+
+3	10:	c/c/h3
+
+3	11:	4.0
+
+3	12:	c/c3/h
+
+3	13:	2.0
+
+3	14:	c/c2/h2
+
+3	15:	3.0
+
+3	16:	gauche
+
+3	17:	2.0
+
+3	18:	
+
+3	19:	
+
+3	20:	
+
+3	21:	
+
+3	22:	
+
+3	23:	
+
+3	24:	
+
+3	25:	
+
+3	26:	
+
+3	27:	
+
+3	28:	
+
+3	29:	
+
+3	30:	
+
+3	31:	
+
+input:	['\n', u'c9h20_26\n', u'c9h20\n', '\n', '11\n', '4\n', '8\n', u'c/c/h3 4\n', u'c/c3/h 2\n', u'c/c2/h2 3\n', u'gauche 2\n', '162\n', '\n', 'f\n']
+output:
+------------------------Start Line--------------------------------------
+          enter option : { ENTER NEW SPECIES }---
+    Enter species name (ID)---
+      9 characters maximum---
+{ "Q" return to opening menu }---
+ ---
+*****************0
+enter the elemental formula for this species ---
+{ example: for PHENOL enter " C6H5OH " }---
+{          for TOLUENE enter " C6H5CH3 " }---
+{          for CHLOROPHENOL enter " C6H4CLOH " }---
+ ---
+*****************1
+ ---
+*****************2
+        4 ELEMENTS MAXIMUM : 70 CHARACTERS MAX---
+ ---
+*****************3
+  THE FOLLOWING ELEMENTS ARE DEFINED:---
+  C   H   O   CL  S   N   F   P   I   BR---
+  B   SI  LI---
+ ---
+*****************4
+ ALL OTHER ELEMENTS OR NON-NUMERIC CHARACTERS---
+            WILL BE IGNORED !---
+ ---
+*****************5
+ enter formula here: {Q=QUIT}---
+FORMULA ENTERED :---
+C9H20                                                                 ---
+ ---
+*****************6
+ ---
+*****************7
+  ELEMENTAL COMPOSITION:---
+ ---
+*****************8
+C             9---
+H            20---
+              0---
+              0---
+ ---
+*****************9
+ ---
+*****************10
+ number of Atoms for This Species =         29---
+ ---
+*****************11
+    IF THIS IS INCORRECT ENTER " Q "---
+           TO BEGIN AGAIN---
+  OTHERWISE HIT RETURN TO CONTINUE---
+   Radicals are estimated either by entering a---
+   radical {CDOT} group such as " CB/. " on this---
+   screen; or by first estimating the properties---
+   for the stable molecule here { ex: benzene } and---
+   then applying a bond increment {BD} group to ---
+   account for loss of H atom from the molecule.---
+ ---
+*****************12
+   Bond increments cannot be entered here.  They---
+   are entered at the RADICAL menu { available---
+   after the molecule's properties are estimated }.---
+ ---
+*****************13
+   You must be sure that groups you enter adequately---
+   define a molecule (no unbonded electrons).---
+   THERM makes no attempt to check the context---
+   of the groups entered (only whether they are defined).---
+ ---
+*****************14
+ ---
+*****************15
+       Enter the Number of Groups in this species---
+ (each Central Atom or Ring Correction counts as 1 group)---
+ ---
+*****************16
+How many different groups are to be entered?---
+ how many rotors in this species { 0 }---
+        697 groups in the database---
+ ---
+*****************17
+You must enter a total of   4 different groups---
+  {enter " D " to re-enter the last group}---
+  {enter " Q " to start a new species}---
+  {enter " L " to list group database}---
+ ---
+*****************18
+ ---
+*****************19
+  ENTER: "GROUP ID,QUANTITY"---
+ENTER GROUP #   1---
+ENTER GROUP #   2---
+ENTER GROUP #   3---
+ENTER GROUP #   4---
+     Enter symmetry # for molecule---
+Thermo estimation for molecule---
+C9H20_26                                                      C9H20---
+ ---
+*****************20
+  Gr # -  GROUP ID  - Quantity---
+     1 - C/C/H3         -  4---
+     2 - C/C3/H         -  2---
+     3 - C/C2/H2        -  3---
+     4 - GAUCHE         -  2---
+ ---
+*****************21
+UNITS:  Hf{Kcal/mol}   S & Cp {cal/mol K}---
+   Hf      S    Cp 300   400      500     600      800    1000    1500---
+ -57.72  117.14   51.45   65.66   78.27   88.69  104.79  116.66  135.14---
+     CPINF   160.95---
+Symmetry number used to correct S value is        162---
+  EDIT THESE RESULTS?     "Y" OR {"N"}---
+                    SPECIES ESTIMATION OPTIONS MENU---
+            Units:  Kcal/mol  ( cal/mol K )---
+            _______________________________________________________---
+ ---
+*****************22
+            R      -  CALCULATE RADICAL BASED UPON PREVIOUS SPECIES---
+            F      -  ADD CURRENT SPECIES TO OUTPUT FILE---
+            H      -  TOGGLE (SHORT/LONG) MENU---
+            P      -  RETURN TO PREVIOUS SPECIES SCREEN---
+            RETURN -  ENTER A NEW SPECIES---
+            L      -  LIST GROUPS---
+            Q      -  RETURN TO MAIN MENU {choose "F" ---
+                      first; current species is discarded---
+                      when you return to MAIN menu}---
+            X      -  EXIT PROGRAM---
+            S      -  GET SPECIES FROM { *.DOC } FILE---
+            ?      -  HELP  ---
+            U      -  CHANGE CURRENT UNITS TO : KJ/mol  (J/mol K)---
+ ---
+*****************23
+ ---
+*****************24
+ LAST SPECIES FILED:  C9H19_26_    ---
+ ---
+*****************25
+          enter option : { ENTER NEW SPECIES }---
+                    SPECIES ESTIMATION OPTIONS MENU---
+            Units:  Kcal/mol  ( cal/mol K )---
+            _______________________________________________________---
+ ---
+*****************26
+            R      -  CALCULATE RADICAL BASED UPON PREVIOUS SPECIES---
+            F      -  ADD CURRENT SPECIES TO OUTPUT FILE---
+            H      -  TOGGLE (SHORT/LONG) MENU---
+            P      -  RETURN TO PREVIOUS SPECIES SCREEN---
+            RETURN -  ENTER A NEW SPECIES---
+            L      -  LIST GROUPS---
+            Q      -  RETURN TO MAIN MENU {choose "F" ---
+                      first; current species is discarded---
+                      when you return to MAIN menu}---
+            X      -  EXIT PROGRAM---
+            S      -  GET SPECIES FROM { *.DOC } FILE---
+            ?      -  HELP  ---
+            U      -  CHANGE CURRENT UNITS TO : KJ/mol  (J/mol K)---
+ ---
+*****************27
+ ---
+*****************28
+ LAST SPECIES FILED:  C9H20_26     ---
+ ---
+*****************29
+-------------------------End Line---------------------------------------
+
+4	0:	1.0
+
+4	1:	c9h19_26_b
+
+4	2:	c9h19_26_b
+
+4	3:	r
+
+4	4:	t
+
+4	5:	c9h19
+
+4	6:	8.0
+
+4	7:	81.0
+
+4	8:	
+
+4	9:	
+
+4	10:	
+
+4	11:	
+
+4	12:	
+
+4	13:	
+
+4	14:	
+
+4	15:	
+
+4	16:	
+
+4	17:	
+
+4	18:	
+
+4	19:	
+
+4	20:	
+
+4	21:	
+
+4	22:	
+
+4	23:	
+
+4	24:	
+
+4	25:	
+
+4	26:	
+
+4	27:	
+
+4	28:	
+
+4	29:	
+
+4	30:	
+
+4	31:	
+
+input:	['r\n', u't\n', '81\n', u'c9h19_26_b\n', u'c9h19\n', '\n', '8\n', '\n', 'f\n']
+output:
+------------------------Start Line--------------------------------------
+          enter option : { ENTER NEW SPECIES }---
+                       RADICAL CALCULATION MENU ---
+                  {radical by loss of H from parent}---
+           _________________________________________________---
+ ---
+*****************0
+              Q        -   RETURN TO PREVIOUS MENU---
+              ?        -   HELP---
+ ---
+*****************1
+ THE FOLLOWING BOND INCREMENT GROUPS ARE DEFINED:---
+ ---
+*****************2
+GR#     GROUP ID          GR#     GROUP ID          GR#     GROUP ID     ---
+____________________________________________________________________________---
+ ---
+*****************3
+177  -  P                 178  -  IC4H9             179  -  C2H5          ---
+180  -  NEO-C5            181  -  S                 182  -  CC.C          ---
+183  -  RCCJC             184  -  RCCJCC            185  -  T             ---
+186  -  VIN               187  -  VINS              188  -  ALLYLP        ---
+189  -  ALLYLS            190  -  ALLYLT            191  -  C#CJ          ---
+192  -  C#CCJ             193  -  C#CCJC            194  -  C#CCJC2       ---
+195  -  C*C*CJ            196  -  C*C*CJC           197  -  C*CJC*C       ---
+198  -  LC*CJC*C          199  -  L2C*CJC*C         200  -  C*CCJC*C      ---
+201  -  C*CC*CCJ          202  -  CJC*CC#C          203  -  CYC3          ---
+204  -  CYC4              205  -  CYC4E             206  -  CYPD          ---
+207  -  CYPDVIN           208  -  CYPENE            209  -  CYC5H9        ---
+210  -  CYCJCH3           211  -  CHD               212  -  CHDOH         ---
+213  -  CHD14             214  -  CHENE             215  -  CHENEA        ---
+216  -  CYC7H7            217  -  PH1               218  -  NAPH1         ---
+219  -  NAPH2             220  -  BENZYLP           221  -  BENZYLS       ---
+222  -  BENZYLT           223  -  CH3O              224  -  ALKOXY        ---
+225  -  VINOXY            226  -  ROCOJ             227  -  C*CHOJ        ---
+228  -  OJC*OC            229  -  PHENOXY           230  -  CPDOXY        ---
+231  -  C*CC*COJ          232  -  C*CCOJ*C          233  -  O*CC*COJ      ---
+ ---
+*****************4
+   ENTER BOND INCREMENT NAME ONLY---
+         enter option : { Q }---
+PARENT =  C9H20_26      ---
+          C9H20---
+ ---
+*****************5
+enter the symmetry number for the radical---
+ ---
+*****************6
+Enter radical name(ID)---
+ ---
+*****************7
+enter the elemental formula for this radical---
+{ example: for PHENYL enter " C6H5 " }---
+{          for BENZYL enter " C6H5CH2 " }---
+{          FOR VINYL  enter " C2H3 " }---
+ ---
+*****************8
+ ---
+*****************9
+              4 ELEMENTS MAXIMUM---
+ ---
+*****************10
+ ---
+*****************11
+FORMULA ENTERED :---
+C9H19                                                                 ---
+ ---
+*****************12
+ ---
+*****************13
+  ELEMENTAL COMPOSITION:---
+ ---
+*****************14
+C             9---
+H            19---
+              0---
+              0---
+ ---
+*****************15
+ ---
+*****************16
+ number of Atoms for This Species =         28---
+ ---
+*****************17
+    IF THIS IS INCORRECT ENTER " Q "---
+           TO BEGIN AGAIN---
+  OTHERWISE HIT RETURN TO CONTINUE---
+ how many rotors in this species { 0 }---
+Thermo estimation for radical---
+C9H19_26_B                                                    C9H19---
+RADICAL BASED UPON PARENT  C9H20_26                                                                          C9H20---
+PARENT SYMMETRY        162---
+ ---
+*****************18
+  Gr # -  GROUP ID  - Quantity---
+     1 - C/C/H3         -  4---
+     2 - C/C3/H         -  2---
+     3 - C/C2/H2        -  3---
+     4 - GAUCHE         -  2---
+     5 - T              -  1---
+ ---
+*****************19
+UNITS:  Hf{Kcal/mol}   S & Cp {cal/mol K}---
+   Hf      S    Cp 300   400      500     600      800    1000    1500---
+ -13.68  123.66   48.64   61.47   73.43   83.59   99.46  111.30  129.62---
+     CPINF   154.99---
+Symmetry number used to correct S value is          81---
+R ln(2) has been added to S to account for unpaired electron---
+    bond dissociation energy used =      96.14---
+  EDIT THESE RESULTS?     "Y" OR {"N"}---
+                    SPECIES ESTIMATION OPTIONS MENU---
+            Units:  Kcal/mol  ( cal/mol K )---
+            _______________________________________________________---
+ ---
+*****************20
+            R      -  CALCULATE RADICAL BASED UPON PREVIOUS SPECIES---
+            F      -  ADD CURRENT SPECIES TO OUTPUT FILE---
+            H      -  TOGGLE (SHORT/LONG) MENU---
+            P      -  RETURN TO PREVIOUS SPECIES SCREEN---
+            M      -  RETURN TO PREVIOUS PARENT MOLECULE---
+            RETURN -  ENTER A NEW SPECIES---
+            L      -  LIST GROUPS---
+            Q      -  RETURN TO MAIN MENU {choose "F" ---
+                      first; current species is discarded---
+                      when you return to MAIN menu}---
+            X      -  EXIT PROGRAM---
+            S      -  GET SPECIES FROM { *.DOC } FILE---
+            ?      -  HELP  ---
+            U      -  CHANGE CURRENT UNITS TO : KJ/mol  (J/mol K)---
+ ---
+*****************21
+ ---
+*****************22
+ LAST SPECIES FILED:  C9H20_26     ---
+ ---
+*****************23
+          enter option : { ENTER NEW SPECIES }---
+                    SPECIES ESTIMATION OPTIONS MENU---
+            Units:  Kcal/mol  ( cal/mol K )---
+            _______________________________________________________---
+ ---
+*****************24
+            R      -  CALCULATE RADICAL BASED UPON PREVIOUS SPECIES---
+            F      -  ADD CURRENT SPECIES TO OUTPUT FILE---
+            H      -  TOGGLE (SHORT/LONG) MENU---
+            P      -  RETURN TO PREVIOUS SPECIES SCREEN---
+            M      -  RETURN TO PREVIOUS PARENT MOLECULE---
+            RETURN -  ENTER A NEW SPECIES---
+            L      -  LIST GROUPS---
+            Q      -  RETURN TO MAIN MENU {choose "F" ---
+                      first; current species is discarded---
+                      when you return to MAIN menu}---
+            X      -  EXIT PROGRAM---
+            S      -  GET SPECIES FROM { *.DOC } FILE---
+            ?      -  HELP  ---
+            U      -  CHANGE CURRENT UNITS TO : KJ/mol  (J/mol K)---
+ ---
+*****************25
+ ---
+*****************26
+ LAST SPECIES FILED:  C9H19_26_    ---
+ ---
+*****************27
+-------------------------End Line---------------------------------------
+
+5	0:	0.0
+
+5	1:	c9h20_26
+
+5	2:	c9h20_26
+
+5	3:	m
+
+5	4:	
+
+5	5:	c9h20
+
+5	6:	8.0
+
+5	7:	162.0
+
+5	8:	11.0
+
+5	9:	4.0
+
+5	10:	c/c/h3
+
+5	11:	4.0
+
+5	12:	c/c3/h
+
+5	13:	2.0
+
+5	14:	c/c2/h2
+
+5	15:	3.0
+
+5	16:	gauche
+
+5	17:	2.0
+
+5	18:	
+
+5	19:	
+
+5	20:	
+
+5	21:	
+
+5	22:	
+
+5	23:	
+
+5	24:	
+
+5	25:	
+
+5	26:	
+
+5	27:	
+
+5	28:	
+
+5	29:	
+
+5	30:	
+
+5	31:	
+
+input:	['\n', u'c9h20_26\n', u'c9h20\n', '\n', '11\n', '4\n', '8\n', u'c/c/h3 4\n', u'c/c3/h 2\n', u'c/c2/h2 3\n', u'gauche 2\n', '162\n', '\n', 'f\n']
+output:
+------------------------Start Line--------------------------------------
+          enter option : { ENTER NEW SPECIES }---
+    Enter species name (ID)---
+      9 characters maximum---
+{ "Q" return to opening menu }---
+ ---
+*****************0
+enter the elemental formula for this species ---
+{ example: for PHENOL enter " C6H5OH " }---
+{          for TOLUENE enter " C6H5CH3 " }---
+{          for CHLOROPHENOL enter " C6H4CLOH " }---
+ ---
+*****************1
+ ---
+*****************2
+        4 ELEMENTS MAXIMUM : 70 CHARACTERS MAX---
+ ---
+*****************3
+  THE FOLLOWING ELEMENTS ARE DEFINED:---
+  C   H   O   CL  S   N   F   P   I   BR---
+  B   SI  LI---
+ ---
+*****************4
+ ALL OTHER ELEMENTS OR NON-NUMERIC CHARACTERS---
+            WILL BE IGNORED !---
+ ---
+*****************5
+ enter formula here: {Q=QUIT}---
+FORMULA ENTERED :---
+C9H20                                                                 ---
+ ---
+*****************6
+ ---
+*****************7
+  ELEMENTAL COMPOSITION:---
+ ---
+*****************8
+C             9---
+H            20---
+              0---
+              0---
+ ---
+*****************9
+ ---
+*****************10
+ number of Atoms for This Species =         29---
+ ---
+*****************11
+    IF THIS IS INCORRECT ENTER " Q "---
+           TO BEGIN AGAIN---
+  OTHERWISE HIT RETURN TO CONTINUE---
+   Radicals are estimated either by entering a---
+   radical {CDOT} group such as " CB/. " on this---
+   screen; or by first estimating the properties---
+   for the stable molecule here { ex: benzene } and---
+   then applying a bond increment {BD} group to ---
+   account for loss of H atom from the molecule.---
+ ---
+*****************12
+   Bond increments cannot be entered here.  They---
+   are entered at the RADICAL menu { available---
+   after the molecule's properties are estimated }.---
+ ---
+*****************13
+   You must be sure that groups you enter adequately---
+   define a molecule (no unbonded electrons).---
+   THERM makes no attempt to check the context---
+   of the groups entered (only whether they are defined).---
+ ---
+*****************14
+ ---
+*****************15
+       Enter the Number of Groups in this species---
+ (each Central Atom or Ring Correction counts as 1 group)---
+ ---
+*****************16
+How many different groups are to be entered?---
+ how many rotors in this species { 0 }---
+        697 groups in the database---
+ ---
+*****************17
+You must enter a total of   4 different groups---
+  {enter " D " to re-enter the last group}---
+  {enter " Q " to start a new species}---
+  {enter " L " to list group database}---
+ ---
+*****************18
+ ---
+*****************19
+  ENTER: "GROUP ID,QUANTITY"---
+ENTER GROUP #   1---
+ENTER GROUP #   2---
+ENTER GROUP #   3---
+ENTER GROUP #   4---
+     Enter symmetry # for molecule---
+Thermo estimation for molecule---
+C9H20_26                                                      C9H20---
+ ---
+*****************20
+  Gr # -  GROUP ID  - Quantity---
+     1 - C/C/H3         -  4---
+     2 - C/C3/H         -  2---
+     3 - C/C2/H2        -  3---
+     4 - GAUCHE         -  2---
+ ---
+*****************21
+UNITS:  Hf{Kcal/mol}   S & Cp {cal/mol K}---
+   Hf      S    Cp 300   400      500     600      800    1000    1500---
+ -57.72  117.14   51.45   65.66   78.27   88.69  104.79  116.66  135.14---
+     CPINF   160.95---
+Symmetry number used to correct S value is        162---
+  EDIT THESE RESULTS?     "Y" OR {"N"}---
+                    SPECIES ESTIMATION OPTIONS MENU---
+            Units:  Kcal/mol  ( cal/mol K )---
+            _______________________________________________________---
+ ---
+*****************22
+            R      -  CALCULATE RADICAL BASED UPON PREVIOUS SPECIES---
+            F      -  ADD CURRENT SPECIES TO OUTPUT FILE---
+            H      -  TOGGLE (SHORT/LONG) MENU---
+            P      -  RETURN TO PREVIOUS SPECIES SCREEN---
+            RETURN -  ENTER A NEW SPECIES---
+            L      -  LIST GROUPS---
+            Q      -  RETURN TO MAIN MENU {choose "F" ---
+                      first; current species is discarded---
+                      when you return to MAIN menu}---
+            X      -  EXIT PROGRAM---
+            S      -  GET SPECIES FROM { *.DOC } FILE---
+            ?      -  HELP  ---
+            U      -  CHANGE CURRENT UNITS TO : KJ/mol  (J/mol K)---
+ ---
+*****************23
+ ---
+*****************24
+ LAST SPECIES FILED:  C9H19_26_    ---
+ ---
+*****************25
+          enter option : { ENTER NEW SPECIES }---
+                    SPECIES ESTIMATION OPTIONS MENU---
+            Units:  Kcal/mol  ( cal/mol K )---
+            _______________________________________________________---
+ ---
+*****************26
+            R      -  CALCULATE RADICAL BASED UPON PREVIOUS SPECIES---
+            F      -  ADD CURRENT SPECIES TO OUTPUT FILE---
+            H      -  TOGGLE (SHORT/LONG) MENU---
+            P      -  RETURN TO PREVIOUS SPECIES SCREEN---
+            RETURN -  ENTER A NEW SPECIES---
+            L      -  LIST GROUPS---
+            Q      -  RETURN TO MAIN MENU {choose "F" ---
+                      first; current species is discarded---
+                      when you return to MAIN menu}---
+            X      -  EXIT PROGRAM---
+            S      -  GET SPECIES FROM { *.DOC } FILE---
+            ?      -  HELP  ---
+            U      -  CHANGE CURRENT UNITS TO : KJ/mol  (J/mol K)---
+ ---
+*****************27
+ ---
+*****************28
+ LAST SPECIES FILED:  C9H20_26     ---
+ ---
+*****************29
+-------------------------End Line---------------------------------------
+
+6	0:	1.0
+
+6	1:	c9h19_26_c
+
+6	2:	c9h19_26_c
+
+6	3:	r
+
+6	4:	s
+
+6	5:	c9h19
+
+6	6:	8.0
+
+6	7:	81.0
+
+6	8:	
+
+6	9:	0.0
+
+6	10:	
+
+6	11:	
+
+6	12:	
+
+6	13:	
+
+6	14:	
+
+6	15:	
+
+6	16:	
+
+6	17:	
+
+6	18:	
+
+6	19:	
+
+6	20:	
+
+6	21:	
+
+6	22:	
+
+6	23:	
+
+6	24:	
+
+6	25:	
+
+6	26:	
+
+6	27:	
+
+6	28:	
+
+6	29:	
+
+6	30:	
+
+6	31:	
+
+input:	['r\n', u's\n', '81\n', u'c9h19_26_c\n', u'c9h19\n', '\n', '8\n', '\n', 'f\n']
+output:
+------------------------Start Line--------------------------------------
+          enter option : { ENTER NEW SPECIES }---
+                       RADICAL CALCULATION MENU ---
+                  {radical by loss of H from parent}---
+           _________________________________________________---
+ ---
+*****************0
+              Q        -   RETURN TO PREVIOUS MENU---
+              ?        -   HELP---
+ ---
+*****************1
+ THE FOLLOWING BOND INCREMENT GROUPS ARE DEFINED:---
+ ---
+*****************2
+GR#     GROUP ID          GR#     GROUP ID          GR#     GROUP ID     ---
+____________________________________________________________________________---
+ ---
+*****************3
+177  -  P                 178  -  IC4H9             179  -  C2H5          ---
+180  -  NEO-C5            181  -  S                 182  -  CC.C          ---
+183  -  RCCJC             184  -  RCCJCC            185  -  T             ---
+186  -  VIN               187  -  VINS              188  -  ALLYLP        ---
+189  -  ALLYLS            190  -  ALLYLT            191  -  C#CJ          ---
+192  -  C#CCJ             193  -  C#CCJC            194  -  C#CCJC2       ---
+195  -  C*C*CJ            196  -  C*C*CJC           197  -  C*CJC*C       ---
+198  -  LC*CJC*C          199  -  L2C*CJC*C         200  -  C*CCJC*C      ---
+201  -  C*CC*CCJ          202  -  CJC*CC#C          203  -  CYC3          ---
+204  -  CYC4              205  -  CYC4E             206  -  CYPD          ---
+207  -  CYPDVIN           208  -  CYPENE            209  -  CYC5H9        ---
+210  -  CYCJCH3           211  -  CHD               212  -  CHDOH         ---
+213  -  CHD14             214  -  CHENE             215  -  CHENEA        ---
+216  -  CYC7H7            217  -  PH1               218  -  NAPH1         ---
+219  -  NAPH2             220  -  BENZYLP           221  -  BENZYLS       ---
+222  -  BENZYLT           223  -  CH3O              224  -  ALKOXY        ---
+225  -  VINOXY            226  -  ROCOJ             227  -  C*CHOJ        ---
+228  -  OJC*OC            229  -  PHENOXY           230  -  CPDOXY        ---
+231  -  C*CC*COJ          232  -  C*CCOJ*C          233  -  O*CC*COJ      ---
+ ---
+*****************4
+   ENTER BOND INCREMENT NAME ONLY---
+         enter option : { Q }---
+PARENT =  C9H20_26      ---
+          C9H20---
+ ---
+*****************5
+enter the symmetry number for the radical---
+ ---
+*****************6
+Enter radical name(ID)---
+ ---
+*****************7
+enter the elemental formula for this radical---
+{ example: for PHENYL enter " C6H5 " }---
+{          for BENZYL enter " C6H5CH2 " }---
+{          FOR VINYL  enter " C2H3 " }---
+ ---
+*****************8
+ ---
+*****************9
+              4 ELEMENTS MAXIMUM---
+ ---
+*****************10
+ ---
+*****************11
+FORMULA ENTERED :---
+C9H19                                                                 ---
+ ---
+*****************12
+ ---
+*****************13
+  ELEMENTAL COMPOSITION:---
+ ---
+*****************14
+C             9---
+H            19---
+              0---
+              0---
+ ---
+*****************15
+ ---
+*****************16
+ number of Atoms for This Species =         28---
+ ---
+*****************17
+    IF THIS IS INCORRECT ENTER " Q "---
+           TO BEGIN AGAIN---
+  OTHERWISE HIT RETURN TO CONTINUE---
+ how many rotors in this species { 0 }---
+Thermo estimation for radical---
+C9H19_26_C                                                    C9H19---
+RADICAL BASED UPON PARENT  C9H20_26                                                                          C9H20---
+PARENT SYMMETRY        162---
+ ---
+*****************18
+  Gr # -  GROUP ID  - Quantity---
+     1 - C/C/H3         -  4---
+     2 - C/C3/H         -  2---
+     3 - C/C2/H2        -  3---
+     4 - GAUCHE         -  2---
+     5 - S              -  1---
+ ---
+*****************19
+UNITS:  Hf{Kcal/mol}   S & Cp {cal/mol K}---
+   Hf      S    Cp 300   400      500     600      800    1000    1500---
+ -11.75  122.78   49.67   62.68   74.78   84.88  100.39  111.88  129.74---
+     CPINF   154.99---
+Symmetry number used to correct S value is          81---
+R ln(2) has been added to S to account for unpaired electron---
+    bond dissociation energy used =      98.07---
+  EDIT THESE RESULTS?     "Y" OR {"N"}---
+                    SPECIES ESTIMATION OPTIONS MENU---
+            Units:  Kcal/mol  ( cal/mol K )---
+            _______________________________________________________---
+ ---
+*****************20
+            R      -  CALCULATE RADICAL BASED UPON PREVIOUS SPECIES---
+            F      -  ADD CURRENT SPECIES TO OUTPUT FILE---
+            H      -  TOGGLE (SHORT/LONG) MENU---
+            P      -  RETURN TO PREVIOUS SPECIES SCREEN---
+            M      -  RETURN TO PREVIOUS PARENT MOLECULE---
+            RETURN -  ENTER A NEW SPECIES---
+            L      -  LIST GROUPS---
+            Q      -  RETURN TO MAIN MENU {choose "F" ---
+                      first; current species is discarded---
+                      when you return to MAIN menu}---
+            X      -  EXIT PROGRAM---
+            S      -  GET SPECIES FROM { *.DOC } FILE---
+            ?      -  HELP  ---
+            U      -  CHANGE CURRENT UNITS TO : KJ/mol  (J/mol K)---
+ ---
+*****************21
+ ---
+*****************22
+ LAST SPECIES FILED:  C9H20_26     ---
+ ---
+*****************23
+          enter option : { ENTER NEW SPECIES }---
+                    SPECIES ESTIMATION OPTIONS MENU---
+            Units:  Kcal/mol  ( cal/mol K )---
+            _______________________________________________________---
+ ---
+*****************24
+            R      -  CALCULATE RADICAL BASED UPON PREVIOUS SPECIES---
+            F      -  ADD CURRENT SPECIES TO OUTPUT FILE---
+            H      -  TOGGLE (SHORT/LONG) MENU---
+            P      -  RETURN TO PREVIOUS SPECIES SCREEN---
+            M      -  RETURN TO PREVIOUS PARENT MOLECULE---
+            RETURN -  ENTER A NEW SPECIES---
+            L      -  LIST GROUPS---
+            Q      -  RETURN TO MAIN MENU {choose "F" ---
+                      first; current species is discarded---
+                      when you return to MAIN menu}---
+            X      -  EXIT PROGRAM---
+            S      -  GET SPECIES FROM { *.DOC } FILE---
+            ?      -  HELP  ---
+            U      -  CHANGE CURRENT UNITS TO : KJ/mol  (J/mol K)---
+ ---
+*****************25
+ ---
+*****************26
+ LAST SPECIES FILED:  C9H19_26_    ---
+ ---
+*****************27
+-------------------------End Line---------------------------------------
+
+7	0:	0.0
+
+7	1:	c9h20_26
+
+7	2:	c9h20_26
+
+7	3:	m
+
+7	4:	
+
+7	5:	c9h20
+
+7	6:	8.0
+
+7	7:	162.0
+
+7	8:	11.0
+
+7	9:	4.0
+
+7	10:	c/c/h3
+
+7	11:	4.0
+
+7	12:	c/c3/h
+
+7	13:	2.0
+
+7	14:	c/c2/h2
+
+7	15:	3.0
+
+7	16:	gauche
+
+7	17:	2.0
+
+7	18:	
+
+7	19:	
+
+7	20:	
+
+7	21:	
+
+7	22:	
+
+7	23:	
+
+7	24:	
+
+7	25:	
+
+7	26:	
+
+7	27:	
+
+7	28:	
+
+7	29:	
+
+7	30:	
+
+7	31:	
+
+input:	['\n', u'c9h20_26\n', u'c9h20\n', '\n', '11\n', '4\n', '8\n', u'c/c/h3 4\n', u'c/c3/h 2\n', u'c/c2/h2 3\n', u'gauche 2\n', '162\n', '\n', 'f\n']
+output:
+------------------------Start Line--------------------------------------
+          enter option : { ENTER NEW SPECIES }---
+    Enter species name (ID)---
+      9 characters maximum---
+{ "Q" return to opening menu }---
+ ---
+*****************0
+enter the elemental formula for this species ---
+{ example: for PHENOL enter " C6H5OH " }---
+{          for TOLUENE enter " C6H5CH3 " }---
+{          for CHLOROPHENOL enter " C6H4CLOH " }---
+ ---
+*****************1
+ ---
+*****************2
+        4 ELEMENTS MAXIMUM : 70 CHARACTERS MAX---
+ ---
+*****************3
+  THE FOLLOWING ELEMENTS ARE DEFINED:---
+  C   H   O   CL  S   N   F   P   I   BR---
+  B   SI  LI---
+ ---
+*****************4
+ ALL OTHER ELEMENTS OR NON-NUMERIC CHARACTERS---
+            WILL BE IGNORED !---
+ ---
+*****************5
+ enter formula here: {Q=QUIT}---
+FORMULA ENTERED :---
+C9H20                                                                 ---
+ ---
+*****************6
+ ---
+*****************7
+  ELEMENTAL COMPOSITION:---
+ ---
+*****************8
+C             9---
+H            20---
+              0---
+              0---
+ ---
+*****************9
+ ---
+*****************10
+ number of Atoms for This Species =         29---
+ ---
+*****************11
+    IF THIS IS INCORRECT ENTER " Q "---
+           TO BEGIN AGAIN---
+  OTHERWISE HIT RETURN TO CONTINUE---
+   Radicals are estimated either by entering a---
+   radical {CDOT} group such as " CB/. " on this---
+   screen; or by first estimating the properties---
+   for the stable molecule here { ex: benzene } and---
+   then applying a bond increment {BD} group to ---
+   account for loss of H atom from the molecule.---
+ ---
+*****************12
+   Bond increments cannot be entered here.  They---
+   are entered at the RADICAL menu { available---
+   after the molecule's properties are estimated }.---
+ ---
+*****************13
+   You must be sure that groups you enter adequately---
+   define a molecule (no unbonded electrons).---
+   THERM makes no attempt to check the context---
+   of the groups entered (only whether they are defined).---
+ ---
+*****************14
+ ---
+*****************15
+       Enter the Number of Groups in this species---
+ (each Central Atom or Ring Correction counts as 1 group)---
+ ---
+*****************16
+How many different groups are to be entered?---
+ how many rotors in this species { 0 }---
+        697 groups in the database---
+ ---
+*****************17
+You must enter a total of   4 different groups---
+  {enter " D " to re-enter the last group}---
+  {enter " Q " to start a new species}---
+  {enter " L " to list group database}---
+ ---
+*****************18
+ ---
+*****************19
+  ENTER: "GROUP ID,QUANTITY"---
+ENTER GROUP #   1---
+ENTER GROUP #   2---
+ENTER GROUP #   3---
+ENTER GROUP #   4---
+     Enter symmetry # for molecule---
+Thermo estimation for molecule---
+C9H20_26                                                      C9H20---
+ ---
+*****************20
+  Gr # -  GROUP ID  - Quantity---
+     1 - C/C/H3         -  4---
+     2 - C/C3/H         -  2---
+     3 - C/C2/H2        -  3---
+     4 - GAUCHE         -  2---
+ ---
+*****************21
+UNITS:  Hf{Kcal/mol}   S & Cp {cal/mol K}---
+   Hf      S    Cp 300   400      500     600      800    1000    1500---
+ -57.72  117.14   51.45   65.66   78.27   88.69  104.79  116.66  135.14---
+     CPINF   160.95---
+Symmetry number used to correct S value is        162---
+  EDIT THESE RESULTS?     "Y" OR {"N"}---
+                    SPECIES ESTIMATION OPTIONS MENU---
+            Units:  Kcal/mol  ( cal/mol K )---
+            _______________________________________________________---
+ ---
+*****************22
+            R      -  CALCULATE RADICAL BASED UPON PREVIOUS SPECIES---
+            F      -  ADD CURRENT SPECIES TO OUTPUT FILE---
+            H      -  TOGGLE (SHORT/LONG) MENU---
+            P      -  RETURN TO PREVIOUS SPECIES SCREEN---
+            RETURN -  ENTER A NEW SPECIES---
+            L      -  LIST GROUPS---
+            Q      -  RETURN TO MAIN MENU {choose "F" ---
+                      first; current species is discarded---
+                      when you return to MAIN menu}---
+            X      -  EXIT PROGRAM---
+            S      -  GET SPECIES FROM { *.DOC } FILE---
+            ?      -  HELP  ---
+            U      -  CHANGE CURRENT UNITS TO : KJ/mol  (J/mol K)---
+ ---
+*****************23
+ ---
+*****************24
+ LAST SPECIES FILED:  C9H19_26_    ---
+ ---
+*****************25
+          enter option : { ENTER NEW SPECIES }---
+                    SPECIES ESTIMATION OPTIONS MENU---
+            Units:  Kcal/mol  ( cal/mol K )---
+            _______________________________________________________---
+ ---
+*****************26
+            R      -  CALCULATE RADICAL BASED UPON PREVIOUS SPECIES---
+            F      -  ADD CURRENT SPECIES TO OUTPUT FILE---
+            H      -  TOGGLE (SHORT/LONG) MENU---
+            P      -  RETURN TO PREVIOUS SPECIES SCREEN---
+            RETURN -  ENTER A NEW SPECIES---
+            L      -  LIST GROUPS---
+            Q      -  RETURN TO MAIN MENU {choose "F" ---
+                      first; current species is discarded---
+                      when you return to MAIN menu}---
+            X      -  EXIT PROGRAM---
+            S      -  GET SPECIES FROM { *.DOC } FILE---
+            ?      -  HELP  ---
+            U      -  CHANGE CURRENT UNITS TO : KJ/mol  (J/mol K)---
+ ---
+*****************27
+ ---
+*****************28
+ LAST SPECIES FILED:  C9H20_26     ---
+ ---
+*****************29
+-------------------------End Line---------------------------------------
+
+8	0:	0.0
+
+8	1:	c9h19_26_d
+
+8	2:	c9h19_26_d
+
+8	3:	r
+
+8	4:	s
+
+8	5:	c9h19
+
+8	6:	8.0
+
+8	7:	81.0
+
+8	8:	
+
+8	9:	
+
+8	10:	
+
+8	11:	
+
+8	12:	
+
+8	13:	
+
+8	14:	
+
+8	15:	
+
+8	16:	
+
+8	17:	
+
+8	18:	
+
+8	19:	
+
+8	20:	
+
+8	21:	
+
+8	22:	
+
+8	23:	
+
+8	24:	
+
+8	25:	
+
+8	26:	
+
+8	27:	
+
+8	28:	
+
+8	29:	
+
+8	30:	
+
+8	31:	
+
+input:	['r\n', u's\n', '81\n', u'c9h19_26_d\n', u'c9h19\n', '\n', '8\n', '\n', 'f\n']
+output:
+------------------------Start Line--------------------------------------
+          enter option : { ENTER NEW SPECIES }---
+                       RADICAL CALCULATION MENU ---
+                  {radical by loss of H from parent}---
+           _________________________________________________---
+ ---
+*****************0
+              Q        -   RETURN TO PREVIOUS MENU---
+              ?        -   HELP---
+ ---
+*****************1
+ THE FOLLOWING BOND INCREMENT GROUPS ARE DEFINED:---
+ ---
+*****************2
+GR#     GROUP ID          GR#     GROUP ID          GR#     GROUP ID     ---
+____________________________________________________________________________---
+ ---
+*****************3
+177  -  P                 178  -  IC4H9             179  -  C2H5          ---
+180  -  NEO-C5            181  -  S                 182  -  CC.C          ---
+183  -  RCCJC             184  -  RCCJCC            185  -  T             ---
+186  -  VIN               187  -  VINS              188  -  ALLYLP        ---
+189  -  ALLYLS            190  -  ALLYLT            191  -  C#CJ          ---
+192  -  C#CCJ             193  -  C#CCJC            194  -  C#CCJC2       ---
+195  -  C*C*CJ            196  -  C*C*CJC           197  -  C*CJC*C       ---
+198  -  LC*CJC*C          199  -  L2C*CJC*C         200  -  C*CCJC*C      ---
+201  -  C*CC*CCJ          202  -  CJC*CC#C          203  -  CYC3          ---
+204  -  CYC4              205  -  CYC4E             206  -  CYPD          ---
+207  -  CYPDVIN           208  -  CYPENE            209  -  CYC5H9        ---
+210  -  CYCJCH3           211  -  CHD               212  -  CHDOH         ---
+213  -  CHD14             214  -  CHENE             215  -  CHENEA        ---
+216  -  CYC7H7            217  -  PH1               218  -  NAPH1         ---
+219  -  NAPH2             220  -  BENZYLP           221  -  BENZYLS       ---
+222  -  BENZYLT           223  -  CH3O              224  -  ALKOXY        ---
+225  -  VINOXY            226  -  ROCOJ             227  -  C*CHOJ        ---
+228  -  OJC*OC            229  -  PHENOXY           230  -  CPDOXY        ---
+231  -  C*CC*COJ          232  -  C*CCOJ*C          233  -  O*CC*COJ      ---
+ ---
+*****************4
+   ENTER BOND INCREMENT NAME ONLY---
+         enter option : { Q }---
+PARENT =  C9H20_26      ---
+          C9H20---
+ ---
+*****************5
+enter the symmetry number for the radical---
+ ---
+*****************6
+Enter radical name(ID)---
+ ---
+*****************7
+enter the elemental formula for this radical---
+{ example: for PHENYL enter " C6H5 " }---
+{          for BENZYL enter " C6H5CH2 " }---
+{          FOR VINYL  enter " C2H3 " }---
+ ---
+*****************8
+ ---
+*****************9
+              4 ELEMENTS MAXIMUM---
+ ---
+*****************10
+ ---
+*****************11
+FORMULA ENTERED :---
+C9H19                                                                 ---
+ ---
+*****************12
+ ---
+*****************13
+  ELEMENTAL COMPOSITION:---
+ ---
+*****************14
+C             9---
+H            19---
+              0---
+              0---
+ ---
+*****************15
+ ---
+*****************16
+ number of Atoms for This Species =         28---
+ ---
+*****************17
+    IF THIS IS INCORRECT ENTER " Q "---
+           TO BEGIN AGAIN---
+  OTHERWISE HIT RETURN TO CONTINUE---
+ how many rotors in this species { 0 }---
+Thermo estimation for radical---
+C9H19_26_D                                                    C9H19---
+RADICAL BASED UPON PARENT  C9H20_26                                                                          C9H20---
+PARENT SYMMETRY        162---
+ ---
+*****************18
+  Gr # -  GROUP ID  - Quantity---
+     1 - C/C/H3         -  4---
+     2 - C/C3/H         -  2---
+     3 - C/C2/H2        -  3---
+     4 - GAUCHE         -  2---
+     5 - S              -  1---
+ ---
+*****************19
+UNITS:  Hf{Kcal/mol}   S & Cp {cal/mol K}---
+   Hf      S    Cp 300   400      500     600      800    1000    1500---
+ -11.75  122.78   49.67   62.68   74.78   84.88  100.39  111.88  129.74---
+     CPINF   154.99---
+Symmetry number used to correct S value is          81---
+R ln(2) has been added to S to account for unpaired electron---
+    bond dissociation energy used =      98.07---
+  EDIT THESE RESULTS?     "Y" OR {"N"}---
+                    SPECIES ESTIMATION OPTIONS MENU---
+            Units:  Kcal/mol  ( cal/mol K )---
+            _______________________________________________________---
+ ---
+*****************20
+            R      -  CALCULATE RADICAL BASED UPON PREVIOUS SPECIES---
+            F      -  ADD CURRENT SPECIES TO OUTPUT FILE---
+            H      -  TOGGLE (SHORT/LONG) MENU---
+            P      -  RETURN TO PREVIOUS SPECIES SCREEN---
+            M      -  RETURN TO PREVIOUS PARENT MOLECULE---
+            RETURN -  ENTER A NEW SPECIES---
+            L      -  LIST GROUPS---
+            Q      -  RETURN TO MAIN MENU {choose "F" ---
+                      first; current species is discarded---
+                      when you return to MAIN menu}---
+            X      -  EXIT PROGRAM---
+            S      -  GET SPECIES FROM { *.DOC } FILE---
+            ?      -  HELP  ---
+            U      -  CHANGE CURRENT UNITS TO : KJ/mol  (J/mol K)---
+ ---
+*****************21
+ ---
+*****************22
+ LAST SPECIES FILED:  C9H20_26     ---
+ ---
+*****************23
+          enter option : { ENTER NEW SPECIES }---
+                    SPECIES ESTIMATION OPTIONS MENU---
+            Units:  Kcal/mol  ( cal/mol K )---
+            _______________________________________________________---
+ ---
+*****************24
+            R      -  CALCULATE RADICAL BASED UPON PREVIOUS SPECIES---
+            F      -  ADD CURRENT SPECIES TO OUTPUT FILE---
+            H      -  TOGGLE (SHORT/LONG) MENU---
+            P      -  RETURN TO PREVIOUS SPECIES SCREEN---
+            M      -  RETURN TO PREVIOUS PARENT MOLECULE---
+            RETURN -  ENTER A NEW SPECIES---
+            L      -  LIST GROUPS---
+            Q      -  RETURN TO MAIN MENU {choose "F" ---
+                      first; current species is discarded---
+                      when you return to MAIN menu}---
+            X      -  EXIT PROGRAM---
+            S      -  GET SPECIES FROM { *.DOC } FILE---
+            ?      -  HELP  ---
+            U      -  CHANGE CURRENT UNITS TO : KJ/mol  (J/mol K)---
+ ---
+*****************25
+ ---
+*****************26
+ LAST SPECIES FILED:  C9H19_26_    ---
+ ---
+*****************27
+-------------------------End Line---------------------------------------
+
+9	0:	1.0
+
+9	1:	c9h18_1_26
+
+9	2:	c9h18_1_26
+
+9	3:	m
+
+9	4:	
+
+9	5:	c9h18
+
+9	6:	7.0
+
+9	7:	27.0
+
+9	8:	11.0
+
+9	9:	8.0
+
+9	10:	cd/h2
+
+9	11:	1.0
+
+9	12:	cd/c2
+
+9	13:	1.0
+
+9	14:	c/cd/h3
+
+9	15:	1.0
+
+9	16:	c/c/cd/h2
+
+9	17:	1.0
+
+9	18:	c/c2/h2
+
+9	19:	2.0
+
+9	20:	c/c3/h
+
+9	21:	1.0
+
+9	22:	c/c/h3
+
+9	23:	2.0
+
+9	24:	gauche
+
+9	25:	2.0
+
+9	26:	
+
+9	27:	
+
+9	28:	
+
+9	29:	
+
+9	30:	
+
+9	31:	
+
+input:	['\n', u'c9h18_1_26\n', u'c9h18\n', '\n', '11\n', '8\n', '7\n', u'cd/h2 1\n', u'cd/c2 1\n', u'c/cd/h3 1\n', u'c/c/cd/h2 1\n', u'c/c2/h2 2\n', u'c/c3/h 1\n', u'c/c/h3 2\n', u'gauche 2\n', '27\n', '\n', 'f\n']
+output:
+------------------------Start Line--------------------------------------
+          enter option : { ENTER NEW SPECIES }---
+    Enter species name (ID)---
+      9 characters maximum---
+{ "Q" return to opening menu }---
+ ---
+*****************0
+enter the elemental formula for this species ---
+{ example: for PHENOL enter " C6H5OH " }---
+{          for TOLUENE enter " C6H5CH3 " }---
+{          for CHLOROPHENOL enter " C6H4CLOH " }---
+ ---
+*****************1
+ ---
+*****************2
+        4 ELEMENTS MAXIMUM : 70 CHARACTERS MAX---
+ ---
+*****************3
+  THE FOLLOWING ELEMENTS ARE DEFINED:---
+  C   H   O   CL  S   N   F   P   I   BR---
+  B   SI  LI---
+ ---
+*****************4
+ ALL OTHER ELEMENTS OR NON-NUMERIC CHARACTERS---
+            WILL BE IGNORED !---
+ ---
+*****************5
+ enter formula here: {Q=QUIT}---
+FORMULA ENTERED :---
+C9H18                                                                 ---
+ ---
+*****************6
+ ---
+*****************7
+  ELEMENTAL COMPOSITION:---
+ ---
+*****************8
+C             9---
+H            18---
+              0---
+              0---
+ ---
+*****************9
+ ---
+*****************10
+ number of Atoms for This Species =         27---
+ ---
+*****************11
+    IF THIS IS INCORRECT ENTER " Q "---
+           TO BEGIN AGAIN---
+  OTHERWISE HIT RETURN TO CONTINUE---
+   Radicals are estimated either by entering a---
+   radical {CDOT} group such as " CB/. " on this---
+   screen; or by first estimating the properties---
+   for the stable molecule here { ex: benzene } and---
+   then applying a bond increment {BD} group to ---
+   account for loss of H atom from the molecule.---
+ ---
+*****************12
+   Bond increments cannot be entered here.  They---
+   are entered at the RADICAL menu { available---
+   after the molecule's properties are estimated }.---
+ ---
+*****************13
+   You must be sure that groups you enter adequately---
+   define a molecule (no unbonded electrons).---
+   THERM makes no attempt to check the context---
+   of the groups entered (only whether they are defined).---
+ ---
+*****************14
+ ---
+*****************15
+       Enter the Number of Groups in this species---
+ (each Central Atom or Ring Correction counts as 1 group)---
+ ---
+*****************16
+How many different groups are to be entered?---
+ how many rotors in this species { 0 }---
+        697 groups in the database---
+ ---
+*****************17
+You must enter a total of   8 different groups---
+  {enter " D " to re-enter the last group}---
+  {enter " Q " to start a new species}---
+  {enter " L " to list group database}---
+ ---
+*****************18
+ ---
+*****************19
+  ENTER: "GROUP ID,QUANTITY"---
+ENTER GROUP #   1---
+ENTER GROUP #   2---
+ENTER GROUP #   3---
+ENTER GROUP #   4---
+ENTER GROUP #   5---
+ENTER GROUP #   6---
+ENTER GROUP #   7---
+ENTER GROUP #   8---
+     Enter symmetry # for molecule---
+Thermo estimation for molecule---
+C9H18_1_26                                                    C9H18---
+ ---
+*****************20
+  Gr # -  GROUP ID  - Quantity  Gr # -  GROUP ID  - Quantity---
+     1 - CD/H2          -  1 |     5 - C/C2/H2        -  2---
+     2 - CD/C2          -  1 |     6 - C/C3/H         -  1---
+     3 - C/CD/H3        -  1 |     7 - C/C/H3         -  2---
+     4 - C/C/CD/H2      -  1 |     8 - GAUCHE         -  2---
+ ---
+*****************21
+UNITS:  Hf{Kcal/mol}   S & Cp {cal/mol K}---
+   Hf      S    Cp 300   400      500     600      800    1000    1500---
+ -29.60  117.06   48.27   61.34   73.01   82.71   97.76  108.91  126.03---
+     CPINF   150.02---
+Symmetry number used to correct S value is         27---
+  EDIT THESE RESULTS?     "Y" OR {"N"}---
+                    SPECIES ESTIMATION OPTIONS MENU---
+            Units:  Kcal/mol  ( cal/mol K )---
+            _______________________________________________________---
+ ---
+*****************22
+            R      -  CALCULATE RADICAL BASED UPON PREVIOUS SPECIES---
+            F      -  ADD CURRENT SPECIES TO OUTPUT FILE---
+            H      -  TOGGLE (SHORT/LONG) MENU---
+            P      -  RETURN TO PREVIOUS SPECIES SCREEN---
+            RETURN -  ENTER A NEW SPECIES---
+            L      -  LIST GROUPS---
+            Q      -  RETURN TO MAIN MENU {choose "F" ---
+                      first; current species is discarded---
+                      when you return to MAIN menu}---
+            X      -  EXIT PROGRAM---
+            S      -  GET SPECIES FROM { *.DOC } FILE---
+            ?      -  HELP  ---
+            U      -  CHANGE CURRENT UNITS TO : KJ/mol  (J/mol K)---
+ ---
+*****************23
+ ---
+*****************24
+ LAST SPECIES FILED:  C9H19_26_    ---
+ ---
+*****************25
+          enter option : { ENTER NEW SPECIES }---
+                    SPECIES ESTIMATION OPTIONS MENU---
+            Units:  Kcal/mol  ( cal/mol K )---
+            _______________________________________________________---
+ ---
+*****************26
+            R      -  CALCULATE RADICAL BASED UPON PREVIOUS SPECIES---
+            F      -  ADD CURRENT SPECIES TO OUTPUT FILE---
+            H      -  TOGGLE (SHORT/LONG) MENU---
+            P      -  RETURN TO PREVIOUS SPECIES SCREEN---
+            RETURN -  ENTER A NEW SPECIES---
+            L      -  LIST GROUPS---
+            Q      -  RETURN TO MAIN MENU {choose "F" ---
+                      first; current species is discarded---
+                      when you return to MAIN menu}---
+            X      -  EXIT PROGRAM---
+            S      -  GET SPECIES FROM { *.DOC } FILE---
+            ?      -  HELP  ---
+            U      -  CHANGE CURRENT UNITS TO : KJ/mol  (J/mol K)---
+ ---
+*****************27
+ ---
+*****************28
+ LAST SPECIES FILED:  C9H18_1_2    ---
+ ---
+*****************29
+-------------------------End Line---------------------------------------
+
+10	0:	1.0
+
+10	1:	c9h18_2_26
+
+10	2:	c9h18_2_26
+
+10	3:	m
+
+10	4:	
+
+10	5:	c9h18
+
+10	6:	7.0
+
+10	7:	81.0
+
+10	8:	11.0
+
+10	9:	8.0
+
+10	10:	c/cd/h3
+
+10	11:	2.0
+
+10	12:	cd/c2
+
+10	13:	1.0
+
+10	14:	cd/c/h
+
+10	15:	1.0
+
+10	16:	c/c/cd/h2
+
+10	17:	1.0
+
+10	18:	c/c2/h2
+
+10	19:	1.0
+
+10	20:	c/c3/h
+
+10	21:	1.0
+
+10	22:	c/c/h3
+
+10	23:	2.0
+
+10	24:	gauche
+
+10	25:	2.0
+
+10	26:	
+
+10	27:	
+
+10	28:	
+
+10	29:	
+
+10	30:	
+
+10	31:	
+
+input:	['\n', u'c9h18_2_26\n', u'c9h18\n', '\n', '11\n', '8\n', '7\n', u'c/cd/h3 2\n', u'cd/c2 1\n', u'cd/c/h 1\n', u'c/c/cd/h2 1\n', u'c/c2/h2 1\n', u'c/c3/h 1\n', u'c/c/h3 2\n', u'gauche 2\n', '81\n', '\n', 'f\n']
+output:
+------------------------Start Line--------------------------------------
+          enter option : { ENTER NEW SPECIES }---
+    Enter species name (ID)---
+      9 characters maximum---
+{ "Q" return to opening menu }---
+ ---
+*****************0
+enter the elemental formula for this species ---
+{ example: for PHENOL enter " C6H5OH " }---
+{          for TOLUENE enter " C6H5CH3 " }---
+{          for CHLOROPHENOL enter " C6H4CLOH " }---
+ ---
+*****************1
+ ---
+*****************2
+        4 ELEMENTS MAXIMUM : 70 CHARACTERS MAX---
+ ---
+*****************3
+  THE FOLLOWING ELEMENTS ARE DEFINED:---
+  C   H   O   CL  S   N   F   P   I   BR---
+  B   SI  LI---
+ ---
+*****************4
+ ALL OTHER ELEMENTS OR NON-NUMERIC CHARACTERS---
+            WILL BE IGNORED !---
+ ---
+*****************5
+ enter formula here: {Q=QUIT}---
+FORMULA ENTERED :---
+C9H18                                                                 ---
+ ---
+*****************6
+ ---
+*****************7
+  ELEMENTAL COMPOSITION:---
+ ---
+*****************8
+C             9---
+H            18---
+              0---
+              0---
+ ---
+*****************9
+ ---
+*****************10
+ number of Atoms for This Species =         27---
+ ---
+*****************11
+    IF THIS IS INCORRECT ENTER " Q "---
+           TO BEGIN AGAIN---
+  OTHERWISE HIT RETURN TO CONTINUE---
+   Radicals are estimated either by entering a---
+   radical {CDOT} group such as " CB/. " on this---
+   screen; or by first estimating the properties---
+   for the stable molecule here { ex: benzene } and---
+   then applying a bond increment {BD} group to ---
+   account for loss of H atom from the molecule.---
+ ---
+*****************12
+   Bond increments cannot be entered here.  They---
+   are entered at the RADICAL menu { available---
+   after the molecule's properties are estimated }.---
+ ---
+*****************13
+   You must be sure that groups you enter adequately---
+   define a molecule (no unbonded electrons).---
+   THERM makes no attempt to check the context---
+   of the groups entered (only whether they are defined).---
+ ---
+*****************14
+ ---
+*****************15
+       Enter the Number of Groups in this species---
+ (each Central Atom or Ring Correction counts as 1 group)---
+ ---
+*****************16
+How many different groups are to be entered?---
+ how many rotors in this species { 0 }---
+        697 groups in the database---
+ ---
+*****************17
+You must enter a total of   8 different groups---
+  {enter " D " to re-enter the last group}---
+  {enter " Q " to start a new species}---
+  {enter " L " to list group database}---
+ ---
+*****************18
+ ---
+*****************19
+  ENTER: "GROUP ID,QUANTITY"---
+ENTER GROUP #   1---
+ENTER GROUP #   2---
+ENTER GROUP #   3---
+ENTER GROUP #   4---
+ENTER GROUP #   5---
+ENTER GROUP #   6---
+ENTER GROUP #   7---
+ENTER GROUP #   8---
+     Enter symmetry # for molecule---
+Thermo estimation for molecule---
+C9H18_2_26                                                    C9H18---
+ ---
+*****************20
+  Gr # -  GROUP ID  - Quantity  Gr # -  GROUP ID  - Quantity---
+     1 - C/CD/H3        -  2 |     5 - C/C2/H2        -  1---
+     2 - CD/C2          -  1 |     6 - C/C3/H         -  1---
+     3 - CD/C/H         -  1 |     7 - C/C/H3         -  2---
+     4 - C/C/CD/H2      -  1 |     8 - GAUCHE         -  2---
+ ---
+*****************21
+UNITS:  Hf{Kcal/mol}   S & Cp {cal/mol K}---
+   Hf      S    Cp 300   400      500     600      800    1000    1500---
+ -32.24  115.76   48.11   60.91   72.41   82.12   97.25  108.49  125.74---
+     CPINF   150.02---
+Symmetry number used to correct S value is         81---
+  EDIT THESE RESULTS?     "Y" OR {"N"}---
+                    SPECIES ESTIMATION OPTIONS MENU---
+            Units:  Kcal/mol  ( cal/mol K )---
+            _______________________________________________________---
+ ---
+*****************22
+            R      -  CALCULATE RADICAL BASED UPON PREVIOUS SPECIES---
+            F      -  ADD CURRENT SPECIES TO OUTPUT FILE---
+            H      -  TOGGLE (SHORT/LONG) MENU---
+            P      -  RETURN TO PREVIOUS SPECIES SCREEN---
+            RETURN -  ENTER A NEW SPECIES---
+            L      -  LIST GROUPS---
+            Q      -  RETURN TO MAIN MENU {choose "F" ---
+                      first; current species is discarded---
+                      when you return to MAIN menu}---
+            X      -  EXIT PROGRAM---
+            S      -  GET SPECIES FROM { *.DOC } FILE---
+            ?      -  HELP  ---
+            U      -  CHANGE CURRENT UNITS TO : KJ/mol  (J/mol K)---
+ ---
+*****************23
+ ---
+*****************24
+ LAST SPECIES FILED:  C9H18_1_2    ---
+ ---
+*****************25
+          enter option : { ENTER NEW SPECIES }---
+                    SPECIES ESTIMATION OPTIONS MENU---
+            Units:  Kcal/mol  ( cal/mol K )---
+            _______________________________________________________---
+ ---
+*****************26
+            R      -  CALCULATE RADICAL BASED UPON PREVIOUS SPECIES---
+            F      -  ADD CURRENT SPECIES TO OUTPUT FILE---
+            H      -  TOGGLE (SHORT/LONG) MENU---
+            P      -  RETURN TO PREVIOUS SPECIES SCREEN---
+            RETURN -  ENTER A NEW SPECIES---
+            L      -  LIST GROUPS---
+            Q      -  RETURN TO MAIN MENU {choose "F" ---
+                      first; current species is discarded---
+                      when you return to MAIN menu}---
+            X      -  EXIT PROGRAM---
+            S      -  GET SPECIES FROM { *.DOC } FILE---
+            ?      -  HELP  ---
+            U      -  CHANGE CURRENT UNITS TO : KJ/mol  (J/mol K)---
+ ---
+*****************27
+ ---
+*****************28
+ LAST SPECIES FILED:  C9H18_2_2    ---
+ ---
+*****************29
+-------------------------End Line---------------------------------------
+
+11	0:	1.0
+
+11	1:	c9h18_3_26
+
+11	2:	c9h18_3_26
+
+11	3:	m
+
+11	4:	
+
+11	5:	c9h18
+
+11	6:	7.0
+
+11	7:	81.0
+
+11	8:	11.0
+
+11	9:	6.0
+
+11	10:	c/c/h3
+
+11	11:	4.0
+
+11	12:	c/c2/cd/h
+
+11	13:	1.0
+
+11	14:	cd/c/h
+
+11	15:	2.0
+
+11	16:	c/c/cd/h2
+
+11	17:	1.0
+
+11	18:	c/c3/h
+
+11	19:	1.0
+
+11	20:	gauche
+
+11	21:	2.0
+
+11	22:	
+
+11	23:	
+
+11	24:	
+
+11	25:	
+
+11	26:	
+
+11	27:	
+
+11	28:	
+
+11	29:	
+
+11	30:	
+
+11	31:	
+
+input:	['\n', u'c9h18_3_26\n', u'c9h18\n', '\n', '11\n', '6\n', '7\n', u'c/c/h3 4\n', u'c/c2/cd/h 1\n', u'cd/c/h 2\n', u'c/c/cd/h2 1\n', u'c/c3/h 1\n', u'gauche 2\n', '81\n', '\n', 'f\n']
+output:
+------------------------Start Line--------------------------------------
+          enter option : { ENTER NEW SPECIES }---
+    Enter species name (ID)---
+      9 characters maximum---
+{ "Q" return to opening menu }---
+ ---
+*****************0
+enter the elemental formula for this species ---
+{ example: for PHENOL enter " C6H5OH " }---
+{          for TOLUENE enter " C6H5CH3 " }---
+{          for CHLOROPHENOL enter " C6H4CLOH " }---
+ ---
+*****************1
+ ---
+*****************2
+        4 ELEMENTS MAXIMUM : 70 CHARACTERS MAX---
+ ---
+*****************3
+  THE FOLLOWING ELEMENTS ARE DEFINED:---
+  C   H   O   CL  S   N   F   P   I   BR---
+  B   SI  LI---
+ ---
+*****************4
+ ALL OTHER ELEMENTS OR NON-NUMERIC CHARACTERS---
+            WILL BE IGNORED !---
+ ---
+*****************5
+ enter formula here: {Q=QUIT}---
+FORMULA ENTERED :---
+C9H18                                                                 ---
+ ---
+*****************6
+ ---
+*****************7
+  ELEMENTAL COMPOSITION:---
+ ---
+*****************8
+C             9---
+H            18---
+              0---
+              0---
+ ---
+*****************9
+ ---
+*****************10
+ number of Atoms for This Species =         27---
+ ---
+*****************11
+    IF THIS IS INCORRECT ENTER " Q "---
+           TO BEGIN AGAIN---
+  OTHERWISE HIT RETURN TO CONTINUE---
+   Radicals are estimated either by entering a---
+   radical {CDOT} group such as " CB/. " on this---
+   screen; or by first estimating the properties---
+   for the stable molecule here { ex: benzene } and---
+   then applying a bond increment {BD} group to ---
+   account for loss of H atom from the molecule.---
+ ---
+*****************12
+   Bond increments cannot be entered here.  They---
+   are entered at the RADICAL menu { available---
+   after the molecule's properties are estimated }.---
+ ---
+*****************13
+   You must be sure that groups you enter adequately---
+   define a molecule (no unbonded electrons).---
+   THERM makes no attempt to check the context---
+   of the groups entered (only whether they are defined).---
+ ---
+*****************14
+ ---
+*****************15
+       Enter the Number of Groups in this species---
+ (each Central Atom or Ring Correction counts as 1 group)---
+ ---
+*****************16
+How many different groups are to be entered?---
+ how many rotors in this species { 0 }---
+        697 groups in the database---
+ ---
+*****************17
+You must enter a total of   6 different groups---
+  {enter " D " to re-enter the last group}---
+  {enter " Q " to start a new species}---
+  {enter " L " to list group database}---
+ ---
+*****************18
+ ---
+*****************19
+  ENTER: "GROUP ID,QUANTITY"---
+ENTER GROUP #   1---
+ENTER GROUP #   2---
+ENTER GROUP #   3---
+ENTER GROUP #   4---
+ENTER GROUP #   5---
+ENTER GROUP #   6---
+     Enter symmetry # for molecule---
+Thermo estimation for molecule---
+C9H18_3_26                                                    C9H18---
+ ---
+*****************20
+  Gr # -  GROUP ID  - Quantity  Gr # -  GROUP ID  - Quantity---
+     1 - C/C/H3         -  4 |     4 - C/C/CD/H2      -  1---
+     2 - C/C2/CD/H      -  1 |     5 - C/C3/H         -  1---
+     3 - CD/C/H         -  2 |     6 - GAUCHE         -  2---
+ ---
+*****************21
+UNITS:  Hf{Kcal/mol}   S & Cp {cal/mol K}---
+   Hf      S    Cp 300   400      500     600      800    1000    1500---
+ -31.10  114.52   47.56   60.58   72.28   82.02   97.29  108.51  125.89---
+     CPINF   150.02---
+Symmetry number used to correct S value is         81---
+  EDIT THESE RESULTS?     "Y" OR {"N"}---
+                    SPECIES ESTIMATION OPTIONS MENU---
+            Units:  Kcal/mol  ( cal/mol K )---
+            _______________________________________________________---
+ ---
+*****************22
+            R      -  CALCULATE RADICAL BASED UPON PREVIOUS SPECIES---
+            F      -  ADD CURRENT SPECIES TO OUTPUT FILE---
+            H      -  TOGGLE (SHORT/LONG) MENU---
+            P      -  RETURN TO PREVIOUS SPECIES SCREEN---
+            RETURN -  ENTER A NEW SPECIES---
+            L      -  LIST GROUPS---
+            Q      -  RETURN TO MAIN MENU {choose "F" ---
+                      first; current species is discarded---
+                      when you return to MAIN menu}---
+            X      -  EXIT PROGRAM---
+            S      -  GET SPECIES FROM { *.DOC } FILE---
+            ?      -  HELP  ---
+            U      -  CHANGE CURRENT UNITS TO : KJ/mol  (J/mol K)---
+ ---
+*****************23
+ ---
+*****************24
+ LAST SPECIES FILED:  C9H18_2_2    ---
+ ---
+*****************25
+          enter option : { ENTER NEW SPECIES }---
+                    SPECIES ESTIMATION OPTIONS MENU---
+            Units:  Kcal/mol  ( cal/mol K )---
+            _______________________________________________________---
+ ---
+*****************26
+            R      -  CALCULATE RADICAL BASED UPON PREVIOUS SPECIES---
+            F      -  ADD CURRENT SPECIES TO OUTPUT FILE---
+            H      -  TOGGLE (SHORT/LONG) MENU---
+            P      -  RETURN TO PREVIOUS SPECIES SCREEN---
+            RETURN -  ENTER A NEW SPECIES---
+            L      -  LIST GROUPS---
+            Q      -  RETURN TO MAIN MENU {choose "F" ---
+                      first; current species is discarded---
+                      when you return to MAIN menu}---
+            X      -  EXIT PROGRAM---
+            S      -  GET SPECIES FROM { *.DOC } FILE---
+            ?      -  HELP  ---
+            U      -  CHANGE CURRENT UNITS TO : KJ/mol  (J/mol K)---
+ ---
+*****************27
+ ---
+*****************28
+ LAST SPECIES FILED:  C9H18_3_2    ---
+ ---
+*****************29
+-------------------------End Line---------------------------------------
+
+12	0:	0.0
+
+12	1:	c9h18_1_26
+
+12	2:	c9h18_1_26
+
+12	3:	m
+
+12	4:	
+
+12	5:	c9h18
+
+12	6:	7.0
+
+12	7:	27.0
+
+12	8:	11.0
+
+12	9:	8.0
+
+12	10:	cd/h2
+
+12	11:	1.0
+
+12	12:	cd/c2
+
+12	13:	1.0
+
+12	14:	c/cd/h3
+
+12	15:	1.0
+
+12	16:	c/c/cd/h2
+
+12	17:	1.0
+
+12	18:	c/c2/h2
+
+12	19:	2.0
+
+12	20:	c/c3/h
+
+12	21:	1.0
+
+12	22:	c/c/h3
+
+12	23:	2.0
+
+12	24:	gauche
+
+12	25:	2.0
+
+12	26:	
+
+12	27:	
+
+12	28:	
+
+12	29:	
+
+12	30:	
+
+12	31:	
+
+input:	['\n', u'c9h18_1_26\n', u'c9h18\n', '\n', '11\n', '8\n', '7\n', u'cd/h2 1\n', u'cd/c2 1\n', u'c/cd/h3 1\n', u'c/c/cd/h2 1\n', u'c/c2/h2 2\n', u'c/c3/h 1\n', u'c/c/h3 2\n', u'gauche 2\n', '27\n', '\n', 'f\n']
+output:
+------------------------Start Line--------------------------------------
+          enter option : { ENTER NEW SPECIES }---
+    Enter species name (ID)---
+      9 characters maximum---
+{ "Q" return to opening menu }---
+ ---
+*****************0
+enter the elemental formula for this species ---
+{ example: for PHENOL enter " C6H5OH " }---
+{          for TOLUENE enter " C6H5CH3 " }---
+{          for CHLOROPHENOL enter " C6H4CLOH " }---
+ ---
+*****************1
+ ---
+*****************2
+        4 ELEMENTS MAXIMUM : 70 CHARACTERS MAX---
+ ---
+*****************3
+  THE FOLLOWING ELEMENTS ARE DEFINED:---
+  C   H   O   CL  S   N   F   P   I   BR---
+  B   SI  LI---
+ ---
+*****************4
+ ALL OTHER ELEMENTS OR NON-NUMERIC CHARACTERS---
+            WILL BE IGNORED !---
+ ---
+*****************5
+ enter formula here: {Q=QUIT}---
+FORMULA ENTERED :---
+C9H18                                                                 ---
+ ---
+*****************6
+ ---
+*****************7
+  ELEMENTAL COMPOSITION:---
+ ---
+*****************8
+C             9---
+H            18---
+              0---
+              0---
+ ---
+*****************9
+ ---
+*****************10
+ number of Atoms for This Species =         27---
+ ---
+*****************11
+    IF THIS IS INCORRECT ENTER " Q "---
+           TO BEGIN AGAIN---
+  OTHERWISE HIT RETURN TO CONTINUE---
+   Radicals are estimated either by entering a---
+   radical {CDOT} group such as " CB/. " on this---
+   screen; or by first estimating the properties---
+   for the stable molecule here { ex: benzene } and---
+   then applying a bond increment {BD} group to ---
+   account for loss of H atom from the molecule.---
+ ---
+*****************12
+   Bond increments cannot be entered here.  They---
+   are entered at the RADICAL menu { available---
+   after the molecule's properties are estimated }.---
+ ---
+*****************13
+   You must be sure that groups you enter adequately---
+   define a molecule (no unbonded electrons).---
+   THERM makes no attempt to check the context---
+   of the groups entered (only whether they are defined).---
+ ---
+*****************14
+ ---
+*****************15
+       Enter the Number of Groups in this species---
+ (each Central Atom or Ring Correction counts as 1 group)---
+ ---
+*****************16
+How many different groups are to be entered?---
+ how many rotors in this species { 0 }---
+        697 groups in the database---
+ ---
+*****************17
+You must enter a total of   8 different groups---
+  {enter " D " to re-enter the last group}---
+  {enter " Q " to start a new species}---
+  {enter " L " to list group database}---
+ ---
+*****************18
+ ---
+*****************19
+  ENTER: "GROUP ID,QUANTITY"---
+ENTER GROUP #   1---
+ENTER GROUP #   2---
+ENTER GROUP #   3---
+ENTER GROUP #   4---
+ENTER GROUP #   5---
+ENTER GROUP #   6---
+ENTER GROUP #   7---
+ENTER GROUP #   8---
+     Enter symmetry # for molecule---
+Thermo estimation for molecule---
+C9H18_1_26                                                    C9H18---
+ ---
+*****************20
+  Gr # -  GROUP ID  - Quantity  Gr # -  GROUP ID  - Quantity---
+     1 - CD/H2          -  1 |     5 - C/C2/H2        -  2---
+     2 - CD/C2          -  1 |     6 - C/C3/H         -  1---
+     3 - C/CD/H3        -  1 |     7 - C/C/H3         -  2---
+     4 - C/C/CD/H2      -  1 |     8 - GAUCHE         -  2---
+ ---
+*****************21
+UNITS:  Hf{Kcal/mol}   S & Cp {cal/mol K}---
+   Hf      S    Cp 300   400      500     600      800    1000    1500---
+ -29.60  117.06   48.27   61.34   73.01   82.71   97.76  108.91  126.03---
+     CPINF   150.02---
+Symmetry number used to correct S value is         27---
+  EDIT THESE RESULTS?     "Y" OR {"N"}---
+                    SPECIES ESTIMATION OPTIONS MENU---
+            Units:  Kcal/mol  ( cal/mol K )---
+            _______________________________________________________---
+ ---
+*****************22
+            R      -  CALCULATE RADICAL BASED UPON PREVIOUS SPECIES---
+            F      -  ADD CURRENT SPECIES TO OUTPUT FILE---
+            H      -  TOGGLE (SHORT/LONG) MENU---
+            P      -  RETURN TO PREVIOUS SPECIES SCREEN---
+            RETURN -  ENTER A NEW SPECIES---
+            L      -  LIST GROUPS---
+            Q      -  RETURN TO MAIN MENU {choose "F" ---
+                      first; current species is discarded---
+                      when you return to MAIN menu}---
+            X      -  EXIT PROGRAM---
+            S      -  GET SPECIES FROM { *.DOC } FILE---
+            ?      -  HELP  ---
+            U      -  CHANGE CURRENT UNITS TO : KJ/mol  (J/mol K)---
+ ---
+*****************23
+ ---
+*****************24
+ LAST SPECIES FILED:  C9H18_3_2    ---
+ ---
+*****************25
+          enter option : { ENTER NEW SPECIES }---
+                    SPECIES ESTIMATION OPTIONS MENU---
+            Units:  Kcal/mol  ( cal/mol K )---
+            _______________________________________________________---
+ ---
+*****************26
+            R      -  CALCULATE RADICAL BASED UPON PREVIOUS SPECIES---
+            F      -  ADD CURRENT SPECIES TO OUTPUT FILE---
+            H      -  TOGGLE (SHORT/LONG) MENU---
+            P      -  RETURN TO PREVIOUS SPECIES SCREEN---
+            RETURN -  ENTER A NEW SPECIES---
+            L      -  LIST GROUPS---
+            Q      -  RETURN TO MAIN MENU {choose "F" ---
+                      first; current species is discarded---
+                      when you return to MAIN menu}---
+            X      -  EXIT PROGRAM---
+            S      -  GET SPECIES FROM { *.DOC } FILE---
+            ?      -  HELP  ---
+            U      -  CHANGE CURRENT UNITS TO : KJ/mol  (J/mol K)---
+ ---
+*****************27
+ ---
+*****************28
+ LAST SPECIES FILED:  C9H18_1_2    ---
+ ---
+*****************29
+-------------------------End Line---------------------------------------
+
+13	0:	1.0
+
+13	1:	c9h17_1_1_26
+
+13	2:	c9h17_1_1_26
+
+13	3:	r
+
+13	4:	allyls
+
+13	5:	c9h17
+
+13	6:	7.0
+
+13	7:	27.0
+
+13	8:	
+
+13	9:	
+
+13	10:	
+
+13	11:	
+
+13	12:	
+
+13	13:	
+
+13	14:	
+
+13	15:	
+
+13	16:	
+
+13	17:	
+
+13	18:	
+
+13	19:	
+
+13	20:	
+
+13	21:	
+
+13	22:	
+
+13	23:	
+
+13	24:	
+
+13	25:	
+
+13	26:	
+
+13	27:	
+
+13	28:	
+
+13	29:	
+
+13	30:	
+
+13	31:	
+
+input:	['r\n', u'allyls\n', '27\n', u'c9h17_1_1_26\n', u'c9h17\n', '\n', '7\n', '\n', 'f\n']
+output:
+------------------------Start Line--------------------------------------
+          enter option : { ENTER NEW SPECIES }---
+                       RADICAL CALCULATION MENU ---
+                  {radical by loss of H from parent}---
+           _________________________________________________---
+ ---
+*****************0
+              Q        -   RETURN TO PREVIOUS MENU---
+              ?        -   HELP---
+ ---
+*****************1
+ THE FOLLOWING BOND INCREMENT GROUPS ARE DEFINED:---
+ ---
+*****************2
+GR#     GROUP ID          GR#     GROUP ID          GR#     GROUP ID     ---
+____________________________________________________________________________---
+ ---
+*****************3
+177  -  P                 178  -  IC4H9             179  -  C2H5          ---
+180  -  NEO-C5            181  -  S                 182  -  CC.C          ---
+183  -  RCCJC             184  -  RCCJCC            185  -  T             ---
+186  -  VIN               187  -  VINS              188  -  ALLYLP        ---
+189  -  ALLYLS            190  -  ALLYLT            191  -  C#CJ          ---
+192  -  C#CCJ             193  -  C#CCJC            194  -  C#CCJC2       ---
+195  -  C*C*CJ            196  -  C*C*CJC           197  -  C*CJC*C       ---
+198  -  LC*CJC*C          199  -  L2C*CJC*C         200  -  C*CCJC*C      ---
+201  -  C*CC*CCJ          202  -  CJC*CC#C          203  -  CYC3          ---
+204  -  CYC4              205  -  CYC4E             206  -  CYPD          ---
+207  -  CYPDVIN           208  -  CYPENE            209  -  CYC5H9        ---
+210  -  CYCJCH3           211  -  CHD               212  -  CHDOH         ---
+213  -  CHD14             214  -  CHENE             215  -  CHENEA        ---
+216  -  CYC7H7            217  -  PH1               218  -  NAPH1         ---
+219  -  NAPH2             220  -  BENZYLP           221  -  BENZYLS       ---
+222  -  BENZYLT           223  -  CH3O              224  -  ALKOXY        ---
+225  -  VINOXY            226  -  ROCOJ             227  -  C*CHOJ        ---
+228  -  OJC*OC            229  -  PHENOXY           230  -  CPDOXY        ---
+231  -  C*CC*COJ          232  -  C*CCOJ*C          233  -  O*CC*COJ      ---
+ ---
+*****************4
+   ENTER BOND INCREMENT NAME ONLY---
+         enter option : { Q }---
+PARENT =  C9H18_1_26    ---
+          C9H18---
+ ---
+*****************5
+enter the symmetry number for the radical---
+ ---
+*****************6
+Enter radical name(ID)---
+ ---
+*****************7
+enter the elemental formula for this radical---
+{ example: for PHENYL enter " C6H5 " }---
+{          for BENZYL enter " C6H5CH2 " }---
+{          FOR VINYL  enter " C2H3 " }---
+ ---
+*****************8
+ ---
+*****************9
+              4 ELEMENTS MAXIMUM---
+ ---
+*****************10
+ ---
+*****************11
+FORMULA ENTERED :---
+C9H17                                                                 ---
+ ---
+*****************12
+ ---
+*****************13
+  ELEMENTAL COMPOSITION:---
+ ---
+*****************14
+C             9---
+H            17---
+              0---
+              0---
+ ---
+*****************15
+ ---
+*****************16
+ number of Atoms for This Species =         26---
+ ---
+*****************17
+    IF THIS IS INCORRECT ENTER " Q "---
+           TO BEGIN AGAIN---
+  OTHERWISE HIT RETURN TO CONTINUE---
+ how many rotors in this species { 0 }---
+Thermo estimation for radical---
+C9H17_1_1_26                                                  C9H17---
+RADICAL BASED UPON PARENT  C9H18_1_26                                                                        C9H18---
+PARENT SYMMETRY         27---
+ ---
+*****************18
+  Gr # -  GROUP ID  - Quantity  Gr # -  GROUP ID  - Quantity---
+     1 - CD/H2          -  1 |     6 - C/C3/H         -  1---
+     2 - CD/C2          -  1 |     7 - C/C/H3         -  2---
+     3 - C/CD/H3        -  1 |     8 - GAUCHE         -  2---
+     4 - C/C/CD/H2      -  1 |     9 - ALLYLS         -  1---
+     5 - C/C2/H2        -  2---
+ ---
+*****************19
+UNITS:  Hf{Kcal/mol}   S & Cp {cal/mol K}---
+   Hf      S    Cp 300   400      500     600      800    1000    1500---
+   3.80  113.25   46.73   59.52   70.93   80.39   95.01  105.77  122.18---
+     CPINF   144.06---
+Symmetry number used to correct S value is          27---
+R ln(2) has been added to S to account for unpaired electron---
+    bond dissociation energy used =      85.50---
+  EDIT THESE RESULTS?     "Y" OR {"N"}---
+                    SPECIES ESTIMATION OPTIONS MENU---
+            Units:  Kcal/mol  ( cal/mol K )---
+            _______________________________________________________---
+ ---
+*****************20
+            R      -  CALCULATE RADICAL BASED UPON PREVIOUS SPECIES---
+            F      -  ADD CURRENT SPECIES TO OUTPUT FILE---
+            H      -  TOGGLE (SHORT/LONG) MENU---
+            P      -  RETURN TO PREVIOUS SPECIES SCREEN---
+            M      -  RETURN TO PREVIOUS PARENT MOLECULE---
+            RETURN -  ENTER A NEW SPECIES---
+            L      -  LIST GROUPS---
+            Q      -  RETURN TO MAIN MENU {choose "F" ---
+                      first; current species is discarded---
+                      when you return to MAIN menu}---
+            X      -  EXIT PROGRAM---
+            S      -  GET SPECIES FROM { *.DOC } FILE---
+            ?      -  HELP  ---
+            U      -  CHANGE CURRENT UNITS TO : KJ/mol  (J/mol K)---
+ ---
+*****************21
+ ---
+*****************22
+ LAST SPECIES FILED:  C9H18_1_2    ---
+ ---
+*****************23
+          enter option : { ENTER NEW SPECIES }---
+                    SPECIES ESTIMATION OPTIONS MENU---
+            Units:  Kcal/mol  ( cal/mol K )---
+            _______________________________________________________---
+ ---
+*****************24
+            R      -  CALCULATE RADICAL BASED UPON PREVIOUS SPECIES---
+            F      -  ADD CURRENT SPECIES TO OUTPUT FILE---
+            H      -  TOGGLE (SHORT/LONG) MENU---
+            P      -  RETURN TO PREVIOUS SPECIES SCREEN---
+            M      -  RETURN TO PREVIOUS PARENT MOLECULE---
+            RETURN -  ENTER A NEW SPECIES---
+            L      -  LIST GROUPS---
+            Q      -  RETURN TO MAIN MENU {choose "F" ---
+                      first; current species is discarded---
+                      when you return to MAIN menu}---
+            X      -  EXIT PROGRAM---
+            S      -  GET SPECIES FROM { *.DOC } FILE---
+            ?      -  HELP  ---
+            U      -  CHANGE CURRENT UNITS TO : KJ/mol  (J/mol K)---
+ ---
+*****************25
+ ---
+*****************26
+ LAST SPECIES FILED:  C9H17_1_1    ---
+ ---
+*****************27
+-------------------------End Line---------------------------------------
+
+14	0:	1.0
+
+14	1:	c9h19oh_1_26
+
+14	2:	c9h19oh_1_26
+
+14	3:	m
+
+14	4:	
+
+14	5:	c9h20o
+
+14	6:	9.0
+
+14	7:	27.0
+
+14	8:	12.0
+
+14	9:	6.0
+
+14	10:	o/c/h
+
+14	11:	1.0
+
+14	12:	c/c/h2/o
+
+14	13:	1.0
+
+14	14:	c/c/h3
+
+14	15:	3.0
+
+14	16:	c/c3/h
+
+14	17:	2.0
+
+14	18:	c/c2/h2
+
+14	19:	3.0
+
+14	20:	gauche
+
+14	21:	2.0
+
+14	22:	
+
+14	23:	
+
+14	24:	
+
+14	25:	
+
+14	26:	
+
+14	27:	
+
+14	28:	
+
+14	29:	
+
+14	30:	
+
+14	31:	
+
+input:	['\n', u'c9h19oh_1_26\n', u'c9h20o\n', '\n', '12\n', '6\n', '9\n', u'o/c/h 1\n', u'c/c/h2/o 1\n', u'c/c/h3 3\n', u'c/c3/h 2\n', u'c/c2/h2 3\n', u'gauche 2\n', '27\n', '\n', 'f\n']
+output:
+------------------------Start Line--------------------------------------
+          enter option : { ENTER NEW SPECIES }---
+    Enter species name (ID)---
+      9 characters maximum---
+{ "Q" return to opening menu }---
+ ---
+*****************0
+enter the elemental formula for this species ---
+{ example: for PHENOL enter " C6H5OH " }---
+{          for TOLUENE enter " C6H5CH3 " }---
+{          for CHLOROPHENOL enter " C6H4CLOH " }---
+ ---
+*****************1
+ ---
+*****************2
+        4 ELEMENTS MAXIMUM : 70 CHARACTERS MAX---
+ ---
+*****************3
+  THE FOLLOWING ELEMENTS ARE DEFINED:---
+  C   H   O   CL  S   N   F   P   I   BR---
+  B   SI  LI---
+ ---
+*****************4
+ ALL OTHER ELEMENTS OR NON-NUMERIC CHARACTERS---
+            WILL BE IGNORED !---
+ ---
+*****************5
+ enter formula here: {Q=QUIT}---
+FORMULA ENTERED :---
+C9H20O                                                                ---
+ ---
+*****************6
+ ---
+*****************7
+  ELEMENTAL COMPOSITION:---
+ ---
+*****************8
+C             9---
+H            20---
+O             1---
+              0---
+ ---
+*****************9
+ ---
+*****************10
+ number of Atoms for This Species =         30---
+ ---
+*****************11
+    IF THIS IS INCORRECT ENTER " Q "---
+           TO BEGIN AGAIN---
+  OTHERWISE HIT RETURN TO CONTINUE---
+   Radicals are estimated either by entering a---
+   radical {CDOT} group such as " CB/. " on this---
+   screen; or by first estimating the properties---
+   for the stable molecule here { ex: benzene } and---
+   then applying a bond increment {BD} group to ---
+   account for loss of H atom from the molecule.---
+ ---
+*****************12
+   Bond increments cannot be entered here.  They---
+   are entered at the RADICAL menu { available---
+   after the molecule's properties are estimated }.---
+ ---
+*****************13
+   You must be sure that groups you enter adequately---
+   define a molecule (no unbonded electrons).---
+   THERM makes no attempt to check the context---
+   of the groups entered (only whether they are defined).---
+ ---
+*****************14
+ ---
+*****************15
+       Enter the Number of Groups in this species---
+ (each Central Atom or Ring Correction counts as 1 group)---
+ ---
+*****************16
+How many different groups are to be entered?---
+ how many rotors in this species { 0 }---
+        697 groups in the database---
+ ---
+*****************17
+You must enter a total of   6 different groups---
+  {enter " D " to re-enter the last group}---
+  {enter " Q " to start a new species}---
+  {enter " L " to list group database}---
+ ---
+*****************18
+ ---
+*****************19
+  ENTER: "GROUP ID,QUANTITY"---
+ENTER GROUP #   1---
+ENTER GROUP #   2---
+ENTER GROUP #   3---
+ENTER GROUP #   4---
+ENTER GROUP #   5---
+ENTER GROUP #   6---
+     Enter symmetry # for molecule---
+Thermo estimation for molecule---
+C9H19OH_1_26                                                 C9H20O---
+ ---
+*****************20
+  Gr # -  GROUP ID  - Quantity  Gr # -  GROUP ID  - Quantity---
+     1 - O/C/H          -  1 |     4 - C/C3/H         -  2---
+     2 - C/C/H2/O       -  1 |     5 - C/C2/H2        -  3---
+     3 - C/C/H3         -  3 |     6 - GAUCHE         -  2---
+ ---
+*****************21
+UNITS:  Hf{Kcal/mol}   S & Cp {cal/mol K}---
+   Hf      S    Cp 300   400      500     600      800    1000    1500---
+ -93.83  129.65   54.28   69.12   82.22   92.95  109.32  121.27  139.74---
+     CPINF   165.91---
+Symmetry number used to correct S value is         27---
+  EDIT THESE RESULTS?     "Y" OR {"N"}---
+                    SPECIES ESTIMATION OPTIONS MENU---
+            Units:  Kcal/mol  ( cal/mol K )---
+            _______________________________________________________---
+ ---
+*****************22
+            R      -  CALCULATE RADICAL BASED UPON PREVIOUS SPECIES---
+            F      -  ADD CURRENT SPECIES TO OUTPUT FILE---
+            H      -  TOGGLE (SHORT/LONG) MENU---
+            P      -  RETURN TO PREVIOUS SPECIES SCREEN---
+            RETURN -  ENTER A NEW SPECIES---
+            L      -  LIST GROUPS---
+            Q      -  RETURN TO MAIN MENU {choose "F" ---
+                      first; current species is discarded---
+                      when you return to MAIN menu}---
+            X      -  EXIT PROGRAM---
+            S      -  GET SPECIES FROM { *.DOC } FILE---
+            ?      -  HELP  ---
+            U      -  CHANGE CURRENT UNITS TO : KJ/mol  (J/mol K)---
+ ---
+*****************23
+ ---
+*****************24
+ LAST SPECIES FILED:  C9H17_1_1    ---
+ ---
+*****************25
+          enter option : { ENTER NEW SPECIES }---
+                    SPECIES ESTIMATION OPTIONS MENU---
+            Units:  Kcal/mol  ( cal/mol K )---
+            _______________________________________________________---
+ ---
+*****************26
+            R      -  CALCULATE RADICAL BASED UPON PREVIOUS SPECIES---
+            F      -  ADD CURRENT SPECIES TO OUTPUT FILE---
+            H      -  TOGGLE (SHORT/LONG) MENU---
+            P      -  RETURN TO PREVIOUS SPECIES SCREEN---
+            RETURN -  ENTER A NEW SPECIES---
+            L      -  LIST GROUPS---
+            Q      -  RETURN TO MAIN MENU {choose "F" ---
+                      first; current species is discarded---
+                      when you return to MAIN menu}---
+            X      -  EXIT PROGRAM---
+            S      -  GET SPECIES FROM { *.DOC } FILE---
+            ?      -  HELP  ---
+            U      -  CHANGE CURRENT UNITS TO : KJ/mol  (J/mol K)---
+ ---
+*****************27
+ ---
+*****************28
+ LAST SPECIES FILED:  C9H19OH_1    ---
+ ---
+*****************29
+-------------------------End Line---------------------------------------
+
+15	0:	1.0
+
+15	1:	c9h19o_1_26
+
+15	2:	c9h19o_1_26
+
+15	3:	r
+
+15	4:	alkoxy
+
+15	5:	c9h19o
+
+15	6:	8.0
+
+15	7:	27.0
+
+15	8:	
+
+15	9:	
+
+15	10:	
+
+15	11:	
+
+15	12:	
+
+15	13:	
+
+15	14:	
+
+15	15:	
+
+15	16:	
+
+15	17:	
+
+15	18:	
+
+15	19:	
+
+15	20:	
+
+15	21:	
+
+15	22:	
+
+15	23:	
+
+15	24:	
+
+15	25:	
+
+15	26:	
+
+15	27:	
+
+15	28:	
+
+15	29:	
+
+15	30:	
+
+15	31:	
+
+input:	['r\n', u'alkoxy\n', '27\n', u'c9h19o_1_26\n', u'c9h19o\n', '\n', '8\n', '\n', 'f\n']
+output:
+------------------------Start Line--------------------------------------
+          enter option : { ENTER NEW SPECIES }---
+                       RADICAL CALCULATION MENU ---
+                  {radical by loss of H from parent}---
+           _________________________________________________---
+ ---
+*****************0
+              Q        -   RETURN TO PREVIOUS MENU---
+              ?        -   HELP---
+ ---
+*****************1
+ THE FOLLOWING BOND INCREMENT GROUPS ARE DEFINED:---
+ ---
+*****************2
+GR#     GROUP ID          GR#     GROUP ID          GR#     GROUP ID     ---
+____________________________________________________________________________---
+ ---
+*****************3
+177  -  P                 178  -  IC4H9             179  -  C2H5          ---
+180  -  NEO-C5            181  -  S                 182  -  CC.C          ---
+183  -  RCCJC             184  -  RCCJCC            185  -  T             ---
+186  -  VIN               187  -  VINS              188  -  ALLYLP        ---
+189  -  ALLYLS            190  -  ALLYLT            191  -  C#CJ          ---
+192  -  C#CCJ             193  -  C#CCJC            194  -  C#CCJC2       ---
+195  -  C*C*CJ            196  -  C*C*CJC           197  -  C*CJC*C       ---
+198  -  LC*CJC*C          199  -  L2C*CJC*C         200  -  C*CCJC*C      ---
+201  -  C*CC*CCJ          202  -  CJC*CC#C          203  -  CYC3          ---
+204  -  CYC4              205  -  CYC4E             206  -  CYPD          ---
+207  -  CYPDVIN           208  -  CYPENE            209  -  CYC5H9        ---
+210  -  CYCJCH3           211  -  CHD               212  -  CHDOH         ---
+213  -  CHD14             214  -  CHENE             215  -  CHENEA        ---
+216  -  CYC7H7            217  -  PH1               218  -  NAPH1         ---
+219  -  NAPH2             220  -  BENZYLP           221  -  BENZYLS       ---
+222  -  BENZYLT           223  -  CH3O              224  -  ALKOXY        ---
+225  -  VINOXY            226  -  ROCOJ             227  -  C*CHOJ        ---
+228  -  OJC*OC            229  -  PHENOXY           230  -  CPDOXY        ---
+231  -  C*CC*COJ          232  -  C*CCOJ*C          233  -  O*CC*COJ      ---
+ ---
+*****************4
+   ENTER BOND INCREMENT NAME ONLY---
+         enter option : { Q }---
+PARENT =  C9H19OH_1_26  ---
+          C9H20O---
+ ---
+*****************5
+enter the symmetry number for the radical---
+ ---
+*****************6
+Enter radical name(ID)---
+ ---
+*****************7
+enter the elemental formula for this radical---
+{ example: for PHENYL enter " C6H5 " }---
+{          for BENZYL enter " C6H5CH2 " }---
+{          FOR VINYL  enter " C2H3 " }---
+ ---
+*****************8
+ ---
+*****************9
+              4 ELEMENTS MAXIMUM---
+ ---
+*****************10
+ ---
+*****************11
+FORMULA ENTERED :---
+C9H19O                                                                ---
+ ---
+*****************12
+ ---
+*****************13
+  ELEMENTAL COMPOSITION:---
+ ---
+*****************14
+C             9---
+H            19---
+O             1---
+              0---
+ ---
+*****************15
+ ---
+*****************16
+ number of Atoms for This Species =         29---
+ ---
+*****************17
+    IF THIS IS INCORRECT ENTER " Q "---
+           TO BEGIN AGAIN---
+  OTHERWISE HIT RETURN TO CONTINUE---
+ how many rotors in this species { 0 }---
+Thermo estimation for radical---
+C9H19O_1_26                                                  C9H19O---
+RADICAL BASED UPON PARENT  C9H19OH_1_26                                                                     C9H20O---
+PARENT SYMMETRY         27---
+ ---
+*****************18
+  Gr # -  GROUP ID  - Quantity  Gr # -  GROUP ID  - Quantity---
+     1 - O/C/H          -  1 |     5 - C/C2/H2        -  3---
+     2 - C/C/H2/O       -  1 |     6 - GAUCHE         -  2---
+     3 - C/C/H3         -  3 |     7 - ALKOXY         -  1---
+     4 - C/C3/H         -  2---
+ ---
+*****************19
+UNITS:  Hf{Kcal/mol}   S & Cp {cal/mol K}---
+   Hf      S    Cp 300   400      500     600      800    1000    1500---
+ -41.01  127.94   54.80   68.52   81.11   91.39  107.19  118.66  136.46---
+     CPINF   160.95---
+Symmetry number used to correct S value is          27---
+R ln(2) has been added to S to account for unpaired electron---
+    bond dissociation energy used =     104.92---
+  EDIT THESE RESULTS?     "Y" OR {"N"}---
+                    SPECIES ESTIMATION OPTIONS MENU---
+            Units:  Kcal/mol  ( cal/mol K )---
+            _______________________________________________________---
+ ---
+*****************20
+            R      -  CALCULATE RADICAL BASED UPON PREVIOUS SPECIES---
+            F      -  ADD CURRENT SPECIES TO OUTPUT FILE---
+            H      -  TOGGLE (SHORT/LONG) MENU---
+            P      -  RETURN TO PREVIOUS SPECIES SCREEN---
+            M      -  RETURN TO PREVIOUS PARENT MOLECULE---
+            RETURN -  ENTER A NEW SPECIES---
+            L      -  LIST GROUPS---
+            Q      -  RETURN TO MAIN MENU {choose "F" ---
+                      first; current species is discarded---
+                      when you return to MAIN menu}---
+            X      -  EXIT PROGRAM---
+            S      -  GET SPECIES FROM { *.DOC } FILE---
+            ?      -  HELP  ---
+            U      -  CHANGE CURRENT UNITS TO : KJ/mol  (J/mol K)---
+ ---
+*****************21
+ ---
+*****************22
+ LAST SPECIES FILED:  C9H19OH_1    ---
+ ---
+*****************23
+          enter option : { ENTER NEW SPECIES }---
+                    SPECIES ESTIMATION OPTIONS MENU---
+            Units:  Kcal/mol  ( cal/mol K )---
+            _______________________________________________________---
+ ---
+*****************24
+            R      -  CALCULATE RADICAL BASED UPON PREVIOUS SPECIES---
+            F      -  ADD CURRENT SPECIES TO OUTPUT FILE---
+            H      -  TOGGLE (SHORT/LONG) MENU---
+            P      -  RETURN TO PREVIOUS SPECIES SCREEN---
+            M      -  RETURN TO PREVIOUS PARENT MOLECULE---
+            RETURN -  ENTER A NEW SPECIES---
+            L      -  LIST GROUPS---
+            Q      -  RETURN TO MAIN MENU {choose "F" ---
+                      first; current species is discarded---
+                      when you return to MAIN menu}---
+            X      -  EXIT PROGRAM---
+            S      -  GET SPECIES FROM { *.DOC } FILE---
+            ?      -  HELP  ---
+            U      -  CHANGE CURRENT UNITS TO : KJ/mol  (J/mol K)---
+ ---
+*****************25
+ ---
+*****************26
+ LAST SPECIES FILED:  C9H19O_1_    ---
+ ---
+*****************27
+-------------------------End Line---------------------------------------
+
+16	0:	1.0
+
+16	1:	c9h19oh_2_26
+
+16	2:	c9h19oh_2_26
+
+16	3:	m
+
+16	4:	
+
+16	5:	c9h20o
+
+16	6:	9.0
+
+16	7:	81.0
+
+16	8:	12.0
+
+16	9:	6.0
+
+16	10:	c/c/h3
+
+16	11:	4.0
+
+16	12:	c/c3/h
+
+16	13:	1.0
+
+16	14:	c/c3/o
+
+16	15:	1.0
+
+16	16:	o/c/h
+
+16	17:	1.0
+
+16	18:	c/c2/h2
+
+16	19:	3.0
+
+16	20:	gauche
+
+16	21:	2.0
+
+16	22:	
+
+16	23:	
+
+16	24:	
+
+16	25:	
+
+16	26:	
+
+16	27:	
+
+16	28:	
+
+16	29:	
+
+16	30:	
+
+16	31:	
+
+input:	['\n', u'c9h19oh_2_26\n', u'c9h20o\n', '\n', '12\n', '6\n', '9\n', u'c/c/h3 4\n', u'c/c3/h 1\n', u'c/c3/o 1\n', u'o/c/h 1\n', u'c/c2/h2 3\n', u'gauche 2\n', '81\n', '\n', 'f\n']
+output:
+------------------------Start Line--------------------------------------
+          enter option : { ENTER NEW SPECIES }---
+    Enter species name (ID)---
+      9 characters maximum---
+{ "Q" return to opening menu }---
+ ---
+*****************0
+enter the elemental formula for this species ---
+{ example: for PHENOL enter " C6H5OH " }---
+{          for TOLUENE enter " C6H5CH3 " }---
+{          for CHLOROPHENOL enter " C6H4CLOH " }---
+ ---
+*****************1
+ ---
+*****************2
+        4 ELEMENTS MAXIMUM : 70 CHARACTERS MAX---
+ ---
+*****************3
+  THE FOLLOWING ELEMENTS ARE DEFINED:---
+  C   H   O   CL  S   N   F   P   I   BR---
+  B   SI  LI---
+ ---
+*****************4
+ ALL OTHER ELEMENTS OR NON-NUMERIC CHARACTERS---
+            WILL BE IGNORED !---
+ ---
+*****************5
+ enter formula here: {Q=QUIT}---
+FORMULA ENTERED :---
+C9H20O                                                                ---
+ ---
+*****************6
+ ---
+*****************7
+  ELEMENTAL COMPOSITION:---
+ ---
+*****************8
+C             9---
+H            20---
+O             1---
+              0---
+ ---
+*****************9
+ ---
+*****************10
+ number of Atoms for This Species =         30---
+ ---
+*****************11
+    IF THIS IS INCORRECT ENTER " Q "---
+           TO BEGIN AGAIN---
+  OTHERWISE HIT RETURN TO CONTINUE---
+   Radicals are estimated either by entering a---
+   radical {CDOT} group such as " CB/. " on this---
+   screen; or by first estimating the properties---
+   for the stable molecule here { ex: benzene } and---
+   then applying a bond increment {BD} group to ---
+   account for loss of H atom from the molecule.---
+ ---
+*****************12
+   Bond increments cannot be entered here.  They---
+   are entered at the RADICAL menu { available---
+   after the molecule's properties are estimated }.---
+ ---
+*****************13
+   You must be sure that groups you enter adequately---
+   define a molecule (no unbonded electrons).---
+   THERM makes no attempt to check the context---
+   of the groups entered (only whether they are defined).---
+ ---
+*****************14
+ ---
+*****************15
+       Enter the Number of Groups in this species---
+ (each Central Atom or Ring Correction counts as 1 group)---
+ ---
+*****************16
+How many different groups are to be entered?---
+ how many rotors in this species { 0 }---
+        697 groups in the database---
+ ---
+*****************17
+You must enter a total of   6 different groups---
+  {enter " D " to re-enter the last group}---
+  {enter " Q " to start a new species}---
+  {enter " L " to list group database}---
+ ---
+*****************18
+ ---
+*****************19
+  ENTER: "GROUP ID,QUANTITY"---
+ENTER GROUP #   1---
+ENTER GROUP #   2---
+ENTER GROUP #   3---
+ENTER GROUP #   4---
+ENTER GROUP #   5---
+ENTER GROUP #   6---
+     Enter symmetry # for molecule---
+Thermo estimation for molecule---
+C9H19OH_2_26                                                 C9H20O---
+ ---
+*****************20
+  Gr # -  GROUP ID  - Quantity  Gr # -  GROUP ID  - Quantity---
+     1 - C/C/H3         -  4 |     4 - O/C/H          -  1---
+     2 - C/C3/H         -  1 |     5 - C/C2/H2        -  3---
+     3 - C/C3/O         -  1 |     6 - GAUCHE         -  2---
+ ---
+*****************21
+UNITS:  Hf{Kcal/mol}   S & Cp {cal/mol K}---
+   Hf      S    Cp 300   400      500     600      800    1000    1500---
+-100.28  126.48   55.38   69.72   82.40   92.93  109.58  121.72  140.89---
+     CPINF   165.91---
+Symmetry number used to correct S value is         81---
+  EDIT THESE RESULTS?     "Y" OR {"N"}---
+                    SPECIES ESTIMATION OPTIONS MENU---
+            Units:  Kcal/mol  ( cal/mol K )---
+            _______________________________________________________---
+ ---
+*****************22
+            R      -  CALCULATE RADICAL BASED UPON PREVIOUS SPECIES---
+            F      -  ADD CURRENT SPECIES TO OUTPUT FILE---
+            H      -  TOGGLE (SHORT/LONG) MENU---
+            P      -  RETURN TO PREVIOUS SPECIES SCREEN---
+            RETURN -  ENTER A NEW SPECIES---
+            L      -  LIST GROUPS---
+            Q      -  RETURN TO MAIN MENU {choose "F" ---
+                      first; current species is discarded---
+                      when you return to MAIN menu}---
+            X      -  EXIT PROGRAM---
+            S      -  GET SPECIES FROM { *.DOC } FILE---
+            ?      -  HELP  ---
+            U      -  CHANGE CURRENT UNITS TO : KJ/mol  (J/mol K)---
+ ---
+*****************23
+ ---
+*****************24
+ LAST SPECIES FILED:  C9H19O_1_    ---
+ ---
+*****************25
+          enter option : { ENTER NEW SPECIES }---
+                    SPECIES ESTIMATION OPTIONS MENU---
+            Units:  Kcal/mol  ( cal/mol K )---
+            _______________________________________________________---
+ ---
+*****************26
+            R      -  CALCULATE RADICAL BASED UPON PREVIOUS SPECIES---
+            F      -  ADD CURRENT SPECIES TO OUTPUT FILE---
+            H      -  TOGGLE (SHORT/LONG) MENU---
+            P      -  RETURN TO PREVIOUS SPECIES SCREEN---
+            RETURN -  ENTER A NEW SPECIES---
+            L      -  LIST GROUPS---
+            Q      -  RETURN TO MAIN MENU {choose "F" ---
+                      first; current species is discarded---
+                      when you return to MAIN menu}---
+            X      -  EXIT PROGRAM---
+            S      -  GET SPECIES FROM { *.DOC } FILE---
+            ?      -  HELP  ---
+            U      -  CHANGE CURRENT UNITS TO : KJ/mol  (J/mol K)---
+ ---
+*****************27
+ ---
+*****************28
+ LAST SPECIES FILED:  C9H19OH_2    ---
+ ---
+*****************29
+-------------------------End Line---------------------------------------
+
+17	0:	1.0
+
+17	1:	c9h19o_2_26
+
+17	2:	c9h19o_2_26
+
+17	3:	r
+
+17	4:	alkoxy
+
+17	5:	c9h19o
+
+17	6:	8.0
+
+17	7:	81.0
+
+17	8:	
+
+17	9:	
+
+17	10:	
+
+17	11:	
+
+17	12:	
+
+17	13:	
+
+17	14:	
+
+17	15:	
+
+17	16:	
+
+17	17:	
+
+17	18:	
+
+17	19:	
+
+17	20:	
+
+17	21:	
+
+17	22:	
+
+17	23:	
+
+17	24:	
+
+17	25:	
+
+17	26:	
+
+17	27:	
+
+17	28:	
+
+17	29:	
+
+17	30:	
+
+17	31:	
+
+input:	['r\n', u'alkoxy\n', '81\n', u'c9h19o_2_26\n', u'c9h19o\n', '\n', '8\n', '\n', 'f\n']
+output:
+------------------------Start Line--------------------------------------
+          enter option : { ENTER NEW SPECIES }---
+    Enter species name (ID)---
+      9 characters maximum---
+{ "Q" return to opening menu }---
+ ---
+*****************0
+enter the elemental formula for this species ---
+{ example: for PHENOL enter " C6H5OH " }---
+{          for TOLUENE enter " C6H5CH3 " }---
+{          for CHLOROPHENOL enter " C6H4CLOH " }---
+ ---
+*****************1
+ ---
+*****************2
+        4 ELEMENTS MAXIMUM : 70 CHARACTERS MAX---
+ ---
+*****************3
+  THE FOLLOWING ELEMENTS ARE DEFINED:---
+  C   H   O   CL  S   N   F   P   I   BR---
+  B   SI  LI---
+ ---
+*****************4
+ ALL OTHER ELEMENTS OR NON-NUMERIC CHARACTERS---
+            WILL BE IGNORED !---
+ ---
+*****************5
+ enter formula here: {Q=QUIT}---
+FORMULA ENTERED :---
+ALKOXY                                                                ---
+ ---
+*****************6
+ ---
+*****************7
+  ELEMENTAL COMPOSITION:---
+ ---
+*****************8
+O             1---
+              0---
+              0---
+              0---
+ ---
+*****************9
+ ---
+*****************10
+ number of Atoms for This Species =          1---
+ ---
+*****************11
+    IF THIS IS INCORRECT ENTER " Q "---
+           TO BEGIN AGAIN---
+  OTHERWISE HIT RETURN TO CONTINUE---
+   Radicals are estimated either by entering a---
+   radical {CDOT} group such as " CB/. " on this---
+   screen; or by first estimating the properties---
+   for the stable molecule here { ex: benzene } and---
+   then applying a bond increment {BD} group to ---
+   account for loss of H atom from the molecule.---
+ ---
+*****************12
+   Bond increments cannot be entered here.  They---
+   are entered at the RADICAL menu { available---
+   after the molecule's properties are estimated }.---
+ ---
+*****************13
+   You must be sure that groups you enter adequately---
+   define a molecule (no unbonded electrons).---
+   THERM makes no attempt to check the context---
+   of the groups entered (only whether they are defined).---
+ ---
+*****************14
+ ---
+*****************15
+       Enter the Number of Groups in this species---
+ (each Central Atom or Ring Correction counts as 1 group)---
+ ---
+*****************16
+How many different groups are to be entered?---
+ how many rotors in this species { 0 }---
+        697 groups in the database---
+ ---
+*****************17
+You must enter a total of   6 different groups---
+  {enter " D " to re-enter the last group}---
+  {enter " Q " to start a new species}---
+  {enter " L " to list group database}---
+ ---
+*****************18
+ ---
+*****************19
+  ENTER: "GROUP ID,QUANTITY"---
+ENTER GROUP #   1---
+********* ERROR *******---
+ ENTRY 8              WAS NOT FOUND---
+    Enter species name (ID)---
+      9 characters maximum---
+{ "Q" return to opening menu }---
+ ---
+*****************20
+enter the elemental formula for this species ---
+{ example: for PHENOL enter " C6H5OH " }---
+{          for TOLUENE enter " C6H5CH3 " }---
+{          for CHLOROPHENOL enter " C6H4CLOH " }---
+ ---
+*****************21
+ ---
+*****************22
+        4 ELEMENTS MAXIMUM : 70 CHARACTERS MAX---
+ ---
+*****************23
+  THE FOLLOWING ELEMENTS ARE DEFINED:---
+  C   H   O   CL  S   N   F   P   I   BR---
+  B   SI  LI---
+ ---
+*****************24
+ ALL OTHER ELEMENTS OR NON-NUMERIC CHARACTERS---
+            WILL BE IGNORED !---
+ ---
+*****************25
+ enter formula here: {Q=QUI---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+Endless loop!

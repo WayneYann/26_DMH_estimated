@@ -1,0 +1,6 @@
+autoTherm.py
+combine manually
+thermfit to fit combined data
+THERMreformat
+THERMrename
+THERMdelete

@@ -1,0 +1,36 @@
+ SPECIES                                                              
+ C2H6                                                                 
+Thermo estimation for molecule                                        
+ C2H6                                                           C2H6  
+ UNITS:KCAL                                                           
+ GROUPS   1                                                           
+   Gr # -  GROUP ID  - Quantity                                       
+      1 - C/C/H3         -  2                                         
+  Hf    S   Cp 300    400    500    600    800   1000   1500          
+ -20.40  55.08  12.38  15.68  18.80  21.58  26.04  29.54  35.16       
+           CPINF =   42.72                                            
+  NROTORS: 1                                                          
+ SYMMETRY          18                                                 
+  CREATION DATE: 10/ 7/14                                             
+  ENDSPECIES                                                          
+                                                                      
+                                                                      
+ SPECIES                                                              
+ C2H6                                                                 
+Thermo estimation for molecule                                        
+ C2H6                                                           C2H6  
+ UNITS:KCAL                                                           
+ GROUPS   1                                                           
+   Gr # -  GROUP ID  - Quantity                                       
+      1 - C/C/H3         -  2                                         
+  Hf    S   Cp 300    400    500    600    800   1000   1500          
+ -20.40  55.08  12.38  15.68  18.80  21.58  26.04  29.54  35.16       
+           CPINF =   42.72                                            
+  NROTORS: 1                                                          
+ SYMMETRY          18                                                 
+  CREATION DATE: 10/ 7/14                                             
+  ENDSPECIES                                                          
+                                                                      
+                                                                      
+                                                                      
+                                                                      

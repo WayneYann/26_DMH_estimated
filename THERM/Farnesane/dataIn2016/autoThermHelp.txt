@@ -1,0 +1,7 @@
+autoThermo.bat use thermodynamicCompute_farnesane.xlsx, which is more comprehensive than thermodynamicCompute_farnesane_Auto.xlsx.
+it should be noted that cd/co group is missing. RMG is needed to solve the species with cd/co group.
+
+
+THERMreformat.py
+THERMrename.py
+THERMdelete.py

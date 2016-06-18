@@ -1,0 +1,15 @@
+missing case: 942
+
+contain cd/co group: 
+index is row number-1
+893 bc4h8co
+904 c5h10co_3
+905 ic4h9chco
+912 c6h12co_3
+942 c8h16co_26
+985 c9h18co_37
+986 c9h18co_26
+1005 c10h20co_37
+
+
+
