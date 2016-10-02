@@ -12472,244 +12472,481 @@ c8ket3-5-25      =       ic3h7coch2     +     oh     +     ch3coch3             
 c8ket3-6-25      =       ic3h7coc3h6p     +     oh     +     ch2o             1.000e+16  0.00  3.900e+04        
  rev     /       0.00    0       0       / 
 !
+!!	2,6-dimethylheptane
+!!
+!c9ket_1_1_26 	=	 	ch2o 	+ 	c2h3cho 	+ 	dc5h11 	+ 	oh 	1.000e+16  0.00  3.900e+04
+! rev     /       0.00    0.0       0.0       /  
+!c9ket_1_2_26 	=	 	hco 	+ 	ch3co 	+ 	ec6h13	+ 	oh 	1.000e+16  0.00  3.900e+04
+! rev     /       0.00    0.0       0.0       / 
+!c9ket_1_3_26 	=	 	ch3chcho 	+ 	ic5h11cho 	+ 	oh 	1.000e+16  0.00  3.900e+04
+! rev     /       0.00    0.0       0.0       /
+!c9ket_1_4_26 	=	 	ic3h6cho 	+ 	ic4h9cho 	+ 	oh 	1.000e+16  0.00  3.900e+04
+! rev     /       0.00    0.0       0.0       / 
+!c9ket_1_5_26 	=	 	c4h8cho4-2 	+ 	ic3h7cho 	+ 	oh 	1.000e+16  0.00  3.900e+04
+! rev     /       0.00    0.0       0.0       / 
+!c9ket_1_6_26 	=	 	c5h10cho5-2 	+ 	ch3coch3 	+ 	oh 	1.000e+16  0.00  3.900e+04
+! rev     /       0.00    0.0       0.0       / 
+!!
+!c9ket_3_1_26 	= 	ch2o 	+ 	ic5h11coc2h4p 	+ 	oh 	 1.000e+16  0.00  3.900e+04
+! rev     /       0.00    0.0       0.0       / 
+!c9ket_3_2_26 	= 	ch3coch3 	+ 	ic5h11co 	+ 	oh 	 1.000e+16  0.00  3.900e+04
+! rev     /       0.00    0.0       0.0       /
+!c9ket_3_4_26 	= 	ic3h7co 	+ 	ic4h9cho 	+ 	oh 	 1.000e+16  0.00  3.900e+04
+! rev     /       0.00    0.0       0.0       /
+!c9ket_3_5_26 	= 	ic3h7coch2 	+ 	ic3h7cho 	+ 	oh 	 1.000e+16  0.00  3.900e+04
+! rev     /       0.00    0.0       0.0       / 
+!c9ket_3_6_26 	= 	ic3h7coc2h4p 	+ 	ch3coch3 	+ 	oh 	 1.000e+16  0.00  3.900e+04
+! rev     /       0.00    0.0       0.0       / 
+!c9ket_3_7_26 	= 	ic3h7coc4h8s 	+ 	ch2o 	+ 	oh 	 1.000e+16  0.00  3.900e+04
+! rev     /       0.00    0.0       0.0       /   
+!!
+!c9ket_4_1_26 	= 	ch2o 	+ 	ic4h9coc3h6s 	+ 	oh 	1.000e+16  0.00  3.900e+04
+! rev     /       0.00    0.0       0.0       / 
+!c9ket_4_2_26 	= 	ch3coch3 	+ 	ic4h9coch2 	+ 	oh 	1.000e+16  0.00  3.900e+04
+! rev     /       0.00    0.0       0.0       /
+!c9ket_4_3_26 	= 	ic3h7cho 	+ 	ic4h9co 	+ 	oh 	1.000e+16  0.00  3.900e+04
+! rev     /       0.00    0.0       0.0       / 
+!!
+!!		2,6,10-trimethyldodecane
+!!
+!c15ket_1_1 	= 	ch2o 	+ 	c2h3cho 	+ 	c11h23_37_a 	+ 	oh	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_1_2 	= 	hco 	+ 	ch3co 	+ 	c12h25_37_l 	+ 	oh 	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_1_3 	= 	ch3chcho 	+ 	c11h23cho_37	+ 	oh			1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_1_4 	= 	ic3h6cho 	+ 	c10h21cho_37 	+ 	oh 			1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_1_5 	= 	c4h8cho4-2 	+ 	c9h19cho_37 	+ 	oh			1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_1_6 	= 	c5h10cho5-2	 + 	c7h15coch3_3 	+ 	oh			1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!!										
+!c15ket_3_1 	= 	ch2o 	+ 	c11h23coc2h4s_37	+ 	oh			1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_3_2 	= 	ch3coch3 	+ 	c11h23co_37 	+ 	oh			1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_3_4 	= 	ic3h7co 	+ 	c10h21cho_37 	+ 	oh			1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_3_5 	= 	ic3h7coch2 	+ 	c9h19cho_37 	+ 	oh			1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_3_6 	= 	ic3h7coc2h4p 	+ 	c7h15coch3_3 + 	oh				1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_3_7 	= 	ic3h7coch2 	+ 	c9h18_1_6 	+ 	ch2o 	+ 	oh 	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_3_8 	= 	ic3h7coch2 	+ 	c3h6 	+ 	c6h13cho_3 	+ 	oh	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_3_9 	= 	ic3h7coc2h4p 	+ 	c3h6 	+ 	c5h11cho_3 	+ 	oh	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!!										
+!c15ket_4_1 	= 	ch2o 	+ 	c3h6 	+ 	c10h21co_37 	+ 	oh	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_4_2 	= 	ch3coch3 	+ 	c10h21coch2_37 	+ 	oh			1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_4_3 	= 	ic3h7cho 	+ 	c10h21co_37 	+ 	oh 			1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_4_5 	= 	ic4h9co 	+ 	c9h19cho_37 	+ 	oh 			1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_4_6 	= 	ic4h9coch2 	+ 	c7h15coch3_3 	+ 	oh			1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_4_7 	= 	ic4h9co 	+ 	c9h18_1_6 	+ 	ch2o 	+ 	oh	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_4_8 	= 	ic4h9co 	+ 	c3h6 	+ 	c6h13cho_3 	+ 	oh	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_4_9 	= 	ic4h9coch2 	+ 	c3h6 	+ 	c5h11cho_3 	+ 	oh	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_4_10 	= 	ic4h9coc3h6s 	+ 	c2h4 	+ 	bc4h9cho 	+ 	oh	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!!										
+!c15ket_5_1  	= 	ch2o 	+ 	c3h6 	+ 	c9h19coch2_37 	+ 	oh	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_5_2 	= 	ch3coch3 	+ 	c9h19coc2h4p_37 	+ 	oh			1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_5_3 	= 	ic3h7cho 	+ 	c9h19coch2_37 	+ 	oh			1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_5_4 	= 	ic4h9cho 	+ 	c9h19co_37 	+ 	oh 			1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_5_6 	= 	ic5h11co 	+ 	c7h15coch3_3 	+ 	oh			1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_5_7 	= 	ch2o 	+ 	ic5h11coc2h3 	+ 	lc6h13 	+ 	oh	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_5_8  	= 	ic5h11cochch3 	+ 	oh 	+ 	c6h13cho_3 			1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_5_9 	= 	ic5h11co 	+ 	c3h6 	+ 	c5h11cho_3 	+ 	oh 	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_5_10 	= 	ic5h11cochch3 	+ 	c2h4 	+ 	bc4h9cho 	+ 	oh 	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_5_11 	= 	ic5h11coc3h6p 	+ 	c2h4 	+ 	c2h5coch3	+ 	oh	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!!										
+!c15ket_7_2 	= 	ch3coch3 	+ 	c2h4 	+ 	c9h18cho_3 	+ 	oh	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_7_3 	= 	ic3h7cho 	+ 	c2h4 	+ 	oh  +	c8h16cho_3	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_7_4 	= 	ic4h9cho 	+ 	hco 	+ 	oh 	+ 	c9h18_1_6 	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_7_5 	= 	ic5h11cho 	+ 	oh 	+ 	c8h16cho_3			1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_7_6 	= 	hco 	+ 	ic6h13co 	+ 	oh 	+ 	c7h15-3f	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_7_8 	= 	c6h13cho_3 	+ 	c7h14cho_2 	+ 	oh			1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_7_9 	= 	c8h16-6-2 	+ 	hco 	+ 	c5h11cho_3 	+ 	oh	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_7_10 	= 	c7h14cho_2 	+ 	c2h4 	+ 	oh 	+ 	bc4h9cho 	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_7_11 	= 	c8h16cho_2 	+ 	c2h4 	+ 	c2h5coch3 	+ 	oh	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!!										
+!c15ket_8_2 	= 	ch3coch3 	+ 	c2h4 	+ 	c6h13coc3h6p_3 	+ 	oh 	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_8_3 	= 	ic3h7cho 	+ 	c2h4 	+ 	c6h13coc2h4s_3 	+ 	oh	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_8_4 	= 	ic4h9cho 	+ 	c3h6 	+ 	c6h13co_3 	+ 	oh	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_8_5 	= 	ic5h11cho 	+ 	c6h13coc2h4s_3 	+ 	oh	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_8_6 	= 	c6h13coch3_2 	+ 	oh 	+ 	c6h13co_3 			1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_8_7 	= 	dc5h11	+ 	ch2o 	+ 	oh 	+ 	c6h13coc2h3_3	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_8_9 	= 	c5h11cho_3 	+ 	c8h17co_26 	+ 	oh			1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_8_10 	= 	c8h17coch2_26 	+ 	bc4h9cho 	+ 	oh			1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_8_11 	= 	c8h17co_26 	+ 	c2h4 	+ 	c2h5coch3 	+ 	oh	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_8_12  	= 	c8h17coch2_26 	+ 	ch2o 	+ 	oh 	+ c4h8-1 		1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_8_13 	= 	c8h17coch2_26 	+ 	c3h6 	+ 	ch3cho 	+ 	oh	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_8_14 	= 	c8h17coc2h4p_26	 	+ 	c3h6 	+ 	ch2o 	+ 	oh  1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!!										
+!c15ket_9_3 	= 	ic3h7cho 	+ 	c2h4 	+ 	oh 	 	+ 	c5h11coc3h6s_3  1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_9_4 	= 	ic4h9cho 	+ 	c3h6 	+ 	oh 	+ 	c5h11coch2_3	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_9_5 	= 	ic5h11cho 	+ 	c3h6 	+ 	oh 	+ 	c5h11co_3	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_9_6 	= 	c6h13coch3_2 	+ 	oh 	+ 	c5h11coch2_3 			1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_9_7 	=	c8h16-6-2 	+ 	ch2o 	+ 	oh 	+ 	c5h11co_3 	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_9_8 	= 	c5h11co_3 	+ 	c8h17cho_26 	+ 	oh			1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_9_10  	= 	c9h19co_26 	+ 	bc4h9cho 	+ 	oh			1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_9_11 	= 	c2h5coch3 	+ 	oh 	+ 	c9h19coch2_26			1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_9_12 	=	 ch2o 	+ 	oh 	+ 	c4h8-1 	+ 	c9h19co_26 	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_9_13 	= 	c9h19co_26 	+ 	c3h6 	+ 	ch3cho 	+ 	oh 	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_9_14 	= 	c9h19coch2_26 	+ 	c3h6 	+ 	ch2o 	+ 	oh	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!!										
+!c15ket_10_4 	= 	ic4h9cho 	+ 	oh 	+ 	c3h6 	+ 	c4h9coc2h4p_3	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_10_5 	= 	ic5h11cho 	+ 	oh 	+ 	c3h6 	+ 	bc4h9coch2	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_10_6	= 	c6h13coch3_2 	+ 	c2h4 	+ 	oh 	+ 	bc4h9co	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_10_7 	= 	ch2o 	+ 	oh 	+ 	bc4h9coch2 	+ 	c8h16-6-2 	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_10_8 	= 	c8h17cho_26 	+ 	oh 	+ 	bc4h9coch2			1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_10_9 	= 	c9h19cho_26 	+ 	oh 	+ 	bc4h9co			1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_10_11 	= 	c2h5coch3 	+ 	oh 	+ 	c10h21co_26			1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_10_12 	= 	ch2o 	+ 	oh 	+ 	c10h21coc3h6s_26			1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_10_13 	= 	c10h21coc2h4s_26 	+ 	ch3cho 	+ 	oh			1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_10_14 	= 	c10h21co_26 	+ 	c3h6 	+ 	ch2o 	+ 	oh	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!!										
+!c15ket_12_6 	= 	c6h13coch3_2 	+ 	c2h4 	+ 	oh 	+ 	bc4h8cho	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_12_8 	= 	c8h17cho_26 	+ 	c2h4 	+ 	oh 	+ 	c3h6cho-3	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_12_9 	= 	c9h19cho_26 	+ 	oh 	+ 	hco 	+ 	c4h8-1 	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_12_10 	= 	c10h21cho_26 	+ 	oh 	+ 	c3h6cho-3			1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_12_11 	= 	hco 	+ 	oh 	+ 	c2h5co 	+ 	c11h23_26_j	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_12_13 	= 	c12h24cho_26 	+ 	ch3cho 	+ 	oh			1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_12_14 	= 	c13h26_1_610 	+ 	hco 	+ 	ch2o 	+ 	oh	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!!									
+!c15ket_13_6 	= 	c6h13coch3_2 	+ 	c2h4 	+  	oh 	+ 	ic3h6coch3	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_13_8 	= 	c8h17cho_26  	+ 	c2h4 	+ 	oh 	+ 	ch3chcoch3	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_13_9 	= 	c9h19cho_26 	+ 	oh 	+ 	c3h6 	+ 	ch3co 	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_13_10 	= 	c10h21cho_26 	+ 	oh 	+ 	ch3chcoch3 			1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_13_11 	= 	c11h23coch3_26 	+ 	oh 	+ 	ch3co 			1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_13_12 	= 	ch2o 	+ 	oh 	+ 	c2h3coch3 	+ 	c10h21_26_i	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_13_14 	= 	c13h27co_2610 	+ 	ch2o 	+ 	oh			1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!!										
+!c15ket_14_8 	= 	c8h17cho_26 	+ 	oh 	+ 	c5h10cho_3 			1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_14_9 	= 	c9h19cho_26 	+ 	ic4h8cho 	+ 	oh			1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_14_10  	= 	c10h21cho_26 	+ 	oh 	+ 	c3h6cho-2 			1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_14_11 	= 	c11h23coch3_26 	+ 	oh 	+ 	ch2cho			1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_14_12 	= 	c13h26_1_610 	+ 	ch2o 	+ 	oh 	+	hco	1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!c15ket_14_13 	= 	c13h27cho_2610 	+ 	hco 	+ 	oh			1.000e+16  0.00  3.900e+04	
+! rev     /       0.00    0.0       0.0       /
+!
 !	2,6-dimethylheptane
 !
-c9ket_1_1_26 	=	 	ch2o 	+ 	c2h3cho 	+ 	dc5h11 	+ 	oh 	1.000e+16  0.00  3.900e+04
+c9ket_1_1_26 	=	 	ch2o 	+ 	c2h3cho 	+ 	dc5h11 	+ 	oh 	1.050E+16  0.00  4.260E+04
  rev     /       0.00    0.0       0.0       /  
-c9ket_1_2_26 	=	 	hco 	+ 	ch3co 	+ 	ec6h13	+ 	oh 	1.000e+16  0.00  3.900e+04
+c9ket_1_2_26 	=	 	hco 	+ 	ch3co 	+ 	ec6h13	+ 	oh 	1.050E+16  0.00  4.260E+04
  rev     /       0.00    0.0       0.0       / 
-c9ket_1_3_26 	=	 	ch3chcho 	+ 	ic5h11cho 	+ 	oh 	1.000e+16  0.00  3.900e+04
+c9ket_1_3_26 	=	 	ch3chcho 	+ 	ic5h11cho 	+ 	oh 	1.050E+16  0.00  4.260E+04
  rev     /       0.00    0.0       0.0       /
-c9ket_1_4_26 	=	 	ic3h6cho 	+ 	ic4h9cho 	+ 	oh 	1.000e+16  0.00  3.900e+04
+c9ket_1_4_26 	=	 	ic3h6cho 	+ 	ic4h9cho 	+ 	oh 	1.050E+16  0.00  4.260E+04
  rev     /       0.00    0.0       0.0       / 
-c9ket_1_5_26 	=	 	c4h8cho4-2 	+ 	ic3h7cho 	+ 	oh 	1.000e+16  0.00  3.900e+04
+c9ket_1_5_26 	=	 	c4h8cho4-2 	+ 	ic3h7cho 	+ 	oh 	1.050E+16  0.00  4.260E+04
  rev     /       0.00    0.0       0.0       / 
-c9ket_1_6_26 	=	 	c5h10cho5-2 	+ 	ch3coch3 	+ 	oh 	1.000e+16  0.00  3.900e+04
+c9ket_1_6_26 	=	 	c5h10cho5-2 	+ 	ch3coch3 	+ 	oh 	1.050E+16  0.00  4.260E+04
  rev     /       0.00    0.0       0.0       / 
 !
-c9ket_3_1_26 	= 	ch2o 	+ 	ic5h11coc2h4p 	+ 	oh 	 1.000e+16  0.00  3.900e+04
+c9ket_3_1_26 	= 	ch2o 	+ 	ic5h11coc2h4p 	+ 	oh 	 1.050E+16  0.00  4.260E+04
  rev     /       0.00    0.0       0.0       / 
-c9ket_3_2_26 	= 	ch3coch3 	+ 	ic5h11co 	+ 	oh 	 1.000e+16  0.00  3.900e+04
+c9ket_3_2_26 	= 	ch3coch3 	+ 	ic5h11co 	+ 	oh 	 1.050E+16  0.00  4.260E+04
  rev     /       0.00    0.0       0.0       /
-c9ket_3_4_26 	= 	ic3h7co 	+ 	ic4h9cho 	+ 	oh 	 1.000e+16  0.00  3.900e+04
+c9ket_3_4_26 	= 	ic3h7co 	+ 	ic4h9cho 	+ 	oh 	 1.050E+16  0.00  4.260E+04
  rev     /       0.00    0.0       0.0       /
-c9ket_3_5_26 	= 	ic3h7coch2 	+ 	ic3h7cho 	+ 	oh 	 1.000e+16  0.00  3.900e+04
+c9ket_3_5_26 	= 	ic3h7coch2 	+ 	ic3h7cho 	+ 	oh 	 1.050E+16  0.00  4.260E+04
  rev     /       0.00    0.0       0.0       / 
-c9ket_3_6_26 	= 	ic3h7coc2h4p 	+ 	ch3coch3 	+ 	oh 	 1.000e+16  0.00  3.900e+04
+c9ket_3_6_26 	= 	ic3h7coc2h4p 	+ 	ch3coch3 	+ 	oh 	 1.050E+16  0.00  4.260E+04
  rev     /       0.00    0.0       0.0       / 
-c9ket_3_7_26 	= 	ic3h7coc4h8s 	+ 	ch2o 	+ 	oh 	 1.000e+16  0.00  3.900e+04
+c9ket_3_7_26 	= 	ic3h7coc4h8s 	+ 	ch2o 	+ 	oh 	 1.050E+16  0.00  4.260E+04
  rev     /       0.00    0.0       0.0       /   
 !
-c9ket_4_1_26 	= 	ch2o 	+ 	ic4h9coc3h6s 	+ 	oh 	1.000e+16  0.00  3.900e+04
+c9ket_4_1_26 	= 	ch2o 	+ 	ic4h9coc3h6s 	+ 	oh 	1.050E+16  0.00  4.260E+04
  rev     /       0.00    0.0       0.0       / 
-c9ket_4_2_26 	= 	ch3coch3 	+ 	ic4h9coch2 	+ 	oh 	1.000e+16  0.00  3.900e+04
+c9ket_4_2_26 	= 	ch3coch3 	+ 	ic4h9coch2 	+ 	oh 	1.050E+16  0.00  4.260E+04
  rev     /       0.00    0.0       0.0       /
-c9ket_4_3_26 	= 	ic3h7cho 	+ 	ic4h9co 	+ 	oh 	1.000e+16  0.00  3.900e+04
+c9ket_4_3_26 	= 	ic3h7cho 	+ 	ic4h9co 	+ 	oh 	1.050E+16  0.00  4.260E+04
  rev     /       0.00    0.0       0.0       / 
 !
 !		2,6,10-trimethyldodecane
 !
-c15ket_1_1 	= 	ch2o 	+ 	c2h3cho 	+ 	c11h23_37_a 	+ 	oh	1.000e+16  0.00  3.900e+04	
+c15ket_1_1 	= 	ch2o 	+ 	c2h3cho 	+ 	c11h23_37_a 	+ 	oh	1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_1_2 	= 	hco 	+ 	ch3co 	+ 	c12h25_37_l 	+ 	oh 	1.000e+16  0.00  3.900e+04	
+c15ket_1_2 	= 	hco 	+ 	ch3co 	+ 	c12h25_37_l 	+ 	oh 	1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_1_3 	= 	ch3chcho 	+ 	c11h23cho_37	+ 	oh			1.000e+16  0.00  3.900e+04	
+c15ket_1_3 	= 	ch3chcho 	+ 	c11h23cho_37	+ 	oh			1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_1_4 	= 	ic3h6cho 	+ 	c10h21cho_37 	+ 	oh 			1.000e+16  0.00  3.900e+04	
+c15ket_1_4 	= 	ic3h6cho 	+ 	c10h21cho_37 	+ 	oh 			1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_1_5 	= 	c4h8cho4-2 	+ 	c9h19cho_37 	+ 	oh			1.000e+16  0.00  3.900e+04	
+c15ket_1_5 	= 	c4h8cho4-2 	+ 	c9h19cho_37 	+ 	oh			1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_1_6 	= 	c5h10cho5-2	 + 	c7h15coch3_3 	+ 	oh			1.000e+16  0.00  3.900e+04	
- rev     /       0.00    0.0       0.0       /
-!										
-c15ket_3_1 	= 	ch2o 	+ 	c11h23coc2h4s_37	+ 	oh			1.000e+16  0.00  3.900e+04	
- rev     /       0.00    0.0       0.0       /
-c15ket_3_2 	= 	ch3coch3 	+ 	c11h23co_37 	+ 	oh			1.000e+16  0.00  3.900e+04	
- rev     /       0.00    0.0       0.0       /
-c15ket_3_4 	= 	ic3h7co 	+ 	c10h21cho_37 	+ 	oh			1.000e+16  0.00  3.900e+04	
- rev     /       0.00    0.0       0.0       /
-c15ket_3_5 	= 	ic3h7coch2 	+ 	c9h19cho_37 	+ 	oh			1.000e+16  0.00  3.900e+04	
- rev     /       0.00    0.0       0.0       /
-c15ket_3_6 	= 	ic3h7coc2h4p 	+ 	c7h15coch3_3 + 	oh				1.000e+16  0.00  3.900e+04	
- rev     /       0.00    0.0       0.0       /
-c15ket_3_7 	= 	ic3h7coch2 	+ 	c9h18_1_6 	+ 	ch2o 	+ 	oh 	1.000e+16  0.00  3.900e+04	
- rev     /       0.00    0.0       0.0       /
-c15ket_3_8 	= 	ic3h7coch2 	+ 	c3h6 	+ 	c6h13cho_3 	+ 	oh	1.000e+16  0.00  3.900e+04	
- rev     /       0.00    0.0       0.0       /
-c15ket_3_9 	= 	ic3h7coc2h4p 	+ 	c3h6 	+ 	c5h11cho_3 	+ 	oh	1.000e+16  0.00  3.900e+04	
+c15ket_1_6 	= 	c5h10cho5-2	 + 	c7h15coch3_3 	+ 	oh			1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
 !										
-c15ket_4_1 	= 	ch2o 	+ 	c3h6 	+ 	c10h21co_37 	+ 	oh	1.000e+16  0.00  3.900e+04	
+c15ket_3_1 	= 	ch2o 	+ 	c11h23coc2h4s_37	+ 	oh			1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_4_2 	= 	ch3coch3 	+ 	c10h21coch2_37 	+ 	oh			1.000e+16  0.00  3.900e+04	
+c15ket_3_2 	= 	ch3coch3 	+ 	c11h23co_37 	+ 	oh			1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_4_3 	= 	ic3h7cho 	+ 	c10h21co_37 	+ 	oh 			1.000e+16  0.00  3.900e+04	
+c15ket_3_4 	= 	ic3h7co 	+ 	c10h21cho_37 	+ 	oh			1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_4_5 	= 	ic4h9co 	+ 	c9h19cho_37 	+ 	oh 			1.000e+16  0.00  3.900e+04	
+c15ket_3_5 	= 	ic3h7coch2 	+ 	c9h19cho_37 	+ 	oh			1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_4_6 	= 	ic4h9coch2 	+ 	c7h15coch3_3 	+ 	oh			1.000e+16  0.00  3.900e+04	
+c15ket_3_6 	= 	ic3h7coc2h4p 	+ 	c7h15coch3_3 + 	oh				1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_4_7 	= 	ic4h9co 	+ 	c9h18_1_6 	+ 	ch2o 	+ 	oh	1.000e+16  0.00  3.900e+04	
+c15ket_3_7 	= 	ic3h7coch2 	+ 	c9h18_1_6 	+ 	ch2o 	+ 	oh 	1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_4_8 	= 	ic4h9co 	+ 	c3h6 	+ 	c6h13cho_3 	+ 	oh	1.000e+16  0.00  3.900e+04	
+c15ket_3_8 	= 	ic3h7coch2 	+ 	c3h6 	+ 	c6h13cho_3 	+ 	oh	1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_4_9 	= 	ic4h9coch2 	+ 	c3h6 	+ 	c5h11cho_3 	+ 	oh	1.000e+16  0.00  3.900e+04	
- rev     /       0.00    0.0       0.0       /
-c15ket_4_10 	= 	ic4h9coc3h6s 	+ 	c2h4 	+ 	bc4h9cho 	+ 	oh	1.000e+16  0.00  3.900e+04	
+c15ket_3_9 	= 	ic3h7coc2h4p 	+ 	c3h6 	+ 	c5h11cho_3 	+ 	oh	1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
 !										
-c15ket_5_1  	= 	ch2o 	+ 	c3h6 	+ 	c9h19coch2_37 	+ 	oh	1.000e+16  0.00  3.900e+04	
+c15ket_4_1 	= 	ch2o 	+ 	c3h6 	+ 	c10h21co_37 	+ 	oh	1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_5_2 	= 	ch3coch3 	+ 	c9h19coc2h4p_37 	+ 	oh			1.000e+16  0.00  3.900e+04	
+c15ket_4_2 	= 	ch3coch3 	+ 	c10h21coch2_37 	+ 	oh			1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_5_3 	= 	ic3h7cho 	+ 	c9h19coch2_37 	+ 	oh			1.000e+16  0.00  3.900e+04	
+c15ket_4_3 	= 	ic3h7cho 	+ 	c10h21co_37 	+ 	oh 			1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_5_4 	= 	ic4h9cho 	+ 	c9h19co_37 	+ 	oh 			1.000e+16  0.00  3.900e+04	
+c15ket_4_5 	= 	ic4h9co 	+ 	c9h19cho_37 	+ 	oh 			1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_5_6 	= 	ic5h11co 	+ 	c7h15coch3_3 	+ 	oh			1.000e+16  0.00  3.900e+04	
+c15ket_4_6 	= 	ic4h9coch2 	+ 	c7h15coch3_3 	+ 	oh			1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_5_7 	= 	ch2o 	+ 	ic5h11coc2h3 	+ 	lc6h13 	+ 	oh	1.000e+16  0.00  3.900e+04	
+c15ket_4_7 	= 	ic4h9co 	+ 	c9h18_1_6 	+ 	ch2o 	+ 	oh	1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_5_8  	= 	ic5h11cochch3 	+ 	oh 	+ 	c6h13cho_3 			1.000e+16  0.00  3.900e+04	
+c15ket_4_8 	= 	ic4h9co 	+ 	c3h6 	+ 	c6h13cho_3 	+ 	oh	1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_5_9 	= 	ic5h11co 	+ 	c3h6 	+ 	c5h11cho_3 	+ 	oh 	1.000e+16  0.00  3.900e+04	
+c15ket_4_9 	= 	ic4h9coch2 	+ 	c3h6 	+ 	c5h11cho_3 	+ 	oh	1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_5_10 	= 	ic5h11cochch3 	+ 	c2h4 	+ 	bc4h9cho 	+ 	oh 	1.000e+16  0.00  3.900e+04	
- rev     /       0.00    0.0       0.0       /
-c15ket_5_11 	= 	ic5h11coc3h6p 	+ 	c2h4 	+ 	c2h5coch3	+ 	oh	1.000e+16  0.00  3.900e+04	
+c15ket_4_10 	= 	ic4h9coc3h6s 	+ 	c2h4 	+ 	bc4h9cho 	+ 	oh	1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
 !										
-c15ket_7_2 	= 	ch3coch3 	+ 	c2h4 	+ 	c9h18cho_3 	+ 	oh	1.000e+16  0.00  3.900e+04	
+c15ket_5_1  	= 	ch2o 	+ 	c3h6 	+ 	c9h19coch2_37 	+ 	oh	1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_7_3 	= 	ic3h7cho 	+ 	c2h4 	+ 	oh  +	c8h16cho_3	1.000e+16  0.00  3.900e+04	
+c15ket_5_2 	= 	ch3coch3 	+ 	c9h19coc2h4p_37 	+ 	oh			1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_7_4 	= 	ic4h9cho 	+ 	hco 	+ 	oh 	+ 	c9h18_1_6 	1.000e+16  0.00  3.900e+04	
+c15ket_5_3 	= 	ic3h7cho 	+ 	c9h19coch2_37 	+ 	oh			1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_7_5 	= 	ic5h11cho 	+ 	oh 	+ 	c8h16cho_3			1.000e+16  0.00  3.900e+04	
+c15ket_5_4 	= 	ic4h9cho 	+ 	c9h19co_37 	+ 	oh 			1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_7_6 	= 	hco 	+ 	ic6h13co 	+ 	oh 	+ 	c7h15-3f	1.000e+16  0.00  3.900e+04	
+c15ket_5_6 	= 	ic5h11co 	+ 	c7h15coch3_3 	+ 	oh			1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_7_8 	= 	c6h13cho_3 	+ 	c7h14cho_2 	+ 	oh			1.000e+16  0.00  3.900e+04	
+c15ket_5_7 	= 	ch2o 	+ 	ic5h11coc2h3 	+ 	lc6h13 	+ 	oh	1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_7_9 	= 	c8h16-6-2 	+ 	hco 	+ 	c5h11cho_3 	+ 	oh	1.000e+16  0.00  3.900e+04	
+c15ket_5_8  	= 	ic5h11cochch3 	+ 	oh 	+ 	c6h13cho_3 			1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_7_10 	= 	c7h14cho_2 	+ 	c2h4 	+ 	oh 	+ 	bc4h9cho 	1.000e+16  0.00  3.900e+04	
+c15ket_5_9 	= 	ic5h11co 	+ 	c3h6 	+ 	c5h11cho_3 	+ 	oh 	1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_7_11 	= 	c8h16cho_2 	+ 	c2h4 	+ 	c2h5coch3 	+ 	oh	1.000e+16  0.00  3.900e+04	
+c15ket_5_10 	= 	ic5h11cochch3 	+ 	c2h4 	+ 	bc4h9cho 	+ 	oh 	1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-!										
-c15ket_8_2 	= 	ch3coch3 	+ 	c2h4 	+ 	c6h13coc3h6p_3 	+ 	oh 	1.000e+16  0.00  3.900e+04	
- rev     /       0.00    0.0       0.0       /
-c15ket_8_3 	= 	ic3h7cho 	+ 	c2h4 	+ 	c6h13coc2h4s_3 	+ 	oh	1.000e+16  0.00  3.900e+04	
- rev     /       0.00    0.0       0.0       /
-c15ket_8_4 	= 	ic4h9cho 	+ 	c3h6 	+ 	c6h13co_3 	+ 	oh	1.000e+16  0.00  3.900e+04	
- rev     /       0.00    0.0       0.0       /
-c15ket_8_5 	= 	ic5h11cho 	+ 	c6h13coc2h4s_3 	+ 	oh	1.000e+16  0.00  3.900e+04	
- rev     /       0.00    0.0       0.0       /
-c15ket_8_6 	= 	c6h13coch3_2 	+ 	oh 	+ 	c6h13co_3 			1.000e+16  0.00  3.900e+04	
- rev     /       0.00    0.0       0.0       /
-c15ket_8_7 	= 	dc5h11	+ 	ch2o 	+ 	oh 	+ 	c6h13coc2h3_3	1.000e+16  0.00  3.900e+04	
- rev     /       0.00    0.0       0.0       /
-c15ket_8_9 	= 	c5h11cho_3 	+ 	c8h17co_26 	+ 	oh			1.000e+16  0.00  3.900e+04	
- rev     /       0.00    0.0       0.0       /
-c15ket_8_10 	= 	c8h17coch2_26 	+ 	bc4h9cho 	+ 	oh			1.000e+16  0.00  3.900e+04	
- rev     /       0.00    0.0       0.0       /
-c15ket_8_11 	= 	c8h17co_26 	+ 	c2h4 	+ 	c2h5coch3 	+ 	oh	1.000e+16  0.00  3.900e+04	
- rev     /       0.00    0.0       0.0       /
-c15ket_8_12  	= 	c8h17coch2_26 	+ 	ch2o 	+ 	oh 	+ c4h8-1 		1.000e+16  0.00  3.900e+04	
- rev     /       0.00    0.0       0.0       /
-c15ket_8_13 	= 	c8h17coch2_26 	+ 	c3h6 	+ 	ch3cho 	+ 	oh	1.000e+16  0.00  3.900e+04	
- rev     /       0.00    0.0       0.0       /
-c15ket_8_14 	= 	c8h17coc2h4p_26	 	+ 	c3h6 	+ 	ch2o 	+ 	oh  1.000e+16  0.00  3.900e+04	
+c15ket_5_11 	= 	ic5h11coc3h6p 	+ 	c2h4 	+ 	c2h5coch3	+ 	oh	1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
 !										
-c15ket_9_3 	= 	ic3h7cho 	+ 	c2h4 	+ 	oh 	 	+ 	c5h11coc3h6s_3  1.000e+16  0.00  3.900e+04	
+c15ket_7_2 	= 	ch3coch3 	+ 	c2h4 	+ 	c9h18cho_3 	+ 	oh	1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_9_4 	= 	ic4h9cho 	+ 	c3h6 	+ 	oh 	+ 	c5h11coch2_3	1.000e+16  0.00  3.900e+04	
+c15ket_7_3 	= 	ic3h7cho 	+ 	c2h4 	+ 	oh  +	c8h16cho_3	1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_9_5 	= 	ic5h11cho 	+ 	c3h6 	+ 	oh 	+ 	c5h11co_3	1.000e+16  0.00  3.900e+04	
+c15ket_7_4 	= 	ic4h9cho 	+ 	hco 	+ 	oh 	+ 	c9h18_1_6 	1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_9_6 	= 	c6h13coch3_2 	+ 	oh 	+ 	c5h11coch2_3 			1.000e+16  0.00  3.900e+04	
+c15ket_7_5 	= 	ic5h11cho 	+ 	oh 	+ 	c8h16cho_3			1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_9_7 	=	c8h16-6-2 	+ 	ch2o 	+ 	oh 	+ 	c5h11co_3 	1.000e+16  0.00  3.900e+04	
+c15ket_7_6 	= 	hco 	+ 	ic6h13co 	+ 	oh 	+ 	c7h15-3f	1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_9_8 	= 	c5h11co_3 	+ 	c8h17cho_26 	+ 	oh			1.000e+16  0.00  3.900e+04	
+c15ket_7_8 	= 	c6h13cho_3 	+ 	c7h14cho_2 	+ 	oh			1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_9_10  	= 	c9h19co_26 	+ 	bc4h9cho 	+ 	oh			1.000e+16  0.00  3.900e+04	
+c15ket_7_9 	= 	c8h16-6-2 	+ 	hco 	+ 	c5h11cho_3 	+ 	oh	1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_9_11 	= 	c2h5coch3 	+ 	oh 	+ 	c9h19coch2_26			1.000e+16  0.00  3.900e+04	
+c15ket_7_10 	= 	c7h14cho_2 	+ 	c2h4 	+ 	oh 	+ 	bc4h9cho 	1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_9_12 	=	 ch2o 	+ 	oh 	+ 	c4h8-1 	+ 	c9h19co_26 	1.000e+16  0.00  3.900e+04	
- rev     /       0.00    0.0       0.0       /
-c15ket_9_13 	= 	c9h19co_26 	+ 	c3h6 	+ 	ch3cho 	+ 	oh 	1.000e+16  0.00  3.900e+04	
- rev     /       0.00    0.0       0.0       /
-c15ket_9_14 	= 	c9h19coch2_26 	+ 	c3h6 	+ 	ch2o 	+ 	oh	1.000e+16  0.00  3.900e+04	
+c15ket_7_11 	= 	c8h16cho_2 	+ 	c2h4 	+ 	c2h5coch3 	+ 	oh	1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
 !										
-c15ket_10_4 	= 	ic4h9cho 	+ 	oh 	+ 	c3h6 	+ 	c4h9coc2h4p_3	1.000e+16  0.00  3.900e+04	
+c15ket_8_2 	= 	ch3coch3 	+ 	c2h4 	+ 	c6h13coc3h6p_3 	+ 	oh 	1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_10_5 	= 	ic5h11cho 	+ 	oh 	+ 	c3h6 	+ 	bc4h9coch2	1.000e+16  0.00  3.900e+04	
+c15ket_8_3 	= 	ic3h7cho 	+ 	c2h4 	+ 	c6h13coc2h4s_3 	+ 	oh	1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_10_6	= 	c6h13coch3_2 	+ 	c2h4 	+ 	oh 	+ 	bc4h9co	1.000e+16  0.00  3.900e+04	
+c15ket_8_4 	= 	ic4h9cho 	+ 	c3h6 	+ 	c6h13co_3 	+ 	oh	1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_10_7 	= 	ch2o 	+ 	oh 	+ 	bc4h9coch2 	+ 	c8h16-6-2 	1.000e+16  0.00  3.900e+04	
+c15ket_8_5 	= 	ic5h11cho 	+ 	c6h13coc2h4s_3 	+ 	oh	1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_10_8 	= 	c8h17cho_26 	+ 	oh 	+ 	bc4h9coch2			1.000e+16  0.00  3.900e+04	
+c15ket_8_6 	= 	c6h13coch3_2 	+ 	oh 	+ 	c6h13co_3 			1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_10_9 	= 	c9h19cho_26 	+ 	oh 	+ 	bc4h9co			1.000e+16  0.00  3.900e+04	
+c15ket_8_7 	= 	dc5h11	+ 	ch2o 	+ 	oh 	+ 	c6h13coc2h3_3	1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_10_11 	= 	c2h5coch3 	+ 	oh 	+ 	c10h21co_26			1.000e+16  0.00  3.900e+04	
+c15ket_8_9 	= 	c5h11cho_3 	+ 	c8h17co_26 	+ 	oh			1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_10_12 	= 	ch2o 	+ 	oh 	+ 	c10h21coc3h6s_26			1.000e+16  0.00  3.900e+04	
+c15ket_8_10 	= 	c8h17coch2_26 	+ 	bc4h9cho 	+ 	oh			1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_10_13 	= 	c10h21coc2h4s_26 	+ 	ch3cho 	+ 	oh			1.000e+16  0.00  3.900e+04	
+c15ket_8_11 	= 	c8h17co_26 	+ 	c2h4 	+ 	c2h5coch3 	+ 	oh	1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_10_14 	= 	c10h21co_26 	+ 	c3h6 	+ 	ch2o 	+ 	oh	1.000e+16  0.00  3.900e+04	
+c15ket_8_12  	= 	c8h17coch2_26 	+ 	ch2o 	+ 	oh 	+ c4h8-1 		1.050E+16  0.00  4.260E+04	
+ rev     /       0.00    0.0       0.0       /
+c15ket_8_13 	= 	c8h17coch2_26 	+ 	c3h6 	+ 	ch3cho 	+ 	oh	1.050E+16  0.00  4.260E+04	
+ rev     /       0.00    0.0       0.0       /
+c15ket_8_14 	= 	c8h17coc2h4p_26	 	+ 	c3h6 	+ 	ch2o 	+ 	oh  1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
 !										
-c15ket_12_6 	= 	c6h13coch3_2 	+ 	c2h4 	+ 	oh 	+ 	bc4h8cho	1.000e+16  0.00  3.900e+04	
+c15ket_9_3 	= 	ic3h7cho 	+ 	c2h4 	+ 	oh 	 	+ 	c5h11coc3h6s_3  1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_12_8 	= 	c8h17cho_26 	+ 	c2h4 	+ 	oh 	+ 	c3h6cho-3	1.000e+16  0.00  3.900e+04	
+c15ket_9_4 	= 	ic4h9cho 	+ 	c3h6 	+ 	oh 	+ 	c5h11coch2_3	1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_12_9 	= 	c9h19cho_26 	+ 	oh 	+ 	hco 	+ 	c4h8-1 	1.000e+16  0.00  3.900e+04	
+c15ket_9_5 	= 	ic5h11cho 	+ 	c3h6 	+ 	oh 	+ 	c5h11co_3	1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_12_10 	= 	c10h21cho_26 	+ 	oh 	+ 	c3h6cho-3			1.000e+16  0.00  3.900e+04	
+c15ket_9_6 	= 	c6h13coch3_2 	+ 	oh 	+ 	c5h11coch2_3 			1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_12_11 	= 	hco 	+ 	oh 	+ 	c2h5co 	+ 	c11h23_26_j	1.000e+16  0.00  3.900e+04	
+c15ket_9_7 	=	c8h16-6-2 	+ 	ch2o 	+ 	oh 	+ 	c5h11co_3 	1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_12_13 	= 	c12h24cho_26 	+ 	ch3cho 	+ 	oh			1.000e+16  0.00  3.900e+04	
+c15ket_9_8 	= 	c5h11co_3 	+ 	c8h17cho_26 	+ 	oh			1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_12_14 	= 	c13h26_1_610 	+ 	hco 	+ 	ch2o 	+ 	oh	1.000e+16  0.00  3.900e+04	
+c15ket_9_10  	= 	c9h19co_26 	+ 	bc4h9cho 	+ 	oh			1.050E+16  0.00  4.260E+04	
+ rev     /       0.00    0.0       0.0       /
+c15ket_9_11 	= 	c2h5coch3 	+ 	oh 	+ 	c9h19coch2_26			1.050E+16  0.00  4.260E+04	
+ rev     /       0.00    0.0       0.0       /
+c15ket_9_12 	=	 ch2o 	+ 	oh 	+ 	c4h8-1 	+ 	c9h19co_26 	1.050E+16  0.00  4.260E+04	
+ rev     /       0.00    0.0       0.0       /
+c15ket_9_13 	= 	c9h19co_26 	+ 	c3h6 	+ 	ch3cho 	+ 	oh 	1.050E+16  0.00  4.260E+04	
+ rev     /       0.00    0.0       0.0       /
+c15ket_9_14 	= 	c9h19coch2_26 	+ 	c3h6 	+ 	ch2o 	+ 	oh	1.050E+16  0.00  4.260E+04	
+ rev     /       0.00    0.0       0.0       /
+!										
+c15ket_10_4 	= 	ic4h9cho 	+ 	oh 	+ 	c3h6 	+ 	c4h9coc2h4p_3	1.050E+16  0.00  4.260E+04	
+ rev     /       0.00    0.0       0.0       /
+c15ket_10_5 	= 	ic5h11cho 	+ 	oh 	+ 	c3h6 	+ 	bc4h9coch2	1.050E+16  0.00  4.260E+04	
+ rev     /       0.00    0.0       0.0       /
+c15ket_10_6	= 	c6h13coch3_2 	+ 	c2h4 	+ 	oh 	+ 	bc4h9co	1.050E+16  0.00  4.260E+04	
+ rev     /       0.00    0.0       0.0       /
+c15ket_10_7 	= 	ch2o 	+ 	oh 	+ 	bc4h9coch2 	+ 	c8h16-6-2 	1.050E+16  0.00  4.260E+04	
+ rev     /       0.00    0.0       0.0       /
+c15ket_10_8 	= 	c8h17cho_26 	+ 	oh 	+ 	bc4h9coch2			1.050E+16  0.00  4.260E+04	
+ rev     /       0.00    0.0       0.0       /
+c15ket_10_9 	= 	c9h19cho_26 	+ 	oh 	+ 	bc4h9co			1.050E+16  0.00  4.260E+04	
+ rev     /       0.00    0.0       0.0       /
+c15ket_10_11 	= 	c2h5coch3 	+ 	oh 	+ 	c10h21co_26			1.050E+16  0.00  4.260E+04	
+ rev     /       0.00    0.0       0.0       /
+c15ket_10_12 	= 	ch2o 	+ 	oh 	+ 	c10h21coc3h6s_26			1.050E+16  0.00  4.260E+04	
+ rev     /       0.00    0.0       0.0       /
+c15ket_10_13 	= 	c10h21coc2h4s_26 	+ 	ch3cho 	+ 	oh			1.050E+16  0.00  4.260E+04	
+ rev     /       0.00    0.0       0.0       /
+c15ket_10_14 	= 	c10h21co_26 	+ 	c3h6 	+ 	ch2o 	+ 	oh	1.050E+16  0.00  4.260E+04	
+ rev     /       0.00    0.0       0.0       /
+!										
+c15ket_12_6 	= 	c6h13coch3_2 	+ 	c2h4 	+ 	oh 	+ 	bc4h8cho	1.050E+16  0.00  4.260E+04	
+ rev     /       0.00    0.0       0.0       /
+c15ket_12_8 	= 	c8h17cho_26 	+ 	c2h4 	+ 	oh 	+ 	c3h6cho-3	1.050E+16  0.00  4.260E+04	
+ rev     /       0.00    0.0       0.0       /
+c15ket_12_9 	= 	c9h19cho_26 	+ 	oh 	+ 	hco 	+ 	c4h8-1 	1.050E+16  0.00  4.260E+04	
+ rev     /       0.00    0.0       0.0       /
+c15ket_12_10 	= 	c10h21cho_26 	+ 	oh 	+ 	c3h6cho-3			1.050E+16  0.00  4.260E+04	
+ rev     /       0.00    0.0       0.0       /
+c15ket_12_11 	= 	hco 	+ 	oh 	+ 	c2h5co 	+ 	c11h23_26_j	1.050E+16  0.00  4.260E+04	
+ rev     /       0.00    0.0       0.0       /
+c15ket_12_13 	= 	c12h24cho_26 	+ 	ch3cho 	+ 	oh			1.050E+16  0.00  4.260E+04	
+ rev     /       0.00    0.0       0.0       /
+c15ket_12_14 	= 	c13h26_1_610 	+ 	hco 	+ 	ch2o 	+ 	oh	1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
 !									
-c15ket_13_6 	= 	c6h13coch3_2 	+ 	c2h4 	+  	oh 	+ 	ic3h6coch3	1.000e+16  0.00  3.900e+04	
+c15ket_13_6 	= 	c6h13coch3_2 	+ 	c2h4 	+  	oh 	+ 	ic3h6coch3	1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_13_8 	= 	c8h17cho_26  	+ 	c2h4 	+ 	oh 	+ 	ch3chcoch3	1.000e+16  0.00  3.900e+04	
+c15ket_13_8 	= 	c8h17cho_26  	+ 	c2h4 	+ 	oh 	+ 	ch3chcoch3	1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_13_9 	= 	c9h19cho_26 	+ 	oh 	+ 	c3h6 	+ 	ch3co 	1.000e+16  0.00  3.900e+04	
+c15ket_13_9 	= 	c9h19cho_26 	+ 	oh 	+ 	c3h6 	+ 	ch3co 	1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_13_10 	= 	c10h21cho_26 	+ 	oh 	+ 	ch3chcoch3 			1.000e+16  0.00  3.900e+04	
+c15ket_13_10 	= 	c10h21cho_26 	+ 	oh 	+ 	ch3chcoch3 			1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_13_11 	= 	c11h23coch3_26 	+ 	oh 	+ 	ch3co 			1.000e+16  0.00  3.900e+04	
+c15ket_13_11 	= 	c11h23coch3_26 	+ 	oh 	+ 	ch3co 			1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_13_12 	= 	ch2o 	+ 	oh 	+ 	c2h3coch3 	+ 	c10h21_26_i	1.000e+16  0.00  3.900e+04	
+c15ket_13_12 	= 	ch2o 	+ 	oh 	+ 	c2h3coch3 	+ 	c10h21_26_i	1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_13_14 	= 	c13h27co_2610 	+ 	ch2o 	+ 	oh			1.000e+16  0.00  3.900e+04	
+c15ket_13_14 	= 	c13h27co_2610 	+ 	ch2o 	+ 	oh			1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
 !										
-c15ket_14_8 	= 	c8h17cho_26 	+ 	oh 	+ 	c5h10cho_3 			1.000e+16  0.00  3.900e+04	
+c15ket_14_8 	= 	c8h17cho_26 	+ 	oh 	+ 	c5h10cho_3 			1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_14_9 	= 	c9h19cho_26 	+ 	ic4h8cho 	+ 	oh			1.000e+16  0.00  3.900e+04	
+c15ket_14_9 	= 	c9h19cho_26 	+ 	ic4h8cho 	+ 	oh			1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_14_10  	= 	c10h21cho_26 	+ 	oh 	+ 	c3h6cho-2 			1.000e+16  0.00  3.900e+04	
+c15ket_14_10  	= 	c10h21cho_26 	+ 	oh 	+ 	c3h6cho-2 			1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_14_11 	= 	c11h23coch3_26 	+ 	oh 	+ 	ch2cho			1.000e+16  0.00  3.900e+04	
+c15ket_14_11 	= 	c11h23coch3_26 	+ 	oh 	+ 	ch2cho			1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_14_12 	= 	c13h26_1_610 	+ 	ch2o 	+ 	oh 	+	hco	1.000e+16  0.00  3.900e+04	
+c15ket_14_12 	= 	c13h26_1_610 	+ 	ch2o 	+ 	oh 	+	hco	1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-c15ket_14_13 	= 	c13h27cho_2610 	+ 	hco 	+ 	oh			1.000e+16  0.00  3.900e+04	
+c15ket_14_13 	= 	c13h27cho_2610 	+ 	hco 	+ 	oh			1.050E+16  0.00  4.260E+04	
  rev     /       0.00    0.0       0.0       /
-!
 !
 !  class 29  cyclic  ether  (qo)  reactions  with  oh  and  ho2  
 !  qo  +  oh  =  h2o  +  products    
@@ -16305,7 +16542,10 @@ rev/ 0.000e+00 0.000 0.000e+00 /
 c9ooh_2_oo_7_26 	= 	ch3coch3 	+ 	ic6h11 	+ ho2 	+ 	oh  1.560e+09   0.00    1.665e+04 	! approximation, for c9ooh_2_oo_7_26 is not important
 rev/ 0.000e+00 0.000 0.000e+00 /
 !
-ic6keteb<=>ch3coch3+ch2ch2cho+oh 1.000e+16 0.000 3.900e+04
+!ic6keteb<=>ch3coch3+ch2ch2cho+oh 1.000e+16 0.000 3.900e+04
+!rev/ 0.000e+00 0.000 0.000e+00 /
+!
+ic6keteb<=>ch3coch3+ch2ch2cho+oh 1.050E+16  0.00  4.260E+04
 rev/ 0.000e+00 0.000 0.000e+00 /
 !
 !	farnesane
@@ -16358,33 +16598,60 @@ c15_11_oo14_2610 	= 	nc4ket24  		+ 	c11h22_1_48 + 	oh	3.906e+08   0.00    2.165e
 !c15_11_oo13_2610	=	nc4ket23		+ 	c11h22_1_48 + 	oh 	567.6948998 2.183467581 13200.83365    !7s              !x2
 !c15_11_oo14_2610 	= 	nc4ket24  		+ 	c11h22_1_48 + 	oh	29.78051766 2.125949409 15842.8612     !8s              !x2
 !
-c8ket6-2-2<=>ch3coch3+c3h6coch3-1+oh 	1.000e+16 0.000 3.900e+04
-rev/ 0.000e+00 0.000 0.000e+00 /
-c12ketad_48<=>c7h15coch3_3+ch2ch2cho+oh 	1.000e+16 0.000 3.900e+04
-rev/ 0.000e+00 0.000 0.000e+00 /
-c11ketac_37<=>c7h15coch3_3+ch2cho+oh 	1.000e+16 0.000 3.900e+04
-rev/ 0.000e+00 0.000 0.000e+00 /
-c10ketab_26<=>c7h15coch3_3+hco+oh 	1.000e+16 0.000 3.900e+04
-rev/ 0.000e+00 0.000 0.000e+00 /
-c8ket6-7-2<=>ch2o+ic6h13co+oh 	1.000e+16 0.000 3.900e+04
-rev/ 0.000e+00 0.000 0.000e+00 /
-c9ketab_26<=>c6h13coch3_2+hco+oh 	1.000e+16 0.000 3.900e+04
-rev/ 0.000e+00 0.000 0.000e+00 /
-c10ketac_37<=>c6h13coch3_2+ch2cho+oh 	1.000e+16 0.000 3.900e+04
-rev/ 0.000e+00 0.000 0.000e+00 /
-c11ketad_48<=>c6h13coch3_2+ch2ch2cho+oh 	1.000e+16 0.000 3.900e+04
-rev/ 0.000e+00 0.000 0.000e+00 /
-c13ketbf_610<=>c6h13coch3_2+c3h6coch3-1+oh 	1.000e+16 0.000 3.900e+04
-rev/ 0.000e+00 0.000 0.000e+00 /
-c9ketbf_6<=>c2h5coch3+c3h6coch3-1+oh 	1.000e+16 0.000 3.900e+04
-rev/ 0.000e+00 0.000 0.000e+00 /
-c7ketad_4<=>c2h5coch3+ch2ch2cho+oh 	1.000e+16 0.000 3.900e+04
-rev/ 0.000e+00 0.000 0.000e+00 /
-c6ketac_3<=>c2h5coch3+ch2cho+oh 	1.000e+16 0.000 3.900e+04
-rev/ 0.000e+00 0.000 0.000e+00 /
-ic5ketab<=>c2h5coch3+hco+oh 	1.000e+16 0.000 3.900e+04
-rev/ 0.000e+00 0.000 0.000e+00 /
+!c8ket6-2-2<=>ch3coch3+c3h6coch3-1+oh 	1.000e+16 0.000 3.900e+04
+!rev/ 0.000e+00 0.000 0.000e+00 /
+!c12ketad_48<=>c7h15coch3_3+ch2ch2cho+oh 	1.000e+16 0.000 3.900e+04
+!rev/ 0.000e+00 0.000 0.000e+00 /
+!c11ketac_37<=>c7h15coch3_3+ch2cho+oh 	1.000e+16 0.000 3.900e+04
+!rev/ 0.000e+00 0.000 0.000e+00 /
+!c10ketab_26<=>c7h15coch3_3+hco+oh 	1.000e+16 0.000 3.900e+04
+!rev/ 0.000e+00 0.000 0.000e+00 /
+!c8ket6-7-2<=>ch2o+ic6h13co+oh 	1.000e+16 0.000 3.900e+04
+!rev/ 0.000e+00 0.000 0.000e+00 /
+!c9ketab_26<=>c6h13coch3_2+hco+oh 	1.000e+16 0.000 3.900e+04
+!rev/ 0.000e+00 0.000 0.000e+00 /
+!c10ketac_37<=>c6h13coch3_2+ch2cho+oh 	1.000e+16 0.000 3.900e+04
+!rev/ 0.000e+00 0.000 0.000e+00 /
+!c11ketad_48<=>c6h13coch3_2+ch2ch2cho+oh 	1.000e+16 0.000 3.900e+04
+!rev/ 0.000e+00 0.000 0.000e+00 /
+!c13ketbf_610<=>c6h13coch3_2+c3h6coch3-1+oh 	1.000e+16 0.000 3.900e+04
+!rev/ 0.000e+00 0.000 0.000e+00 /
+!c9ketbf_6<=>c2h5coch3+c3h6coch3-1+oh 	1.000e+16 0.000 3.900e+04
+!rev/ 0.000e+00 0.000 0.000e+00 /
+!c7ketad_4<=>c2h5coch3+ch2ch2cho+oh 	1.000e+16 0.000 3.900e+04
+!rev/ 0.000e+00 0.000 0.000e+00 /
+!c6ketac_3<=>c2h5coch3+ch2cho+oh 	1.000e+16 0.000 3.900e+04
+!rev/ 0.000e+00 0.000 0.000e+00 /
+!ic5ketab<=>c2h5coch3+hco+oh 	1.000e+16 0.000 3.900e+04
+!rev/ 0.000e+00 0.000 0.000e+00 /
 !
+c8ket6-2-2<=>ch3coch3+c3h6coch3-1+oh 	1.050E+16  0.00  4.260E+04
+rev/ 0.000e+00 0.000 0.000e+00 /
+c12ketad_48<=>c7h15coch3_3+ch2ch2cho+oh 	1.050E+16  0.00  4.260E+04
+rev/ 0.000e+00 0.000 0.000e+00 /
+c11ketac_37<=>c7h15coch3_3+ch2cho+oh 	1.050E+16  0.00  4.260E+04
+rev/ 0.000e+00 0.000 0.000e+00 /
+c10ketab_26<=>c7h15coch3_3+hco+oh 	1.050E+16  0.00  4.260E+04
+rev/ 0.000e+00 0.000 0.000e+00 /
+c8ket6-7-2<=>ch2o+ic6h13co+oh 	1.050E+16  0.00  4.260E+04
+rev/ 0.000e+00 0.000 0.000e+00 /
+c9ketab_26<=>c6h13coch3_2+hco+oh 	1.050E+16  0.00  4.260E+04
+rev/ 0.000e+00 0.000 0.000e+00 /
+c10ketac_37<=>c6h13coch3_2+ch2cho+oh 	1.050E+16  0.00  4.260E+04
+rev/ 0.000e+00 0.000 0.000e+00 /
+c11ketad_48<=>c6h13coch3_2+ch2ch2cho+oh 	1.050E+16  0.00  4.260E+04
+rev/ 0.000e+00 0.000 0.000e+00 /
+c13ketbf_610<=>c6h13coch3_2+c3h6coch3-1+oh 	1.050E+16  0.00  4.260E+04
+rev/ 0.000e+00 0.000 0.000e+00 /
+c9ketbf_6<=>c2h5coch3+c3h6coch3-1+oh 	1.050E+16  0.00  4.260E+04
+rev/ 0.000e+00 0.000 0.000e+00 /
+c7ketad_4<=>c2h5coch3+ch2ch2cho+oh 	1.050E+16  0.00  4.260E+04
+rev/ 0.000e+00 0.000 0.000e+00 /
+c6ketac_3<=>c2h5coch3+ch2cho+oh 	1.050E+16  0.00  4.260E+04
+rev/ 0.000e+00 0.000 0.000e+00 /
+ic5ketab<=>c2h5coch3+hco+oh 	1.050E+16  0.00  4.260E+04
+rev/ 0.000e+00 0.000 0.000e+00 /
+
 !
 end
  
