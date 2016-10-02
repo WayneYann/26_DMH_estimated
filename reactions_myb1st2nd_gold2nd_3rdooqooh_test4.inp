@@ -8681,7 +8681,7 @@ c8ooh3-oo6-25    =       c8ket3-6-25     +     oh         1.56e+09  0.00  1.565e
 !c9ooh_4_oo_1_26     =   c9ket_4_1_26    +   oh  1.56e+09    0.00    1.565e+04     !7s
 !c9ooh_4_oo_2_26     =   c9ket_4_2_26    +   oh  1.25e+10    0.00    1.745E+04     !6s
 !c9ooh_4_oo_3_26     =   c9ket_4_3_26    +   oh  1.00e+11    0.00    2.345E+04     !5s
-!
+!!
 c9ooh_1_oo_1_26     =   c9ket_1_1_26    +   oh  5.188E+04 1.900 18800.0
 c9ooh_1_oo_2_26     =   c9ket_1_2_26    +   oh  2.441E+07 1.600 27900.0
 c9ooh_1_oo_3_26     =   c9ket_1_3_26    +   oh  1.098E+04 2.400 19900.0
@@ -8734,71 +8734,71 @@ c8ket3-6-25      =       ic3h7coc3h6p     +     oh     +     ch2o             1.
 !
 !   2,6-dimethylheptane
 !
-c9ket_1_1_26    =       ch2o    +   c2h3cho     +   dc5h11  +   oh  1.000E+16  0.00  3.900E+04
- rev     /       0.00    0.0       0.0       /  
-c9ket_1_2_26    =       hco     +   ch3co   +   ec6h13  +   oh  1.000E+16  0.00  3.900E+04
- rev     /       0.00    0.0       0.0       / 
-c9ket_1_3_26    =       ch3chcho    +   ic5h11cho   +   oh  1.000E+16  0.00  3.900E+04
- rev     /       0.00    0.0       0.0       /
-c9ket_1_4_26    =       ic3h6cho    +   ic4h9cho    +   oh  1.000E+16  0.00  3.900E+04
- rev     /       0.00    0.0       0.0       / 
-c9ket_1_5_26    =       c4h8cho4-2  +   ic3h7cho    +   oh  1.000E+16  0.00  3.900E+04
- rev     /       0.00    0.0       0.0       / 
-c9ket_1_6_26    =       c5h10cho5-2     +   ch3coch3    +   oh  1.000E+16  0.00  3.900E+04
- rev     /       0.00    0.0       0.0       / 
-!
-c9ket_3_1_26    =   ch2o    +   ic5h11coc2h4p   +   oh   1.000E+16  0.00  3.900E+04
- rev     /       0.00    0.0       0.0       / 
-c9ket_3_2_26    =   ch3coch3    +   ic5h11co    +   oh   1.000E+16  0.00  3.900E+04
- rev     /       0.00    0.0       0.0       /
-c9ket_3_4_26    =   ic3h7co     +   ic4h9cho    +   oh   1.000E+16  0.00  3.900E+04
- rev     /       0.00    0.0       0.0       /
-c9ket_3_5_26    =   ic3h7coch2  +   ic3h7cho    +   oh   1.000E+16  0.00  3.900E+04
- rev     /       0.00    0.0       0.0       / 
-c9ket_3_6_26    =   ic3h7coc2h4p    +   ch3coch3    +   oh   1.000E+16  0.00  3.900E+04
- rev     /       0.00    0.0       0.0       / 
-c9ket_3_7_26    =   ic3h7coc4h8s    +   ch2o    +   oh   1.000E+16  0.00  3.900E+04
- rev     /       0.00    0.0       0.0       /   
-!
-c9ket_4_1_26    =   ch2o    +   ic4h9coc3h6s    +   oh  1.000E+16  0.00  3.900E+04
- rev     /       0.00    0.0       0.0       / 
-c9ket_4_2_26    =   ch3coch3    +   ic4h9coch2  +   oh  1.000E+16  0.00  3.900E+04
- rev     /       0.00    0.0       0.0       /
-c9ket_4_3_26    =   ic3h7cho    +   ic4h9co     +   oh  1.000E+16  0.00  3.900E+04
- rev     /       0.00    0.0       0.0       / 
-!
-!c9ket_1_1_26    =       ch2o    +   c2h3cho     +   dc5h11  +   oh  1.050E+16  0.00  4.260E+04
+!c9ket_1_1_26    =       ch2o    +   c2h3cho     +   dc5h11  +   oh  1.000E+16  0.00  3.900E+04
 ! rev     /       0.00    0.0       0.0       /  
-!c9ket_1_2_26    =       hco     +   ch3co   +   ec6h13  +   oh  1.050E+16  0.00  4.260E+04
+!c9ket_1_2_26    =       hco     +   ch3co   +   ec6h13  +   oh  1.000E+16  0.00  3.900E+04
 ! rev     /       0.00    0.0       0.0       / 
-!c9ket_1_3_26    =       ch3chcho    +   ic5h11cho   +   oh  1.050E+16  0.00  4.260E+04
+!c9ket_1_3_26    =       ch3chcho    +   ic5h11cho   +   oh  1.000E+16  0.00  3.900E+04
 ! rev     /       0.00    0.0       0.0       /
-!c9ket_1_4_26    =       ic3h6cho    +   ic4h9cho    +   oh  1.050E+16  0.00  4.260E+04
+!c9ket_1_4_26    =       ic3h6cho    +   ic4h9cho    +   oh  1.000E+16  0.00  3.900E+04
 ! rev     /       0.00    0.0       0.0       / 
-!c9ket_1_5_26    =       c4h8cho4-2  +   ic3h7cho    +   oh  1.050E+16  0.00  4.260E+04
+!c9ket_1_5_26    =       c4h8cho4-2  +   ic3h7cho    +   oh  1.000E+16  0.00  3.900E+04
 ! rev     /       0.00    0.0       0.0       / 
-!c9ket_1_6_26    =       c5h10cho5-2     +   ch3coch3    +   oh  1.050E+16  0.00  4.260E+04
+!c9ket_1_6_26    =       c5h10cho5-2     +   ch3coch3    +   oh  1.000E+16  0.00  3.900E+04
 ! rev     /       0.00    0.0       0.0       / 
 !!
-!c9ket_3_1_26    =   ch2o    +   ic5h11coc2h4p   +   oh   1.050E+16  0.00  4.260E+04
+!c9ket_3_1_26    =   ch2o    +   ic5h11coc2h4p   +   oh   1.000E+16  0.00  3.900E+04
 ! rev     /       0.00    0.0       0.0       / 
-!c9ket_3_2_26    =   ch3coch3    +   ic5h11co    +   oh   1.050E+16  0.00  4.260E+04
+!c9ket_3_2_26    =   ch3coch3    +   ic5h11co    +   oh   1.000E+16  0.00  3.900E+04
 ! rev     /       0.00    0.0       0.0       /
-!c9ket_3_4_26    =   ic3h7co     +   ic4h9cho    +   oh   1.050E+16  0.00  4.260E+04
+!c9ket_3_4_26    =   ic3h7co     +   ic4h9cho    +   oh   1.000E+16  0.00  3.900E+04
 ! rev     /       0.00    0.0       0.0       /
-!c9ket_3_5_26    =   ic3h7coch2  +   ic3h7cho    +   oh   1.050E+16  0.00  4.260E+04
+!c9ket_3_5_26    =   ic3h7coch2  +   ic3h7cho    +   oh   1.000E+16  0.00  3.900E+04
 ! rev     /       0.00    0.0       0.0       / 
-!c9ket_3_6_26    =   ic3h7coc2h4p    +   ch3coch3    +   oh   1.050E+16  0.00  4.260E+04
+!c9ket_3_6_26    =   ic3h7coc2h4p    +   ch3coch3    +   oh   1.000E+16  0.00  3.900E+04
 ! rev     /       0.00    0.0       0.0       / 
-!c9ket_3_7_26    =   ic3h7coc4h8s    +   ch2o    +   oh   1.050E+16  0.00  4.260E+04
+!c9ket_3_7_26    =   ic3h7coc4h8s    +   ch2o    +   oh   1.000E+16  0.00  3.900E+04
 ! rev     /       0.00    0.0       0.0       /   
 !!
-!c9ket_4_1_26    =   ch2o    +   ic4h9coc3h6s    +   oh  1.050E+16  0.00  4.260E+04
+!c9ket_4_1_26    =   ch2o    +   ic4h9coc3h6s    +   oh  1.000E+16  0.00  3.900E+04
 ! rev     /       0.00    0.0       0.0       / 
-!c9ket_4_2_26    =   ch3coch3    +   ic4h9coch2  +   oh  1.050E+16  0.00  4.260E+04
+!c9ket_4_2_26    =   ch3coch3    +   ic4h9coch2  +   oh  1.000E+16  0.00  3.900E+04
 ! rev     /       0.00    0.0       0.0       /
-!c9ket_4_3_26    =   ic3h7cho    +   ic4h9co     +   oh  1.050E+16  0.00  4.260E+04
+!c9ket_4_3_26    =   ic3h7cho    +   ic4h9co     +   oh  1.000E+16  0.00  3.900E+04
 ! rev     /       0.00    0.0       0.0       / 
+!
+c9ket_1_1_26    =       ch2o    +   c2h3cho     +   dc5h11  +   oh  1.050E+16  0.00  4.260E+04
+ rev     /       0.00    0.0       0.0       /  
+c9ket_1_2_26    =       hco     +   ch3co   +   ec6h13  +   oh  1.050E+16  0.00  4.260E+04
+ rev     /       0.00    0.0       0.0       / 
+c9ket_1_3_26    =       ch3chcho    +   ic5h11cho   +   oh  1.050E+16  0.00  4.260E+04
+ rev     /       0.00    0.0       0.0       /
+c9ket_1_4_26    =       ic3h6cho    +   ic4h9cho    +   oh  1.050E+16  0.00  4.260E+04
+ rev     /       0.00    0.0       0.0       / 
+c9ket_1_5_26    =       c4h8cho4-2  +   ic3h7cho    +   oh  1.050E+16  0.00  4.260E+04
+ rev     /       0.00    0.0       0.0       / 
+c9ket_1_6_26    =       c5h10cho5-2     +   ch3coch3    +   oh  1.050E+16  0.00  4.260E+04
+ rev     /       0.00    0.0       0.0       / 
+!
+c9ket_3_1_26    =   ch2o    +   ic5h11coc2h4p   +   oh   1.050E+16  0.00  4.260E+04
+ rev     /       0.00    0.0       0.0       / 
+c9ket_3_2_26    =   ch3coch3    +   ic5h11co    +   oh   1.050E+16  0.00  4.260E+04
+ rev     /       0.00    0.0       0.0       /
+c9ket_3_4_26    =   ic3h7co     +   ic4h9cho    +   oh   1.050E+16  0.00  4.260E+04
+ rev     /       0.00    0.0       0.0       /
+c9ket_3_5_26    =   ic3h7coch2  +   ic3h7cho    +   oh   1.050E+16  0.00  4.260E+04
+ rev     /       0.00    0.0       0.0       / 
+c9ket_3_6_26    =   ic3h7coc2h4p    +   ch3coch3    +   oh   1.050E+16  0.00  4.260E+04
+ rev     /       0.00    0.0       0.0       / 
+c9ket_3_7_26    =   ic3h7coc4h8s    +   ch2o    +   oh   1.050E+16  0.00  4.260E+04
+ rev     /       0.00    0.0       0.0       /   
+!
+c9ket_4_1_26    =   ch2o    +   ic4h9coc3h6s    +   oh  1.050E+16  0.00  4.260E+04
+ rev     /       0.00    0.0       0.0       / 
+c9ket_4_2_26    =   ch3coch3    +   ic4h9coch2  +   oh  1.050E+16  0.00  4.260E+04
+ rev     /       0.00    0.0       0.0       /
+c9ket_4_3_26    =   ic3h7cho    +   ic4h9co     +   oh  1.050E+16  0.00  4.260E+04
+ rev     /       0.00    0.0       0.0       / 
 !
 !  class 29  cyclic  ether  (qo)  reactions  with  oh  and  ho2  
 !  qo  +  oh  =  h2o  +  products    
@@ -9806,9 +9806,12 @@ rev/ 0.000E+00 0.000 0.000E+00 /
 !!rev/ 0.000E+00 0.000 0.000E+00 /
 !c9ooh_2_oo_7_26     =   ch3coch3    +   ic6h11  + ho2   +   oh  1.560e+09   0.00    1.665e+04   ! approximation, for c9ooh_2_oo_7_26 is not important
 !rev/ 0.000E+00 0.000 0.000E+00 /
-
 !
-ic6keteb<=>ch3coch3+ch2ch2cho+oh 1.000E+16 0.000 3.900E+04
+!
+!ic6keteb<=>ch3coch3+ch2ch2cho+oh 1.000E+16 0.000 3.900E+04
+!rev/ 0.000E+00 0.000 0.000E+00 /
+!
+ic6keteb<=>ch3coch3+ch2ch2cho+oh 1.050E+16  0.00  4.260E+04
 rev/ 0.000E+00 0.000 0.000E+00 /
 !
 end
