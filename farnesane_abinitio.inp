@@ -8029,7 +8029,7 @@ c15h32_2610 	+ 	ch3 	= 	c15h31_2610_n	+ 	ch4 	4.520e-01 		3.65    7.154e+03
 !c15h32_2610 	+ 	ho2 	= 	c15h31_2610_m	+ 	h2o2 	6.320e+01       3.37    1.372e+04 
 !c15h32_2610 	+ 	ho2 	= 	c15h31_2610_n	+ 	h2o2 	2.040e+01       3.59    1.716e+04
 !
-c15h32_2610 	+ 	ho2 	= 	c15h31_2610_a	+ 	h2o2 	3.710e+02 		3.28 	15500
+c15h32_2610 	+ 	ho2 	= 	c15h31_2610_a	+ 	h2o2 	3.710e+02       3.28    15500
 c15h32_2610 	+ 	ho2 	= 	c15h31_2610_b	+ 	h2o2 	8.230e+02 		3.01 	10000
 c15h32_2610 	+ 	ho2 	= 	c15h31_2610_c	+ 	h2o2 	1.940e+02 		3.34 	12300
 c15h32_2610 	+ 	ho2 	= 	c15h31_2610_d	+ 	h2o2 	1.940e+02 		3.34 	12300
@@ -8119,35 +8119,21 @@ c15h32_2610 	+ 	c2h3 	= 	c15h31_2610_n	+ 	c2h4 	5.000e+11       0.00    1.800e+0
 !c15h32_2610 	+ 	ch3o2 	= 	c15h31_2610_m	+ 	ch3o2h 	1.0185e+01       3.58    1.481e+04
 !c15h32_2610 	+ 	ch3o2 	= 	c15h31_2610_n	+ 	ch3o2h 	6.930e-01       3.97    1.828e+04
 !
-!c15h32_2610 	+ 	ch3o2 	= 	c15h31_2610_a	+ 	ch3o2h 	1.44e+01   3.70    16800			! carstensen 2007 CH3O2+iC4H10=CH3O2H+iC4H9, number of hydrogen considered
-!c15h32_2610 	+ 	ch3o2 	= 	c15h31_2610_b	+ 	ch3o2h 	2.62e+02   3.12    11100			! carstensen 2007 CH3O2+iC4H10=CH3O2H+tC4H9, number of hydrogen considered
-!c15h32_2610 	+ 	ch3o2 	= 	c15h31_2610_c	+ 	ch3o2h 	5.25e+01   3.49    13400         	! carstensen 2007 CH3O2+nC4H10=CH3O2H+2-C4H9, number of hydrogen considered
-!c15h32_2610 	+ 	ch3o2 	= 	c15h31_2610_d	+ 	ch3o2h 	5.25e+01   3.49    13400         	! carstensen 2007 CH3O2+nC4H10=CH3O2H+2-C4H9, number of hydrogen considered
-!c15h32_2610 	+ 	ch3o2 	= 	c15h31_2610_e	+ 	ch3o2h 	5.25e+01   3.49    13400         	! carstensen 2007 CH3O2+nC4H10=CH3O2H+2-C4H9, number of hydrogen considered
-!c15h32_2610 	+ 	ch3o2 	= 	c15h31_2610_f	+ 	ch3o2h 	2.62e+02   3.12    11100			! carstensen 2007 CH3O2+iC4H10=CH3O2H+tC4H9, number of hydrogen considered
-!c15h32_2610 	+ 	ch3o2 	= 	c15h31_2610_g	+ 	ch3o2h 	7.20e+00   3.70    16800			! carstensen 2007 CH3O2+iC4H10=CH3O2H+iC4H9, number of hydrogen considered
-!c15h32_2610 	+ 	ch3o2 	= 	c15h31_2610_h	+ 	ch3o2h 	5.25e+01   3.49    13400         	! carstensen 2007 CH3O2+nC4H10=CH3O2H+2-C4H9, number of hydrogen considered
-!c15h32_2610 	+ 	ch3o2 	= 	c15h31_2610_i	+ 	ch3o2h 	5.25e+01   3.49    13400         	! carstensen 2007 CH3O2+nC4H10=CH3O2H+2-C4H9, number of hydrogen considered
-!c15h32_2610 	+ 	ch3o2 	= 	c15h31_2610_j	+ 	ch3o2h 	5.25e+01   3.49    13400         	! carstensen 2007 CH3O2+nC4H10=CH3O2H+2-C4H9, number of hydrogen considered
-!c15h32_2610 	+ 	ch3o2 	= 	c15h31_2610_k	+ 	ch3o2h 	2.62e+02   3.12    11100			! carstensen 2007 CH3O2+iC4H10=CH3O2H+tC4H9, number of hydrogen considered
-!c15h32_2610 	+ 	ch3o2 	= 	c15h31_2610_l	+ 	ch3o2h 	7.20e+00   3.70    16800			! carstensen 2007 CH3O2+iC4H10=CH3O2H+iC4H9, number of hydrogen considered
-!c15h32_2610 	+ 	ch3o2 	= 	c15h31_2610_m	+ 	ch3o2h 	5.25e+01   3.49    13400         	! carstensen 2007 CH3O2+nC4H10=CH3O2H+2-C4H9, number of hydrogen considered
-!c15h32_2610 	+ 	ch3o2 	= 	c15h31_2610_n	+ 	ch3o2h 	7.20e+00   3.70    16800			! carstensen 2007 CH3O2+iC4H10=CH3O2H+iC4H9, number of hydrogen considered
 !
-c15h32_2610 	+ 	ch3o2 	= 	c15h31_2610_a	+ 	ch3o2h 	4.42e+00   3.75    16900			! carstensen 2007 CH3O2+iC4H10=CH3O2H+iC4H9, number of hydrogen considered
+c15h32_2610 	+ 	ch3o2 	= 	c15h31_2610_a	+ 	ch3o2h 	1.44e+01   3.70    16800			! carstensen 2007 CH3O2+nC4H10=CH3O2H+1-C4H9, number of hydrogen considered
 c15h32_2610 	+ 	ch3o2 	= 	c15h31_2610_b	+ 	ch3o2h 	2.62e+02   3.12    11100			! carstensen 2007 CH3O2+iC4H10=CH3O2H+tC4H9, number of hydrogen considered
 c15h32_2610 	+ 	ch3o2 	= 	c15h31_2610_c	+ 	ch3o2h 	5.25e+01   3.49    13400         	! carstensen 2007 CH3O2+nC4H10=CH3O2H+2-C4H9, number of hydrogen considered
 c15h32_2610 	+ 	ch3o2 	= 	c15h31_2610_d	+ 	ch3o2h 	5.25e+01   3.49    13400         	! carstensen 2007 CH3O2+nC4H10=CH3O2H+2-C4H9, number of hydrogen considered
 c15h32_2610 	+ 	ch3o2 	= 	c15h31_2610_e	+ 	ch3o2h 	5.25e+01   3.49    13400         	! carstensen 2007 CH3O2+nC4H10=CH3O2H+2-C4H9, number of hydrogen considered
 c15h32_2610 	+ 	ch3o2 	= 	c15h31_2610_f	+ 	ch3o2h 	2.62e+02   3.12    11100			! carstensen 2007 CH3O2+iC4H10=CH3O2H+tC4H9, number of hydrogen considered
-c15h32_2610 	+ 	ch3o2 	= 	c15h31_2610_g	+ 	ch3o2h 	2.21e+00   3.75    16900			! carstensen 2007 CH3O2+iC4H10=CH3O2H+iC4H9, number of hydrogen considered
+c15h32_2610 	+ 	ch3o2 	= 	c15h31_2610_g	+ 	ch3o2h 	7.20e+00   3.70    16800			! carstensen 2007 CH3O2+nC4H10=CH3O2H+1-C4H9, number of hydrogen considered
 c15h32_2610 	+ 	ch3o2 	= 	c15h31_2610_h	+ 	ch3o2h 	5.25e+01   3.49    13400         	! carstensen 2007 CH3O2+nC4H10=CH3O2H+2-C4H9, number of hydrogen considered
 c15h32_2610 	+ 	ch3o2 	= 	c15h31_2610_i	+ 	ch3o2h 	5.25e+01   3.49    13400         	! carstensen 2007 CH3O2+nC4H10=CH3O2H+2-C4H9, number of hydrogen considered
 c15h32_2610 	+ 	ch3o2 	= 	c15h31_2610_j	+ 	ch3o2h 	5.25e+01   3.49    13400         	! carstensen 2007 CH3O2+nC4H10=CH3O2H+2-C4H9, number of hydrogen considered
 c15h32_2610 	+ 	ch3o2 	= 	c15h31_2610_k	+ 	ch3o2h 	2.62e+02   3.12    11100			! carstensen 2007 CH3O2+iC4H10=CH3O2H+tC4H9, number of hydrogen considered
-c15h32_2610 	+ 	ch3o2 	= 	c15h31_2610_l	+ 	ch3o2h 	2.21e+00   3.75    16900			! carstensen 2007 CH3O2+iC4H10=CH3O2H+iC4H9, number of hydrogen considered
+c15h32_2610 	+ 	ch3o2 	= 	c15h31_2610_l	+ 	ch3o2h 	7.20e+00   3.70    16800			! carstensen 2007 CH3O2+nC4H10=CH3O2H+1-C4H9, number of hydrogen considered
 c15h32_2610 	+ 	ch3o2 	= 	c15h31_2610_m	+ 	ch3o2h 	5.25e+01   3.49    13400         	! carstensen 2007 CH3O2+nC4H10=CH3O2H+2-C4H9, number of hydrogen considered
-c15h32_2610 	+ 	ch3o2 	= 	c15h31_2610_n	+ 	ch3o2h 	2.21e+00   3.75    16900			! carstensen 2007 CH3O2+iC4H10=CH3O2H+iC4H9, number of hydrogen considered
+c15h32_2610 	+ 	ch3o2 	= 	c15h31_2610_n	+ 	ch3o2h 	7.20e+00   3.70    16800			! carstensen 2007 CH3O2+nC4H10=CH3O2H+1-C4H9, number of hydrogen considered
 !
 c15h32_2610	+ 	c15h31_2610_a 	=	c15h31_2610_b	+	c15h32_2610 	2.500e+10       0.00    7.900e+03
  rev 	/	1.500e+11    0.00    1.230e+04 	/
