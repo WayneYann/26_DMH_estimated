@@ -7553,6 +7553,11 @@ c9h20_26    +   ho2     =   c9h19_26_b  +   h2o2    1.300e+03       3.01    1.20
 c9h20_26    +   ho2     =   c9h19_26_c  +   h2o2    1.264e+02       3.37    1.372e+04 
 c9h20_26    +   ho2     =   c9h19_26_d  +   h2o2    6.320e+01       3.37    1.372e+04 
 !
+!c9h20_26   +   ho2     =   c9h19_26_a  +   h2o2    7.420e+02       3.28    15500
+!c9h20_26   +   ho2     =   c9h19_26_b  +   h2o2    1.646e+03       3.01    10000
+!c9h20_26   +   ho2     =   c9h19_26_c  +   h2o2    3.880e+02       3.34    12300
+!c9h20_26   +   ho2     =   c9h19_26_d  +   h2o2    1.940e+02       3.34    12300
+!
 c9h20_26    +   ch3o    =   c9h19_26_a  +   ch3oh   8.676e+11       0.00    6.548e+03 
 c9h20_26    +   ch3o    =   c9h19_26_b  +   ch3oh   4.580e+05       0.00    2.873e+03 
 c9h20_26    +   ch3o    =   c9h19_26_c  +   ch3oh   2.900e+11       0.00    4.571e+03  
@@ -7577,6 +7582,12 @@ c9h20_26    +   ch3o2   =   c9h19_26_a  +   ch3o2h  2.772e+00       3.97    1.82
 c9h20_26    +   ch3o2   =   c9h19_26_b  +   ch3o2h  4.120e+02       3.12    1.319e+04
 c9h20_26    +   ch3o2   =   c9h19_26_c  +   ch3o2h  2.037e+01       3.58    1.481e+04  
 c9h20_26    +   ch3o2   =   c9h19_26_d  +   ch3o2h  1.0185e+01       3.58    1.481e+04  
+!
+!c9h20_26   +   ch3o2   =   c9h19_26_a  +   ch3o2h  2.88e+01   3.70    16800			! carstensen 2007 CH3O2+iC4H10=CH3O2H+iC4H9, number of hydrogen considered
+!c9h20_26   +   ch3o2   =   c9h19_26_b  +   ch3o2h  5.24e+02   3.12    11100			! carstensen 2007 CH3O2+iC4H10=CH3O2H+tC4H9, number of hydrogen considered
+!c9h20_26   +   ch3o2   =   c9h19_26_c  +   ch3o2h  1.05e+02   3.49    13400			! carstensen 2007 CH3O2+nC4H10=CH3O2H+2-C4H9, number of hydrogen considered
+!c9h20_26   +   ch3o2   =   c9h19_26_d  +   ch3o2h  5.25e+01   3.49    13400         ! carstensen 2007 CH3O2+nC4H10=CH3O2H+2-C4H9, number of hydrogen considered
+!
 !
 c9h20_26    +   c9h19_26_a  =   c9h19_26_b  +   c9h20_26    5.000e+10       0.00    7.900e+03
  rev    /   3.000e+11    0.00    1.230e+04  /
